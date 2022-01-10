@@ -1,0 +1,52 @@
+# Copyright (c) 2014 by pilover100
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+# First contact missions
+
+mission "Starlus Intro [0]"
+	name "Unknown Species First Contact"
+	description "Find someone who can help you understand the new species you have met."
+	landing
+	source
+		attributes "Starlus"
+	on offer
+		log `Found an odd species to the south of human space that live underwater, communicating with them is going to be interesting to say the least.`
+		conversation
+			`When you land on this world your ship detects multiple energy signatures floating in the oceans of <origin>. Do you investigate?`
+			choice
+				`	Naturally!`
+					goto land
+				`	Yes, but be armed just in case...`
+					goto armed
+				`	No, this looks pretty weird...`
+					depart
+			label armed
+			`	Deciding to be cautious you arm yourself before preparing to land.`
+			label land
+			`	Just as you were about to try locating a suitable place to land near one of the settlements below, you notice a small ship is hovering near by the <ship>. Evidently it wants you to follow it to where the locals want you to land.`
+			`	As you follow the mysterious craft down into the lower atmosphere, you notice that every settlement on <origin> is floating just below the surface of the ocean. You wonder how you're expected to land when you're presented with perhaps the largest sea-going structure you've ever seen.`
+			scene "scene/Starlus_city.png"
+			`	The ship that you were following hovers expectantly above a landing platform upon one of these giant rafts, cautiously you set down on the pad.`
+			choice
+				`	(Leave the <ship>)`
+					goto pad
+				`	(Leave the planet whilst you still can)`
+					depart
+				`	(Wait in the <ship>)`
+					goto wait
+			label wait
+			`	You wait in the <ship> for several minutes but no one approaches your ship.`
+			choice
+				`	(Leave the <ship>)`
+					goto pad
+				`	(Leave the planet whilst you still can)`
+					depart
+			label pad
+			`	As you step out of your ship, you notice that you've landed in water that is about waist deep. Given how all the settlements on this planet are in the oceans you suspect that life here is aquatic.`
