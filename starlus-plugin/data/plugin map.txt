@@ -498,6 +498,7 @@ system "Starlax ce yi"
 	government Starlus
 	habitable 425.92
 	link "Starlax ce-na Que"
+	link "Starlax ce-ba po"
 	asteroids "medium rock" 9 5.916
 	asteroids "large rock" 12 4.611
 	asteroids "small metal" 8 5.8725
@@ -547,6 +548,52 @@ system "Starlax ce yi"
 			period 23.1934
 			offset 176.319
 
+system "Starlax ce-ba po"
+	pos -441.322 747.442
+	government Starlus
+	habitable 2140.92
+	link "Starlax ce-na Que"
+	link "Starlax ce yi"
+	asteroids "small rock" 1 8.7612
+	asteroids "medium rock" 8 7.4088
+	asteroids "large rock" 3 8.1144
+	asteroids "small metal" 4 3.528
+	asteroids "medium metal" 15 3.9396
+	asteroids "large metal" 2 3.4104
+	object
+		sprite star/f5
+		distance 24.6689
+		period 11.9369
+		offset 180
+	object
+		sprite star/k5
+		distance 99.3311
+		period 11.9369
+	object
+		sprite planet/ice5
+		distance 270.891
+		period 38.5436
+	object
+		sprite planet/rock15
+		distance 572.811
+		period 118.516
+		offset 280.341
+	object
+		sprite planet/desert10
+		distance 850.636
+		period 214.474
+		offset 208.864
+	object
+		sprite planet/rock6
+		distance 1581.48
+		period 543.693
+		offset 247.876
+	object
+		sprite planet/wormhole
+		distance 3545.76
+		period 1825.25
+		offset 289.643
+
 system "Starlax ce-na Que"
 	pos -371.679 723.394
 	government Starlus
@@ -554,6 +601,7 @@ system "Starlax ce-na Que"
 	link "Starlax na Reh"
 	link "Starlax ce yi"
 	link "Starlax ce-sa Bea"
+	link "Starlax ce-ba po"
 	asteroids "small rock" 6 3.0294
 	asteroids "medium rock" 7 4.5288
 	asteroids "large rock" 17 4.2228
@@ -608,9 +656,9 @@ system "Starlax ce-na Que"
 			offset 315.388
 
 system "Starlax ce-sa Bea"
-	pos -277.678 703.069
+	pos -298.678 751.069
 	government Starlus
-	habitable 320
+	habitable 425.92
 	link "Starlax ce-na Que"
 	link "Starlax na Reh"
 	asteroids "small rock" 1 2.4168
@@ -629,42 +677,36 @@ system "Starlax ce-sa Bea"
 	trade Metal 390
 	trade Plastic 390
 	object
-		sprite star/m0
+		sprite star/k5
 		period 10
 	object
-		sprite planet/dust6
-		distance 584.371
-		period 315.877
-		offset 102.363
-		object "Rus da Starlus"
-			sprite planet/station3
-			distance 118.857
-			period 24.5855
-			offset 166.598
+		sprite planet/cloud8
+		distance 170.16
+		period 43.0212
+	object "Rus da Starlus"
+		sprite planet/station6
+		distance 656.048
+		period 325.686
+		offset 0.7154
 	object
-		sprite planet/desert6
-		distance 1303.02
-		period 1051.75
-		offset 107.684
-		object
-			sprite planet/europa
-			distance 136.288
-			period 16.5773
-			offset 198.778
+		sprite planet/callisto
+		distance 1469.05
+		period 1091.31
+		offset 42.217
 	object
-		sprite planet/gas7
-		distance 2191.07
-		period 2293.35
-		offset 109.158
+		sprite planet/gas10
+		distance 1879.94
+		period 1579.83
+		offset 201.118
 		object
-			sprite planet/dust4
-			distance 271
-			period 15.8703
-		object
-			sprite planet/tethys
-			distance 507.066
-			period 40.6189
-			offset 5.57592
+			sprite planet/dust0
+			distance 217
+			period 16.8262
+	object
+		sprite planet/jupiter
+		distance 2364.3
+		period 2228.18
+		offset 107.533
 
 system "Starlax na Reh"
 	pos -367.39 665.686
@@ -813,9 +855,12 @@ planet "Reh dex saa"
 
 planet "Rus da Starlus"
 	attributes "Starlus Station research"
-	landscape ""
-	description a
-	spaceport a
+	landscape land/station0
+	description `A giant station dedicated to a stellar research program developing new understandings of the universe. Additionally, due to the convienience of a microgravity environment with advanced technology the Starlus have taken to using this station as a military research centre`
+	spaceport `Due to the aquatic nature of the Starlus, you and your crew can't enter the station but various robotic arms tend to your ship when you arrive. Otherwise, access to this station is extremely limited`
+	outfitter "Starlus Ammo"
+	outfitter "Starlus Basic"
+	outfitter "Common Outfits"
 	"required reputation" 20
 	bribe 0.15
 	security 0.8
