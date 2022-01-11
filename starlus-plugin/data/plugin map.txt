@@ -771,7 +771,7 @@ planet "Amnis Starlus Vita"
 	attributes Starlus
 	landscape land/beach9-sfiera
 	description `This is the Starlus' homeworld, a ball wrapped in oceans with only a few volcanic islands poking out from the sea. Their capital seems to be built around giant raft cities with food production centres floating at the top and habitation below the ocean surface.`
-	spaceport `Docking stations for ships are almost exclusively surface based, particularly for cargo vessels and sub-surface docks for passenger transports, but with massive tunnels that extend out connecting the Starlus ships to the city below. Ship maintanence is almost exclusively done by machine with a combination of workers and computers controling the spaceport's ammenities.`
+	spaceport `Docking stations for ships are almost exclusively surface based, particularly for cargo vessels and sub-surface docks for passenger transports, but with massive tunnels that extend out connecting the Starlus ships to the city below. Ship maintenance is almost exclusively done by machine with a combination of workers and computers controlling the spaceport's amenities.`
 	shipyard "Starlus Advanced"
 	shipyard "Starlus Basic"
 	outfitter "Common Outfits"
@@ -786,8 +786,8 @@ planet "Amnis Starlus Vita"
 planet "Instra da Starlus"
 	attributes "Starlus Industrial"
 	landscape land/beach12-harro
-	description `This planet is quite Earth-like in nature and has much more land than any other world the Starlus occupy. Here their settlements are placed at the mouths of giant river deltas where they can make use of the mineral rich waters that flow into the sea. To them, this world is rather inhospitible but this could have been a popular tourist destination in human space.`
-	spaceport `This world is a major manufactoring centre so you're not suprised to see large warehouses full of machinary and equipment ready to be shipped out to other planets, almost all the docks have been built upon land to make use of the large smooth rocks as landing pads for their enormus cargo ships that frequently land here at the Starlus' most important trading centre`
+	description `This planet is quite Earth-like in nature and has much more land than any other world the Starlus occupy. Here their settlements are placed at the mouths of giant river deltas where they can make use of the mineral rich waters that flow into the sea. To them, this world is rather inhospitable but this could have been a popular tourist destination in human space.`
+	spaceport `This world is a major manufacturing centre so you're not surprised to see large warehouses full of machinery and equipment ready to be shipped out to other planets, almost all the docks have been built upon land to make use of the large smooth rocks as landing pads for their enormous cargo ships that frequently land here at the Starlus' most important trading centre`
 	shipyard "Starlus Basic"
 	shipyard "Starlus Advanced"
 	outfitter "Starlus Ammo"
@@ -803,7 +803,7 @@ planet "Reh dex saa"
 	attributes Starlus
 	landscape land/beach1
 	description `Balmy by human standards, this tropical world is covered in oceans with occasional masses of land. However the Starlus have only developed upon rafts anchored to the sea bed below far away from any land.`
-	spaceport `As soon as you land, various robots set about scanning your ship. However, after asscerning that their automated systems are of no use on your ship they move on to another ship and start maintance there.`
+	spaceport `As soon as you land, various robots set about scanning your ship. However, after discerning that their automated systems are of no use on your ship they move on to another ship and start maintenance there.`
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	outfitter "Common Outfits"
