@@ -56,7 +56,7 @@ mission "Starlus Intro [0]"
 				`	(Explore the area)`
 			label area
 			`	As you prepare to explore the raft city you've landed upon and wade out away from your ship you notice several eel-like lifeforms approaching you under the water. As they come closer you notice the water vibrating above these aliens, they appear to be trying to speak to you.`
-			goto listen
+				goto listen
 			label pad
 			`	As you wade around your ship you notice several eel-like lifeforms approaching you under the water. As they come closer you notice the water vibrating above these aliens, they appear to be trying to speak to you.`
 			label listen
@@ -65,7 +65,7 @@ mission "Starlus Intro [0]"
 				`	(Try and find an underwater mic and use that)`
 					goto mic
 			`	You stick your head under water and notice an odd tasting tang. But you have no time to worry about that as the aliens start speaking in earnest.`
-			goto speak
+				goto speak
 			label mic
 			`	You eventually find an underwater mic in your ground kit and drop it into the water by your feet and place the headphones into your ears. The aliens immediately start speaking in earnest.`
 			label speak
@@ -76,6 +76,6 @@ mission "Starlus Intro [0]"
 				`	"I'm here representing humanity, my name is <first>."`
 			`	Your choice of words is completely lost upon them but they seem to have made a good indication of hearing you even underwater. After a moment of thought you conclude that you need help to establish communication with them and try an communicate using gestures that you'll come back here in a short while when you will try and communicate with them.`
 			`	(Come back here after finding someone who is willing to help you)`
-			accept
+				accept
 	to complete
 		never
