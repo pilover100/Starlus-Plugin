@@ -821,7 +821,7 @@ planet "Amnis Starlus Vita"
 	outfitter "Starlus Basic"
 	outfitter "Starlus Intermediate"
 	outfitter "Starlus Advanced"
-	"required reputation" 10
+	"required reputation" 1
 	bribe 0.15
 	security 0.9
 
@@ -861,7 +861,7 @@ planet "Rus da Starlus"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	outfitter "Common Outfits"
-	"required reputation" 20
+	"required reputation" 10
 	bribe 0.15
 	security 0.8
 

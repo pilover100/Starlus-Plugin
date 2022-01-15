@@ -10,12 +10,11 @@
 
 # First contact missions
 
-mission "Starlus Intro [0]"
+mission "Starlus All Groups [0]"
 	name "Unknown Species First Contact"
 	description "Find someone who can help you understand the new oceanic species you have met."
 	landing
-	source
-		attributes "Starlus"
+	source "Amnis Starlus Vita"
 	on offer
 		log `Found an odd species to the south of human space that live underwater, communicating with them is going to be interesting to say the least.`
 		conversation
@@ -79,3 +78,21 @@ mission "Starlus Intro [0]"
 				accept
 	to complete
 		never
+
+mission "Starlus Remnant [1]"
+	name "Unknown Species First Contact"
+	description "Bring back a team of remnant researchers to the unknown species you have encountered."
+	source
+		government "Remnant"
+	destination "Amnis Starlus Vita"
+	to offer
+		has "Starlus All Groups [0]: active"
+	on offer
+		conversation
+			`Do you want to tell the Remnant about the new species you recently found south of human space?`
+			choice
+				`	(Yes)`
+				`	(No, not now)`
+					defer
+	on accept
+		fail "Starlus All Groups [0]"
