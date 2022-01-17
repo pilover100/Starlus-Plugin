@@ -79,12 +79,15 @@ mission "Starlus All Groups [0]"
 	to complete
 		never
 
+# Remnant String
+
 mission "Starlus Remnant [1]"
-	name "Unknown Species First Contact"
-	description "Bring back a team of remnant researchers to the unknown species you have encountered."
+	name "Prepare First Contact Team"
+	description "Head to <planet> in order to prepare a team to investigate the species you've found."
 	source
 		government "Remnant"
-	destination "Amnis Starlus Vita"
+		not planet "Viminal"
+	destination "Viminal"
 	to offer
 		has "Starlus All Groups [0]: active"
 	on offer
@@ -94,5 +97,30 @@ mission "Starlus Remnant [1]"
 				`	(Yes)`
 				`	(No, not now)`
 					defer
+			`	You make your way the spaceport on <origin> to what appears to be an information desk and inform the person sat behind it about the new species you've found.`
+			branch sign
+				has "remnant: sign studies complete"
+			`	The attendant behind the desk chants her reply to you, "This discovery of yours is most certainly of interest to our communities, and whilst we may not be able to invest a large amount of resources to this venture we can almost certainly take steps to establish communication with this species."`
+				goto continue
+			label sign
+			`	The attendant behind the desk briskly signs her reply, "This discovery of yours is most certainly of interest to our communities, and whilst we may not be able to invest a large amount of resources to this venture we can almost certainly take steps to establish communication with this species."`
+			label continue
+			`	"I believe that Xeno-engineering prefect Taely on <planet> will be best qualified to help you and organize an expeditionary team, I will send a message to her to expect you." the attendant concludes.`
+			choice
+				`	"Ok, I'm on my way!"`
+					accept
+				`	"I'm not interested anymore, I'm out!"`
+					decline
 	on accept
 		fail "Starlus All Groups [0]"
+	
+	on complete
+		conversation
+			`As the <ship> settles on its pad you spot Taely walking up to your ship and head out to meet her.`
+			`	"I've heard you've found a new species that we might be interested in <first>?" she enquires`
+			choice
+				`	"Yes I have"`
+			`	"Excellent! This is definitely of great interest to us and I have assembled a team to meet them in their own environment" Taely continues`
+			`	"Meet us in the spaceport when you're ready and we'll board your ship for the trip." she says as she heads off back into the bustle of the spaceport.`
+
+#mission "Starlus Remnant [2]"
