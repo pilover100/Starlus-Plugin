@@ -109,18 +109,33 @@ mission "Starlus Remnant [1]"
 			choice
 				`	"Ok, I'm on my way!"`
 					accept
-				`	"I'm not interested anymore, I'm out!"`
+				`	"I'd rather not, sorry."`
 					decline
 	on accept
 		fail "Starlus All Groups [0]"
-	
-	on complete
+
+mission "Starlus Remnant [2]"
+	name "Bring on the Remnant!"
+	description "Head to <planet> with the team of Remnant researchers to meet the new species you've found."
+	source "Viminal"
+	destination "Amnis Starlus Vita"
+	to offer
+		has "Starlus Remnant [1]: done"
+	on offer
 		conversation
 			`As the <ship> settles on its pad you spot Taely walking up to your ship and head out to meet her.`
 			`	"I've heard you've found a new species that we might be interested in <first>?" she enquires`
 			choice
 				`	"Yes I have"`
-			`	"Excellent! This is definitely of great interest to us and I have assembled a team to meet them in their own environment" Taely continues`
-			`	"Meet us in the spaceport when you're ready and we'll board your ship for the trip." she says as she heads off back into the bustle of the spaceport.`
-
-#mission "Starlus Remnant [2]"
+			`	"Excellent! This is definitely of great interest to us and I have assembled a team to meet them in their own environment", Taely continues.`
+			`	"Our Current plan is to visit these beings and attempt to create a dialogue with them and compile a dictionary of their language so that we can talk with each other.`
+			`	"Once we've set up our research outpost though I'll need to come back here, our shipyards won't do well if I'm gone too long. Given that though, I'll definitely be interested in meeting these new aliens!" she trills.`
+			choice
+				`	"Sure, let's do this!"`
+					goto load_up
+				`	"Ok, tell your team to prepare for the trip."`
+					goto load_up
+				`	"Actually, I've go better things to do."`
+					decline
+			label load_up
+			`	"Excellent! We'll begin loading up immediately. Let the Embers guide your path <first>" Taely finishes.`
