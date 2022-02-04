@@ -119,6 +119,9 @@ mission "Starlus Remnant [2]"
 	description "Head to <planet> with the team of Remnant researchers to meet the new species you've found."
 	source "Viminal"
 	destination "Amnis Starlus Vita"
+	blocked "You need <bunks> of passenger and <tons> of cargo space to continue, return when you have space!"
+	cargo "Research Equipment" 3
+	passengers 15
 	to offer
 		has "Starlus Remnant [1]: done"
 	on offer
@@ -127,7 +130,7 @@ mission "Starlus Remnant [2]"
 			`	"I've heard you've found a new species that we might be interested in <first>?" she enquires`
 			choice
 				`	"Yes I have"`
-			`	"Excellent! This is definitely of great interest to us and I have assembled a team to meet them in their own environment", Taely continues.`
+			`	"Excellent! This is definitely of great interest to us and I have assembled a team to meet them in their own environment on <planet>.", Taely continues.`
 			`	"Our Current plan is to visit these beings and attempt to create a dialogue with them and compile a dictionary of their language so that we can talk with each other.`
 			`	"Once we've set up our research outpost though I'll need to come back here, our shipyards won't do well if I'm gone too long. Given that though, I'll definitely be interested in meeting these new aliens!" she trills.`
 			choice
@@ -139,3 +142,30 @@ mission "Starlus Remnant [2]"
 					decline
 			label load_up
 			`	"Excellent! We'll begin loading up immediately. Let the Embers guide your path <first>" Taely finishes.`
+				accept
+	on complete
+		conversation
+			`You land the <ship> at the same aquatic mega-city you landed the first time you visited <planet> and the Remnant prepare to disembark.`
+			`	"Any advice before we first meet these people <first>?" ask Taely.`
+			choice
+				`	"Just watch your step, you don't want to tread on one"`
+					goto tread
+				`	"Make sure you've got some good underwater equipment"`
+					goto kit
+				`	"No not really, good luck!"`
+			`	"Ok, meet us outside in the spaceport when you're ready and we'll get started" signs Taely.`
+				decline
+			label tread
+			`	"No, we certainly wouldn't want that would we?", Taely signs amusingly, "I suppose we should be should be careful, we don't want to have come to start a war here."`
+				goto end
+			label kit
+			`	"Yes, our underwater mics will be invaluable here, given what you've told us about this species they'll be essential to any communication here." Taely signs.`
+				goto end
+			label end
+			`	"Well I suppose we better get a move on and try communicating with them, meet us outside in the spaceport when you're ready." finishes Taley.`
+
+mission "Starlus Remnant [3]"
+	name ""
+	description ""
+	source "Amnis Starlus Vita"
+	destination "Viminal"
