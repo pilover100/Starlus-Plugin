@@ -131,7 +131,7 @@ mission "Starlus Remnant [2]"
 			choice
 				`	"Yes I have"`
 			`	"Excellent! This is definitely of great interest to us and I have assembled a team to meet them in their own environment on <planet>.", Taely continues.`
-			`	"Our Current plan is to visit these beings and attempt to create a dialogue with them and compile a dictionary of their language so that we can talk with each other.`
+			`	"Our Current plan is to visit these beings and attempt to create a dialog with them and compile a dictionary of their language so that we can talk with each other.`
 			`	"Once we've set up our research outpost though I'll need to come back here, our shipyards won't do well if I'm gone too long. Given that though, I'll definitely be interested in meeting these new aliens!" she trills.`
 			choice
 				`	"Sure, let's do this!"`
@@ -163,12 +163,15 @@ mission "Starlus Remnant [2]"
 				goto end
 			label end
 			`	"Well I suppose we better get a move on and try communicating with them, meet us outside in the spaceport when you're ready." finishes Taley.`
+	on visit
+		dialog "You've arrived at <planet> but you've left some of your passengers or cargo behind! You better depart and wait for them to arrive."
 
 mission "Starlus Remnant [3]"
 	name "Supply Run"
 	description "Head to <planet> to return Taley to the ship yards and to pick up supplies for the Remnant outpost on <origin>."
 	source "Amnis Starlus Vita"
 	destination "Viminal"
+	passengers 1
 	to offer
 		has "Starlus Remnant [2]: done"
 	on offer
@@ -186,7 +189,7 @@ mission "Starlus Remnant [3]"
 			`	"Ips da Starlus ji iud ouka pio ois msd" it continues, you have no idea what it's saying but they seem to be welcoming and ready to try interacting with you and the Remnant.`
 			choice
 				`	(Work with the Remnant to start understanding them)`
-			`	After several hours the sweltering heat of this planet starts dying down as the sun sets and you and the team of Remnant are still hard at work building a dialogue with these aliens when Taley pulls you aside.`
+			`	After several hours the sweltering heat of this planet starts dying down as the sun sets and you and the team of Remnant are still hard at work building a dialog with these aliens when Taley pulls you aside.`
 			`	"<first>, as much as it has been enjoyable to interact with these aliens I need to be getting back to our shipyards on <planet>. Additionally the team will need further supplies that you'll need to pick up as well."`
 			choice
 				`	"Of course. Have you learnt much about these aliens yet?"`
@@ -194,7 +197,17 @@ mission "Starlus Remnant [3]"
 				`	"Of course, we can depart immediately."`
 					goto leave
 			label starlus
-			`	"We haven't learnt much yet, but from what we've gathered we know that they are organic in nature and rely upon an oxygen supply just like we do." Taely replies, " These oceans are saturated with oxygen and other organic molecules, it's possible that these organic molecules are these eel's food supply. Other than that we've only just got started with their language really. It'll be a while before we fully understand even fairly basic phrases but by the time you get back we should have managed to develop a dialogue."`
+			`	"We haven't learnt much yet, but from what we've gathered we know that they are organic in nature and rely upon an oxygen supply just like we do." Taely replies, " These oceans are saturated with oxygen and other organic molecules, it's possible that these organic molecules are these eel's food supply. Other than that we've only just got started with their language really. It'll be a while before we fully understand even fairly basic phrases but by the time you get back we should have managed to develop a dialog."`
 			label leave
-			`	"Of course, we ought to get going. The shipyards can't go too long without expert guidance, lead the way <first>."`
+			`	"Of course, we ought to get going. The shipyards can't go too long without expert guidance. lead the way <first>."`
 				accept
+
+mission "Starlus Remnant [4]"
+	name "supply Run"
+	description "Head to <planet> to drop off the supplies you've picked up and see how the Remnant are doing."
+	landing
+	to offer
+		has "Starlus Remnant [3]: done"
+	on offer
+		conversation
+			``
