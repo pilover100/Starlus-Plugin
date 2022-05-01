@@ -1,0 +1,7 @@
+government "Starlus"
+	swizzle 0
+	color 0.1 0 0.1
+	language "Starlus"
+	"player reputation" 1
+	"friendly hail" "Starlus Untranslated"
+	"hostile hail" "Starlus Untranslated"
