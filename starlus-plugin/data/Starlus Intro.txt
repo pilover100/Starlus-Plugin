@@ -79,7 +79,7 @@ mission "Starlus All Groups [0]"
 	to complete
 		never
 
-# Remnant String
+# Remnant String - because I want to get started with the main mission arc for the starlus this will be the only one for now until I write some others
 
 mission "Starlus Remnant [1]"
 	name "Prepare First Contact Team"
@@ -167,7 +167,7 @@ mission "Starlus Remnant [2]"
 		dialog "You've arrived at <planet> but you've left some of your passengers or cargo behind! You better depart and wait for them to arrive."
 
 mission "Starlus Remnant [3]"
-	name "Supply Run"
+	name "Supply Run to <origin>"
 	description "Head to <planet> to return Taley to the ship yards and to pick up supplies for the Remnant outpost on <origin>."
 	source "Amnis Starlus Vita"
 	destination "Viminal"
@@ -203,11 +203,91 @@ mission "Starlus Remnant [3]"
 				accept
 
 mission "Starlus Remnant [4]"
-	name "supply Run"
+	name "Supply Run to <planet>"
 	description "Head to <planet> to drop off the supplies you've picked up and see how the Remnant are doing."
 	landing
+	source "Viminal"
+	destination "Amnis Starlus Vita"
+	cargo "Outpost Supplies" 25
 	to offer
 		has "Starlus Remnant [3]: done"
 	on offer
 		conversation
-			``
+			`As you pilot the <ship> on approach Taley appears on bridge beside you.`
+			`	"Hello <first>, I've just received word that the <tons> of supplies that we need are ready for you to take back to <planet>. I also have heard from the research outpost that they believe that they are making excellent progress!" Taley signs.`
+			choice
+				`	"That's great! When do I leave?"`
+					goto eager
+				`	"Got anything of note?"`
+					goto details
+				`	"I'm not sure I want to do this anymore."`
+					decline
+			label details
+			`	"Well they have managed to establish a basic dialogue and 2 way verbal communication.", she says, "Whilst it is not much it is enough that we can start to rapidly develop our understanding of their language, and them ours."`
+			`	"Ok, well I better prep the <ship> for departure", you say.`
+			label eager
+			`	"You may leave when ready then Captain <first>, may the Embers guide your path." says Taley as she leaves for the shipyards once more.`
+				accept
+	on visit
+		dialog
+			`You have reached <planet>, but your escorts carrying the supplies haven't got here yet! Launch back into orbit and wait for them to arrive.`
+	on complete
+		conversation
+			`"Greetings Captain" signs the lead researcher, "We see that you have bought us the supplies that we have requested to maintain long term operations here until we manage our own routine logistics route, in return would you like to look at anything in particular in our progress with the Starlus?"`
+			`	"Wait, 'Starlus'?" you ask.`
+			`	"Yes, that is always how they refer to themselves, either as a species or their government so we thought it apt and polite to use it when we refer to them.`
+			`	"Is there anything else you'd like to know?"`
+			choice
+				`	"Not really, no."`
+					goto skip
+				`	"I'd like to know more about their technology"`
+					goto tech
+				`	"Tell me more about their society."`
+					goto social
+				` "Tell me more about their species."`
+					goto form
+			label askAgain
+			`	"Then please ask it." she signs`
+			label infoLoop
+			choice
+				`	"I'd like to know more about their technology"`
+					goto tech
+				`	"Tell me more about their society."`
+					goto social
+				` "Tell me more about their species."`
+					goto form
+				`	"That's enough detail for me."`
+					goto overview
+			label tech
+			`	She begins her reply rather excitedly, "Well their technology is, on the whole, not particularly advanced in most areas. That being said though, our scans indicate they do have relatively advanced long range weapons and massive ships capable of withstanding almost anything the natural environment can throw at them.`
+			`	"They also have mastered the art of creating productive semi-aquatic planet-side facilities."`
+			`	"What do you mean by 'semi-aquatic'?" you ask.`
+			`	"Well producing large space ships is difficult in viscous fluids, even many of our own, more specialized components have to created in a near vacuum to achieve perfect results. Producing these components underwater is even more difficult, so their structures have to have their shipyards as massive areas which have been drained of any water before production can commence.", she explains, "Their tour of their city has been rather illuminating in regards to their technological progress."`
+				goto infoLoop
+			label social
+			`	She briskly signs her reply, "Their society is remarkable, the form of government they appear to follow is a technocracy, not too dissimilar to our own form of governance in fact.`
+			`	"The individuals who run various 'projects' or departments, are randomly drawn specialists in their fields who may manage their work for just a few months at a time, before reporting to their 'specialism board'. These boards are comprised of their peers who then deliberate the best course of action and report to the government board who represent the best interests of their species as a whole."`
+			`	"Fascinating" you respond.`
+			`	"Indeed, and their form of governance is remarkably stable and has been around from around the 17th century by our estimates."`
+				goto infoLoop
+			label form
+			`	She thinks for a moment then briskly signs her reply, "Well, that is perhaps the biggest mystery we have. Whilst their manipulation skills are sufficient to develop technology that is about as advanced as humanity's, they are remarkable uninterested in medical applications of any technology."`
+			`	"How so?" you ask.`
+			`	"We current theory is that it is to do with their habitat. Here food is plentiful so there is little competition for resources and as a result they have thrived here. This combined with their naturally long lifespan means that from a group perspective, most individuals are relatively replaceable. This combined with low rates of infection and disease means that they haven't had much need to learn about their anatomy.`
+			`	"However, from our observations, we have deduced that they are filter feeders with a relatively simple internal structure compared to humans. They are comprised of an external exo-skeleton and rely on constant filter feeding to allow nutrients to enter their bodies and waste to leave."`
+				goto infoLoop
+			label skip
+			`	"Ok, I will just give you a brief overview of our progress then, is that alright?"`
+			choice
+				`	"Yes"`
+					goto overview
+				`	"Actually I have a question."`
+					goto askAgain
+			label overview
+			`	"Very well" she says, "We have learnt a good deal about their language and we have managed to start compiling a dictionary of their 'words' and an understanding of their syntax. As such, we have made several translators that can pick-up and learn more of their language with exposure and can be updated to expand their databases of words we know"`
+			`	"That is good news, anything else you need from me?" you ask.`
+			`	"Not for the time being, but you should take one of the translators and learn more of their culture, after all, you were the one who found them."`
+			`	You thank the researcher for her time and take one of the translators, now that you can talk to them directly you should be able to learn more about their culture.`
+			action
+				set "language: Starlus"  # This opens up the start of the starlus mission chain proper where the player cuts out the remnant and talks to them direct
+				log "Species" "Starlus" "A group of aquatic eels run by a technocratic government."
