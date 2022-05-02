@@ -1,0 +1,11 @@
+Design traits:
+Rounded - not pointed (contain lots of pressure)
+Long, and mostly rounded for Logistics
+long and flared for Combat
+
+high crew numbers
+emphises on long range
+
+naming conventions:
+Types of swords - warships only
+Oceanic creatures - logistics only

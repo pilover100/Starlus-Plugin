@@ -1,0 +1,20 @@
+Combat:
+
+Fighter: Epee - 5 crew, 3 guns
+Drone: Foil - 1 gun
+Interceptor: Rapier - 7 crew, 3 guns (but more weapon space than fighter)
+LW: Scimitar - 15 crew, 5 guns, 1 turret
+MW (guns): Scimitar - 22 crew, 6 guns (4 of which missiles), 2 turrets
+MW (turrets): Katana - 30 crew, 2 guns, 5 turrets (heavier than scimitar)
+HW: Odachi - 3 guns, 7 turrets
+
+Carrier (HW): Einhänder (Einhander in data files) - carries 8 fighters, 4 drones. no guns, 2 (light) AM turrets, 1 main turret
+
+Logistics:
+
+(Light) transport: kampos (the sciency name for the seahorse) ~20 crew with 150 bunks, 2 turrets + 1 gun
+(Heavy) transport: birostris (the sciency name for the manta ray) ~50 crew with 500 bunks, 3 turrets + 2 guns
+
+Light freighter: Glacicus (the name for the animal void sprites are based on - blue glaciucus) ~10 crew, 2 turrets, 1 gun, 200 cargo
+Heavy freighter: Turritopsis (the name for an immortal jellyfish...) ~17 crew, 3 turrets, 2 guns, 600 cargo
+(Super) heavy Freighter: Balaenoptera (the genus the blue whale belongs to) ~28 crew, 4 turrets, 2 guns, 1600 cargo

@@ -936,8 +936,8 @@ system "carf deh sa"
 planet "Amnis Starlus Vita"
 	attributes Starlus homeworld
 	landscape land/beach9-sfiera
-	description `This is the Starlus' homeworld, a ball wrapped in oceans with only a few volcanic islands poking out from the planet-wide sea. The Starlus capital seems to be built around giant raft cities with food production centres floating at the top and habitation areas floating below the ocean surface.`
-	spaceport `Docking stations for ships are almost exclusively above water, particularly for cargo vessels with sub-surface docks only for passenger transports. However, the surface pads have massive tunnels that extend out connecting the Starlus ships to the city below. Ship maintenance is almost exclusively done by machines with a combination of workers and computers controlling the spaceport's amenities.`
+	description `This is the Starlus' homeworld, a giant ball wrapped in oceans with onlythe odd volcanic island poking out from the planet-wide sea. The Starlus capital seems to be built upon giant raft cities with food production centres floating at the top and habitation areas sitting below the ocean surface.`
+	spaceport `Docking stations for ships are almost exclusively above water, particularly for cargo vessels with sub-surface docks only for the passenger transports. However, the surface pads have massive tunnels that extend out connecting the Starlus ships to the city below. Ship maintenance is almost exclusively done by machines with a combination of workers and computers controlling the spaceport's amenities.`
 	shipyard "Starlus Advanced"
 	shipyard "Starlus Basic"
 	outfitter "Common Outfits"
@@ -969,7 +969,7 @@ planet "Ostra tha Starlus"
 	attributes Starlus
 	landscape land/lava1
 	description `This small young world is perhaps the most import world for the Starlus culturally and scientifically, as it was the first world that the they have successfuly teraformed. Originally, Ostra tha Starlus was dominated by its volcanic islands but the Starlus have managed to flood the surface with water and introduce life to this desolete world.`
-	spaceport `The first word that comes to mind when you see the main spaceport here is "impressive". The spaceport is built jutting out from the sides of a particularly large extinct volcano and was the original port that was created when they first came here. The structure consists of thousands of pads spirling around the volcano of all sizes for ships to land when they visit this world.`
+	spaceport `The first word that comes to mind when you see the main spaceport here is "impressive". The main spaceport is built jutting out from the sides of a particularly large extinct volcano and was the very original that was created when they first came here. The structure consists of thousands of pads spirling around the volcano of all sizes for ships to land when they visit this world complete with boarding tubes to conect them to the station.`
 	shipyard "Starlus Basic"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
@@ -996,7 +996,7 @@ planet "Rus da Starlus"
 	attributes Starlus Station research
 	landscape land/station0
 	description `A giant station dedicated to a stellar research program developing new understandings of the universe. Additionally, due to the convienience of a microgravity environment with advanced technology the Starlus have taken to using this station as a military research centre`
-	spaceport `Due to the aquatic nature of the Starlus, you and your crew can't enter the station but various robotic arms tend to your ship when you arrive. Otherwise, access to this station is extremely limited`
+	spaceport `Due to the aquatic nature of the Starlus, you and your crew can't enter the station but various robotic arms tend to your ship when you arrive. Otherwise, access to this station is extremely limited for non aquatic creatures.`
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	outfitter "Common Outfits"
@@ -1005,6 +1005,6 @@ planet "Rus da Starlus"
 	security 0.8
 
 planet "Starlus Wormhole"
-	landscape ""
-	description X
+	landscape planet/wormhole
+	description "This unusal wormhole is a rather baffling phenomenon that currently doesn't seem to be willing to take you anywhere."
 

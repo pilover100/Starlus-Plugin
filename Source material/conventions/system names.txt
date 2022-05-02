@@ -1,0 +1,26 @@
+System naming convention: prefix, cardinals, suffix, distinguisher
+
+Cardinals:
+central/core: " ce "
+northern: " na "
+southern: " ? "
+eastern: " sa "
+western: " ba "
+
+prefixes:
+uninhabited: "carf deh -"
+inhabited (home/core): "Starlax -"
+inhabited (southern): "Starlee - "
+inhabited (other): "Starloi - "
+
+suffixes
+wormhole: " -po-?"
+
+distinguishers:
+e.g.
+"ye"
+"yi"
+"Que"
+"Bea"
+"Reh"
+"Emi"
