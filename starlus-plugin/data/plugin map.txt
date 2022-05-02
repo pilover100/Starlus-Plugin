@@ -712,7 +712,7 @@ system "Starlax ce-sa Bea"
 	government Starlus
 	habitable 425.92
 	link "Starlax na Reh"
-	link "carf deh sa"
+	link "carf deh na-sa"
 	link "Starlax ce-na Que"
 	link "Starlax ce-sa Poi"
 	asteroids "small rock" 1 2.4168
@@ -767,7 +767,7 @@ system "Starlax ce-sa Poi"
 	government Starlus
 	habitable 1111.68
 	link "Starlax ce-sa Bea"
-	link "carf deh ce-sa"
+	link "carf deh sa"
 	asteroids "large rock" 9 1.235
 	asteroids "small metal" 2 1.716
 	asteroids "medium metal" 21 1.755
@@ -879,7 +879,7 @@ system "Starlax sa Emi"
 	pos -196.722 777.309
 	government Starlus
 	habitable 1080
-	link "carf deh sa"
+	link "carf deh na-sa"
 	asteroids "small rock" 1 3.4983
 	asteroids "medium rock" 1 3.7076
 	asteroids "large rock" 1 2.1827
@@ -1158,6 +1158,55 @@ system "Starlee le-ba Ces"
 			distance 344
 			period 33.5842
 
+system "Starlee le-sa ras"
+	pos -199.811 972.109
+	habitable 1111.68
+	link "carf deh le-sa"
+	asteroids "medium rock" 1 3.5316
+	asteroids "large rock" 1 4.4712
+	asteroids "small metal" 1 2.4948
+	asteroids "medium metal" 2 2.5596
+	asteroids "large metal" 1 3.888
+	trade Clothing 290
+	trade Electronics 740
+	trade Equipment 530
+	trade Food 350
+	trade "Heavy Metals" 960
+	trade Industrial 720
+	trade "Luxury Goods" 1220
+	trade Medical 680
+	trade Metal 390
+	trade Plastic 390
+	object
+		sprite star/g5
+		distance 51.2212
+		period 15.1827
+	object
+		sprite star/k0
+		distance 65.7788
+		period 15.1827
+		offset 180
+	object
+		sprite planet/rock6
+		distance 277.779
+		period 55.5417
+	object
+		sprite planet/europa
+		distance 554.779
+		period 156.765
+	object
+		sprite planet/desert5
+		distance 819.789
+		period 281.594
+	object
+		sprite planet/gas5
+		distance 1800.48
+		period 916.541
+		object
+			sprite planet/rock17
+			distance 259
+			period 13.8611
+
 system "carf deh ba"
 	pos -494.918 817.538
 	government Starlus
@@ -1219,7 +1268,7 @@ system "carf deh ce-le"
 	government Starlus
 	habitable 553.28
 	link "Starlax ce mei"
-	link "carf deh ce-sa"
+	link "carf deh sa"
 	link "carf deh le"
 	link "carf deh le-ba"
 	link "carf deh le-sa"
@@ -1277,63 +1326,6 @@ system "carf deh ce-le"
 			sprite planet/ice0
 			distance 374
 			period 20.4182
-
-system "carf deh ce-sa"
-	pos -203.918 862.538
-	government Starlus
-	habitable 2035
-	link "Starlax ce-sa Poi"
-	link "carf deh ce-le"
-	link "carf deh le-sa"
-	asteroids "small rock" 21 1.152
-	asteroids "medium rock" 6 0.954
-	asteroids "large rock" 2 1.782
-	asteroids "small metal" 3 2.664
-	asteroids "medium metal" 20 2.34
-	asteroids "large metal" 1 1.962
-	trade Clothing 370
-	trade Electronics 650
-	trade Equipment 470
-	trade Food 370
-	trade "Heavy Metals" 1130
-	trade Industrial 820
-	trade "Luxury Goods" 1150
-	trade Medical 590
-	trade Metal 410
-	trade Plastic 420
-	object
-		sprite star/f5
-		distance 15.0958
-		period 8.34036
-		offset 180
-	object
-		sprite star/m0
-		distance 80.9042
-		period 8.34036
-	object
-		sprite planet/ice1
-		distance 336.264
-		period 54.6762
-	object
-		sprite planet/dust7
-		distance 573.554
-		period 121.798
-	object
-		sprite planet/lava7
-		distance 850.514
-		period 219.938
-	object
-		sprite planet/gas3
-		distance 1894.27
-		period 731.042
-		object
-			sprite planet/miranda
-			distance 275
-			period 11.6483
-		object
-			sprite planet/desert4
-			distance 390
-			period 19.6726
 
 system "carf deh le"
 	pos -356.918 962.538
@@ -1452,9 +1444,10 @@ system "carf deh le-sa"
 	pos -253.918 920.538
 	government Starlus
 	habitable 9265
-	link "carf deh ce-sa"
+	link "carf deh sa"
 	link "carf deh ce-le"
 	link "carf deh le"
+	link "Starlee le-sa ras"
 	asteroids "large metal" 1 5.355
 	trade Clothing 240
 	trade Electronics 630
@@ -1548,7 +1541,7 @@ system "carf deh na"
 			distance 253
 			period 13.2727
 
-system "carf deh sa"
+system "carf deh na-sa"
 	pos -213.722 733.309
 	government Starlus
 	habitable 486.68
@@ -1607,6 +1600,63 @@ system "carf deh sa"
 			sprite planet/rock17
 			distance 675
 			period 46.0618
+
+system "carf deh sa"
+	pos -203.918 862.538
+	government Starlus
+	habitable 2035
+	link "Starlax ce-sa Poi"
+	link "carf deh ce-le"
+	link "carf deh le-sa"
+	asteroids "small rock" 21 1.152
+	asteroids "medium rock" 6 0.954
+	asteroids "large rock" 2 1.782
+	asteroids "small metal" 3 2.664
+	asteroids "medium metal" 20 2.34
+	asteroids "large metal" 1 1.962
+	trade Clothing 370
+	trade Electronics 650
+	trade Equipment 470
+	trade Food 370
+	trade "Heavy Metals" 1130
+	trade Industrial 820
+	trade "Luxury Goods" 1150
+	trade Medical 590
+	trade Metal 410
+	trade Plastic 420
+	object
+		sprite star/f5
+		distance 15.0958
+		period 8.34036
+		offset 180
+	object
+		sprite star/m0
+		distance 80.9042
+		period 8.34036
+	object
+		sprite planet/ice1
+		distance 336.264
+		period 54.6762
+	object
+		sprite planet/dust7
+		distance 573.554
+		period 121.798
+	object
+		sprite planet/lava7
+		distance 850.514
+		period 219.938
+	object
+		sprite planet/gas3
+		distance 1894.27
+		period 731.042
+		object
+			sprite planet/miranda
+			distance 275
+			period 11.6483
+		object
+			sprite planet/desert4
+			distance 390
+			period 19.6726
 
 planet "Amnis Starlus Vita"
 	attributes Starlus homeworld
