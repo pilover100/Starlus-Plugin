@@ -1,7 +1,30 @@
 government "Starlus"
 	swizzle 0
-	color 0.1 0 0.1
+	color 0.5 0.1 0.5
 	language "Starlus"
 	"player reputation" 1
 	"friendly hail" "Starlus Untranslated"
 	"hostile hail" "Starlus Untranslated"
+
+outfitter "Starlus Basic"
+	"Local Map"
+	"Cargo Expansion"
+	"Outfits Expansion"
+	"Hyperdrive"
+	"Cargo Scanner"
+	"Outfit Scanner"
+
+outfitter "Starlus Intermediate"
+	"Local Map"
+
+outfitter "Starlus Advanced"
+	"Local Map"
+
+outfitter "Starlus Ammo"
+	"Local Map"
+
+shipyard "Starlus Basic"
+	"Shuttle"
+
+shipyard "Starlus Advanced"
+	"Sparrow"

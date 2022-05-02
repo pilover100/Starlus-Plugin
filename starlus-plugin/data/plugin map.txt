@@ -936,11 +936,10 @@ system "carf deh sa"
 planet "Amnis Starlus Vita"
 	attributes Starlus homeworld
 	landscape land/beach9-sfiera
-	description `This is the Starlus' homeworld, a giant ball wrapped in oceans with onlythe odd volcanic island poking out from the planet-wide sea. The Starlus capital seems to be built upon giant raft cities with food production centres floating at the top and habitation areas sitting below the ocean surface.`
+	description `This is the Starlus' homeworld, a giant ball wrapped in oceans with only the odd volcanic island poking out from the planet-wide sea. The Starlus capital seems to be built upon giant raft cities with food production centres floating at the top and habitation areas sitting below the ocean surface.`
 	spaceport `Docking stations for ships are almost exclusively above water, particularly for cargo vessels with sub-surface docks only for the passenger transports. However, the surface pads have massive tunnels that extend out connecting the Starlus ships to the city below. Ship maintenance is almost exclusively done by machines with a combination of workers and computers controlling the spaceport's amenities.`
 	shipyard "Starlus Advanced"
 	shipyard "Starlus Basic"
-	outfitter "Common Outfits"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	outfitter "Starlus Intermediate"
@@ -957,7 +956,6 @@ planet "Instra da Starlus"
 	shipyard "Starlus Basic"
 	shipyard "Starlus Advanced"
 	outfitter "Starlus Ammo"
-	outfitter "Common Outfits"
 	outfitter "Starlus Basic"
 	outfitter "Starlus Intermediate"
 	outfitter "Starlus Advanced"
@@ -975,7 +973,6 @@ planet "Ostra tha Starlus"
 	outfitter "Starlus Basic"
 	outfitter "Starlus Intermediate"
 	outfitter "Starlus Advanced"
-	outfitter "Common Outfits"
 	"required reputation" 10
 	bribe 0.15
 	security 0.6
@@ -987,7 +984,6 @@ planet "Reh dex saa"
 	spaceport `As soon as you land, various robots set about scanning your ship. However, after discerning that their automated systems are of no use on your ship they move on to another ship and start maintenance there.`
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
-	outfitter "Common Outfits"
 	"required reputation" 10
 	bribe 0.1
 	security 0.7
@@ -999,12 +995,11 @@ planet "Rus da Starlus"
 	spaceport `Due to the aquatic nature of the Starlus, you and your crew can't enter the station but various robotic arms tend to your ship when you arrive. Otherwise, access to this station is extremely limited for non aquatic creatures.`
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
-	outfitter "Common Outfits"
 	"required reputation" 10
 	bribe 0.15
 	security 0.8
 
 planet "Starlus Wormhole"
-	landscape planet/wormhole
-	description "This unusal wormhole is a rather baffling phenomenon that currently doesn't seem to be willing to take you anywhere."
+	landscape land/wormhole
+	description `This unusal wormhole is a rather baffling phenomenon that currently doesn't seem to be willing to take you anywhere.`
 
