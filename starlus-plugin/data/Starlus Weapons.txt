@@ -97,7 +97,7 @@ outfit "Pulse-Torpedo"
 	mass 0.5
 	"Pulse Torp Capacity" -1
 	description "The ammo for the shield stripping Pulse-Torpedo Launcher, capable of weaving between asteroids and ships and the bulk of AM fire on the battlefield until it makes its final strike."
-	description "Each Pulse-Torpedo launcher can hold up to x of these."
+	description "Each Pulse-Torpedo launcher can hold up to 32 of these."
 
 outfit "Pulse-Torpedo armed"
 	weapon
@@ -162,3 +162,62 @@ outfit "Pulse-Torpedo Launcher"
 		parallel
 	description `The Pulse-Torpedo launcher is the main shield stripping weapon of the Starlus, capable of Stripping enemy shields from a considerable distance away. Each launcher fires volleys of 2 missiles each time it fires for an average rate of 2 torpedoes every second.`
 	description `The on board guidance systems aboard the torpedo are specialized in payload delivery and can avoid most obstacles as it approaches its target, however once it is within striking distance and the torpedo is finally armed it is no longer able to dodge other obstacles.`
+
+# Beam turret
+
+outfit "Foreshadow Cartridge"
+	category "Ammunition"
+	licenses
+		"Starlus Outfit"
+	cost 600
+	thumbnail "outfit/unknown"
+	mass 0.1
+	"Foreshadow Cartridge Capacity" -1
+	description "The ammo for the fearsome Foreshadow beam turret, each cartridge is essentially a supercapacitor capable of dispelling its charge into a destructive beam that is focused into a penetrating laser that can strike a target a considerable distance away. Because of the power involved, each cartridge is single use only but the blast can even damage the hull when shields are still up."
+	description "Each Foreshadow turret can hold up to 960 of these."
+
+outfit `"Foreshadow" class beam Turret`
+	category "Turrets"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/unknown"
+	mass 40
+	"outfit space" -136
+	"weapon capacity" -136
+	"turret mounts" -1
+	"Foreshadow Cartridge Capacity" 960
+	weapon
+		sprite "projectile/foreshadow"
+			"frame rate" 10
+			"random start frame"
+			rewind
+		sound "foreshadow"
+		"hit effect" "foreshadow impact" 5
+		ammo "Foreshadow Cartridge"
+		icon "icon/foreshadow"
+		inaccuracy 0.1
+		velocity 4000
+		lifetime 1
+		reload 9
+		"burst count" 20
+		"burst reload" 1
+		"firing energy" 1
+		"firing heat" 1
+		"shield damage" 10
+		"hull damage" 250
+		"hit force" 20
+		"turret turn" 1
+		piercing 0.4
+	description `This is the ultimate weapon of the Starlus, capable of firing penetrating beams across a system to punch through even the thickest enemy armour. However, each shot has a catch, due to the power required in an instant, each pulse of the laser requires 20 cartridges to store to energy required and to create the beam. As a result, each shot is rather expensive at 12 thousand credits.`
+	description `This turret can hold up to 960 cartridges (96 tonnes) and is the largest offensive turret in the galaxy.`
+
+effect "foreshadow impact"
+	sprite "effect/foreshadow impact"
+		"frame rate" 10
+		"no repeat"
+	"lifetime" 30
+	"random angle" 360
+	"random frame rate" 15
+	"random velocity" 3
+	"velocity scale" -.05
