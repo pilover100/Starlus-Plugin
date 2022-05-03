@@ -1,9 +1,11 @@
 Weapons:
 
 Foreshadow class beam-gun:
-Long range, single firing turet mounted beam-gun that uses special single-use cartridges (ammo limit to stop it being too OP for their tech) to create a powerful (for them) penetrating beam with considerable damage to the hull (no shield damage at all though, but has 20 - 40% piercing) single most powerful weapon they have (range + piercing)
+Long range, single firing turret mounted beam-gun that uses special single-use cartridges (ammo limit to stop it being too OP for their tech) to create a powerful (for them) penetrating beam with considerable damage to the hull (no shield damage at all though, but has 20 - 40% piercing) single most powerful weapon they have (range + piercing)
+
 Pulse-torpedo launcher:
 long range Phasing (in lore would have an advanced guidance system to weave around asteroids) + short range normal torpedo that deals little damage against hull but moderate damage to shields (shield breaker weapon on all their ships)
+
 ion streamer:
 Main Primary weapon of the starlus
 similar to the heavy ion cyclotron but with slightly longer range and higher damage (and of course - is much bigger). Add a smidge of heat damage on top? (nope)
@@ -17,22 +19,30 @@ Short range, low power, high fire rate AM (similar to korath warder, but less po
 Heavy AM (model name pending):
 Medium range, medium power, Medium fire rate AM (similar to PDT, but with more range and less power)
 
-Shields:
+Shields: shields delay?
 ?
 
-Power:
+hull regen: well, the sheragi (T1) had it, so why not our combat ships?
+small amounts of regen, not as much as coalition but enough to give them something to regain their main source of HP.
+
+Power: MHD generators are a neat concept, but what actually makes the energy release?
 ? (non nuclear though)
 
-Engines:
+Engines: More thrust than steering on heavies, but more balanced on fighters and other lights
+Integrated engine sets? (can be replaced on player owned vessels with normal engines)
 ?
 
 cooling:
 Won't have dedicated cooling - high thermal mass due to them being full of water
+Add additional mass to their ships because of this and some built in cooling?
 
 Ammo:
-Pulse-torpedo
-Foreshadow energy cartridges
+Pulse-torpedo - More of the classic ES ammo, but just needs to look long and sleek (like their combat ships) and able to turn on a dime (they're asteroid dodgers) Radar tracking? Optical?
+
+Foreshadow energy cartridges - essentially just a cylindrical high energy graphene supercapacitor with electrical contacts and other bits of circuitry (that burns out when fired) that fires the beam into the focusing chamber of the foreshadow.
 
 Special:
 Starlus crew quarters - designed for npc use only to take place of below, to stop attributes falling below 0. No crew change, just to provide flavour and to keep NPCs running. Unplunderable.
+
 Starlus -> Human conversion kit - For when they sell certain ships (never logistics - they're too important to them, plus they don't see the player as needing them) to lower crew requirement and bunks, and to provide a lore reason to why humans and use their ships. Unplunderable, and are attribute locked to the starlus ships (they can't be installed into other ships, else one attribute will be < 0, and can't be removed else a different attribute < 0)
+Might also need to remove mass as well (air, not water inside)

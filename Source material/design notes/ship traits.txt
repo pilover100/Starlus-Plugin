@@ -1,10 +1,12 @@
 Design traits:
 Rounded - not pointed (contain lots of pressure)
 Long, and mostly rounded for Logistics
-long and flared for Combat
+long and flared for Combat, external armour plates to deflect shots
 
-high crew numbers
-emphises on long range
+Hull centric, light shields
+
+high crew numbers - they are eels not bipedals like humans
+emphasis on long range weapons with very little dedicated close range
 
 naming conventions:
 Types of swords - warships only
