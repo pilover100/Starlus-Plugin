@@ -8,6 +8,8 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+# Neutron tech
+
 outfit "Neutron Cannon"
 	category "Guns"
 	licenses
@@ -81,3 +83,81 @@ effect "neutron impact"
 	"random frame rate" 15
 	"random velocity" 3
 	"velocity scale" -.05
+
+
+# Pulse Tech
+
+outfit "Pulse-Torpedo"
+	plural "Pulse-Torpedoes"
+	category "Ammunition"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/unknown"
+	mass 0.5
+	"Pulse Torp Capacity" -1
+	description "The ammo for the shield stripping Pulse-Torpedo Launcher, capable of weaving between asteroids and ships and the bulk of AM fire on the battlefield until it makes its final strike."
+	description "Each Pulse-Torpedo launcher can hold up to x of these."
+
+outfit "Pulse-Torpedo armed"
+	weapon
+		sprite "projectile/pulse torp"
+			"frame rate" 30
+			rewind
+		"hit effect" "small explosion"
+		"die effect" "missile death"
+		lifetime 120
+		velocity 4
+		acceleration 1.2
+		drag .1
+		turn 3
+		homing 3
+		"radar tracking" 0.7
+		"optical tracking" 0.6
+		"shield damage" 500
+		"hull damage" 100
+		"hit force" 100
+		"missile strength" 20
+
+outfit "Pulse-Torpedo Launcher"
+	category "Secondary Weapons"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/unknown"
+	mass 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	"Pulse Torp Capacity" 24
+	weapon
+		sprite "projectile/pulse torp"
+			"frame rate" 30
+			rewind
+		sound "thunderhead"
+		ammo "Pulse-Torpedo"
+		icon "icon/pulse torp"
+		"submunition" "Pulse-Torpedo armed"
+		"split range" 200
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 7
+		velocity 4
+		lifetime 1500
+		reload 180
+		"burst count" 2
+		"burst reload" 15
+		"firing energy" 20
+		"firing heat" 40
+		"acceleration" 1.2
+		drag .1
+		turn 3
+		homing 3
+		"radar tracking" 0.7
+		"optical tracking" 0.6
+		"missile strength" 50
+		phasing
+		parallel
+		description `The Pulse-Torpedo launcher is the main shield stripping weapon of the Starlus, capable of Stripping enemy shields from a considerable distance away. Each launcher fires volleys of 2 missiles each time it fires for an average rate of 1 torpedo every 1.5 seconds.`
+		description `The on board guidance systems aboard the torpedo are specialized in payload delivery and can avoid most obstacles as it approaches its target, however once it is within striking distance and the torpedo is finally armed it is no longer able to dodge other obstacles.`
