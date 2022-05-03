@@ -28,13 +28,13 @@ outfitter "Starlus Basic"  # Basic stuff, small power and engines, neutron canno
 	"Neutron Turret"
 
 outfitter "Starlus Intermediate"  # Larger engines and reactors, torpedo launchers, heavy AM
-	"Local Map"
+	"Pulse-Torpedo Launcher"
 
 outfitter "Starlus Advanced"  # Their largest reactors, engines, regens and the mighty foreshadow turret
 	"Local Map"
 
 outfitter "Starlus Ammo"  # Only will contain pulse torpedoes and foreshadow cartridges for rearming ships and a map
-	"Local Map"
+	"Pulse-Torpedo"
 
 shipyard "Starlus Basic"
 	"Shuttle"

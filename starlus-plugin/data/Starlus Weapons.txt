@@ -16,9 +16,9 @@ outfit "Neutron Cannon"
 		"Starlus Outfit"
 	cost 1
 	thumbnail "outfit/unknown"
-	"mass" 9
-	"outfit space" -9
-	"weapon capacity" -9
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
 	"gun ports" -1
 	weapon
 		sprite "projectile/neutron"
@@ -29,15 +29,15 @@ outfit "Neutron Cannon"
 		"hit effect" "neutron impact" 5
 		"inaccuracy" 2
 		velocity 40
-		"lifetime" 20
+		"lifetime" 40
 		reload 30
 		"burst count" 3
 		"burst reload" 2
 		"firing energy" 1
 		"firing heat" 1
-		"firing force" 5
+		"firing force" 1
 		"shield damage" 5
-		"hull damage" 30
+		"hull damage" 75
 		"hit force" 20
 	description `This light cannon is the main weapon of choice for lighter Starlus ships. Capable of striking targets even a considerable distance away with a burst of 3 shots.The main disadvantage of this weapon though is the inability to penetrate shields making it highly ineffective against shielded targets.`
 
@@ -47,9 +47,9 @@ outfit "Neutron Turret"
 		"Starlus Outfit"
 	cost 1
 	thumbnail "outfit/unknown"
-	mass 21
-	"outfit space" -21
-	"weapon capacity" -21
+	mass 28
+	"outfit space" -28
+	"weapon capacity" -28
 	"turret mounts" -1
 	weapon
 		sprite "projectile/neutron"
@@ -60,15 +60,15 @@ outfit "Neutron Turret"
 		"hit effect" "neutron impact" 5
 		inaccuracy 2
 		velocity 40
-		lifetime 20
+		lifetime 40
 		reload 15
 		"burst count" 3
 		"burst reload" 2
 		"firing energy" 1
 		"firing heat" 1
-		"firing force" 5
+		"firing force" 1
 		"shield damage" 5
-		"hull damage" 30
+		"hull damage" 75
 		"hit force" 20
 		"turret turn" 3
 	description `The light cannon of the Starlus has seen itself mounted upon a turret for target tracking and a large field of fire on larger, slower ships which cannot make good use of their guns. To make as good use of the turret as possible, 2 cannons have been mounted and each fire in sequence for a total of 12 shots each second.`
@@ -76,9 +76,9 @@ outfit "Neutron Turret"
 
 effect "neutron impact"
 	sprite "effect/neutron impact"
-		"frame rate" 15
+		"frame rate" 14
 		"no repeat"
-	"lifetime" 15
+	"lifetime" 30
 	"random angle" 360
 	"random frame rate" 15
 	"random velocity" 3
@@ -106,7 +106,7 @@ outfit "Pulse-Torpedo armed"
 			rewind
 		"hit effect" "small explosion"
 		"die effect" "missile death"
-		lifetime 120
+		lifetime 500
 		velocity 4
 		acceleration 1.2
 		drag .1
@@ -114,8 +114,9 @@ outfit "Pulse-Torpedo armed"
 		homing 3
 		"radar tracking" 0.7
 		"optical tracking" 0.6
-		"shield damage" 500
+		"shield damage" 800
 		"hull damage" 100
+		"discharge damage" 7
 		"hit force" 100
 		"missile strength" 20
 
@@ -129,7 +130,7 @@ outfit "Pulse-Torpedo Launcher"
 	"outfit space" -20
 	"weapon capacity" -20
 	"gun ports" -1
-	"Pulse Torp Capacity" 24
+	"Pulse Torp Capacity" 32
 	weapon
 		sprite "projectile/pulse torp"
 			"frame rate" 30
@@ -145,7 +146,7 @@ outfit "Pulse-Torpedo Launcher"
 		"inaccuracy" 7
 		velocity 4
 		lifetime 1500
-		reload 180
+		reload 60
 		"burst count" 2
 		"burst reload" 15
 		"firing energy" 20
@@ -159,5 +160,5 @@ outfit "Pulse-Torpedo Launcher"
 		"missile strength" 50
 		phasing
 		parallel
-		description `The Pulse-Torpedo launcher is the main shield stripping weapon of the Starlus, capable of Stripping enemy shields from a considerable distance away. Each launcher fires volleys of 2 missiles each time it fires for an average rate of 1 torpedo every 1.5 seconds.`
-		description `The on board guidance systems aboard the torpedo are specialized in payload delivery and can avoid most obstacles as it approaches its target, however once it is within striking distance and the torpedo is finally armed it is no longer able to dodge other obstacles.`
+	description `The Pulse-Torpedo launcher is the main shield stripping weapon of the Starlus, capable of Stripping enemy shields from a considerable distance away. Each launcher fires volleys of 2 missiles each time it fires for an average rate of 2 torpedoes every second.`
+	description `The on board guidance systems aboard the torpedo are specialized in payload delivery and can avoid most obstacles as it approaches its target, however once it is within striking distance and the torpedo is finally armed it is no longer able to dodge other obstacles.`
