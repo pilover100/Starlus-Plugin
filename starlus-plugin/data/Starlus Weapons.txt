@@ -30,11 +30,11 @@ outfit "Neutron Cannon"
 		"inaccuracy" 2
 		velocity 40
 		"lifetime" 40
-		reload 30
+		reload 10
 		"burst count" 3
 		"burst reload" 2
-		"firing energy" 1
-		"firing heat" 1
+		"firing energy" 50
+		"firing heat" 90
 		"firing force" 1
 		"shield damage" 5
 		"hull damage" 75
@@ -61,11 +61,11 @@ outfit "Neutron Turret"
 		inaccuracy 2
 		velocity 40
 		lifetime 40
-		reload 15
+		reload 5
 		"burst count" 3
 		"burst reload" 2
-		"firing energy" 1
-		"firing heat" 1
+		"firing energy" 50
+		"firing heat" 90
 		"firing force" 1
 		"shield damage" 5
 		"hull damage" 75
@@ -81,7 +81,7 @@ effect "neutron impact"
 	"lifetime" 30
 	"random angle" 360
 	"random frame rate" 15
-	"random velocity" 3
+	"random velocity" 2
 	"velocity scale" -.05
 
 
@@ -141,7 +141,6 @@ outfit "Pulse-Torpedo Launcher"
 		"submunition" "Pulse-Torpedo armed"
 		"split range" 200
 		"fire effect" "meteor fire"
-		"die effect" "missile death"
 		"hit effect" "medium explosion"
 		"inaccuracy" 7
 		velocity 4
@@ -160,7 +159,7 @@ outfit "Pulse-Torpedo Launcher"
 		"missile strength" 50
 		phasing
 		parallel
-	description `The Pulse-Torpedo launcher is the main shield stripping weapon of the Starlus, capable of Stripping enemy shields from a considerable distance away. Each launcher fires volleys of 2 missiles each time it fires for an average rate of 2 torpedoes every second.`
+	description `The Pulse-Torpedo launcher is the main shield stripping weapon of the Starlus, capable of stripping enemy shields from a considerable distance away. Each launcher fires volleys of 2 missiles each time it fires for an average rate of 2 torpedoes every second.`
 	description `The on board guidance systems aboard the torpedo are specialized in payload delivery and can avoid most obstacles as it approaches its target, however once it is within striking distance and the torpedo is finally armed it is no longer able to dodge other obstacles.`
 
 # Beam turret
@@ -189,7 +188,7 @@ outfit `"Foreshadow" class beam Turret`
 	"Foreshadow Cartridge Capacity" 960
 	weapon
 		sprite "projectile/foreshadow"
-			"frame rate" 10
+			"frame rate" 12
 			"random start frame"
 			rewind
 		sound "foreshadow"
@@ -202,14 +201,14 @@ outfit `"Foreshadow" class beam Turret`
 		reload 9
 		"burst count" 20
 		"burst reload" 1
-		"firing energy" 1
-		"firing heat" 1
+		"firing energy" 180.6
+		"firing heat" 200
 		"shield damage" 10
 		"hull damage" 250
 		"hit force" 20
 		"turret turn" 1
 		piercing 0.4
-	description `This is the ultimate weapon of the Starlus, capable of firing penetrating beams across a system to punch through even the thickest enemy armour. However, each shot has a catch, due to the power required in an instant, each pulse of the laser requires 20 cartridges to store to energy required and to create the beam. As a result, each shot is rather expensive at 12 thousand credits.`
+	description `This is the ultimate weapon of the Starlus, capable of firing penetrating beams across a system to punch through even the thickest enemy armour. However, each shot has a catch: Due to the power required in an instant, each pulse of the laser beam requires 20 cartridges to store to energy required and to create the resulting beam. As a result, each shot is rather expensive at 12 thousand credits.`
 	description `This turret can hold up to 960 cartridges (96 tonnes) and is the largest offensive turret in the galaxy.`
 
 effect "foreshadow impact"
@@ -220,4 +219,4 @@ effect "foreshadow impact"
 	"random angle" 360
 	"random frame rate" 15
 	"random velocity" 3
-	"velocity scale" -.05
+	"velocity scale" -.0025
