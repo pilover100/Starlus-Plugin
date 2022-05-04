@@ -1,0 +1,168 @@
+Ships:
+
+Combat:
+External Armour plates, hull centric
+Flared at rear, long
+
+Epee:
+Class: Fighter
+Crew: 5
+Up to 3 guns
+No turrets
+
+Foil:
+Class: Drone
+Crew: 0 - robotic
+1 gun
+no turrets
+
+No pressure vessel
+
+Rapier:
+Class: Interceptor
+Crew: 7
+3 guns
+no turrets
+
+Scimitar:
+Class: Light Warship
+Crew: 15
+Guns: 5
+Turrets: 1 (AM)
+
+Saber:
+Class: Medium Warship
+Crew: 22
+Guns: 6
+Turrets: 3 (1 - 2 AM)
+
+Katana:
+Class: Medium Warship
+Crew: 30
+Guns: 2
+Turrets: 4 (1 Foreshadow, 1 neutron, 2 AM)
+
+Odachi:
+Class: Heavy Warship
+Crew: 45
+Guns: 2
+Turrets: 7 (2 Foreshadow, 3 Neutron, 2 AM)
+
+Logistics:
+No armour plates, weaker hull
+Long and rounded
+
+Kampos:
+Class: Transport
+Crew: 20/150
+Guns: 1
+Turrets: 2
+
+Birostris:
+Class: Transport
+Crew: 50/500
+Guns: 2
+Turrets: 3
+
+Glacicus:
+Class: Light Freighter
+Crew: 10
+Cargo: 200
+Guns: 1
+Turrets: 2
+
+Turritopsis:
+Class: Heavy Freighter
+Crew: 17
+Cargo: 600
+Guns: 2
+Turrets: 3
+
+Balaenoptera:
+Class: Heavy Freighter
+Crew: 28
+Cargo: 1600
+Guns: 2
+Turrets: 4
+
+
+Outfits:
+
+Weapons:
+
+Neutron Cannon + Turret (double)
+mass: 12 tonnes
+Burst: 3
+
+Pulse Torpedo + Ammo + Ammo Storage (?) + ammo icon
+Size: 20
+Burst: 2
+capacity: 32
+
+Foreshadow + Ammo + ammo icon
+Size: 136
+Pulsed Laser beam
+Capacity: 960
+
+Ion Streamer
+Size: tbd
+Continuous bombardment of ions
+
+Reactors:
+
+Nuclear-Organic, no cooling, conductive coils around reaction vessel
+
+Tiny "'Geyser' Class Reactor" (passive, radiothermal)
+Small "'Brinicle' Class Reactor" (active fission)
+medium "'Pororoca' Class Reactor" (still fission)
+Large "'Maelstrom' Class Reactor" (fission)
+Large: "'Mareel' Class Reactor" (Fusion, developed later)
+
+Storage:
+
+Nothing special, just some simple (slightly better than humanity at ~150% capacity) batteries
+
+Small + Large batteries (Not fussy about size, just as long as one is clearly bigger than the other and is the same style)
+
+Regens:
+
+Combined shield and hull, no energy storage like korath cores
+
+No regens on carried ships
+
+Small (Need sizes)
+medium
+large
+
+Engines: Outfits + Flares (can alter existing flares if needed)
+Combined steering + thrust + afterburner (Pretty efficient compared to most, but still beaten by korath in terms of space efficiency)
+
+"'Sutlej' class engine" tiny (carried ships, very manouverable, Steering Focused)
+"'Yukon' class engine" small (steering focused)
+"'Salado' class engine" medium (Balanced)
+"'Lobourg' class engine" large (Thrust focused)
+
+Sizes Needed
+
+"'Volta' Class Engine Booster" (smaller than the small size, not an engine per-see - but a Starlus engine addon, adds some thrust and steering)
+
+Human Conversion Outfit
+Something similar to other conversions/bunks for sprite?
+
+Effects:
+
+Weapons:
+
+Currently taken from vanilla for most and modified, as the hit effects aren'y scrutinised too closely they should be fine (you're welcome to remake if you want to and feel that they would benefit)
+
+Effects needed:
+Engine afterburners (larger ships will spawn more, just need the one effect)
+Foreshadow cartridge ejections (Minor detail, but really simple to do, only need small rectangles mostly)
+
+Scenes:
+There might be the odd good place for a scene (not planning on too many though), e.g. when the player first meets the starlus they should be presented with a view of one of their cities.
+
+Starlus City (round disk on top, trendils below)
+
+Misc:
+Probably the odd bit I've missed, but on the whole this is all the art needed. (sounds can be borrowed or made myself, the art though I suck at...)
