@@ -104,8 +104,8 @@ outfit "Small Regeneration Station"
 	thumbnail "outfit/unknown"
 	mass 23
 	"outfit space" -23
-	"shield generation" 1
-	"shield energy" 1
+	"shield generation" 0.5
+	"shield energy" 0.5
 	"shield delay" 6
 	"depleted shield delay" 15
 	"hull repair rate" 0.65
@@ -138,8 +138,8 @@ outfit "Large Regeneration Station"
 	thumbnail "outfit/unknown"
 	mass 89
 	"outfit space" -89
-	"shield generation" 1
-	"shield energy" 1
+	"shield generation" 1.8
+	"shield energy" 1.8
 	"hull repair rate" 3.56
 	"hull energy" 3.2
 	"hull heat" 3
