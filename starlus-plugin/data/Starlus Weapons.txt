@@ -26,7 +26,7 @@ outfit "Neutron Cannon"
 			"random start frame"
 			rewind
 		sound "neutron"
-		"hit effect" "neutron impact" 5
+		"hit effect" "neutron impact" 2
 		"inaccuracy" 2
 		velocity 40
 		"lifetime" 40
@@ -57,7 +57,7 @@ outfit "Neutron Turret"
 			"random start frame"
 			rewind
 		sound "neutron"
-		"hit effect" "neutron impact" 5
+		"hit effect" "neutron impact" 2
 		inaccuracy 2
 		velocity 40
 		lifetime 40
@@ -179,7 +179,7 @@ outfit "Ion Streamer"
 		"hit effect" "Starlus ion impact" 3
 		"submunition" "Starlus Ion Fragment" 3
 		"velocity" 35
-		"lifetime" 8
+		"lifetime" 3
 		"reload" 1
 		"firing energy" 2.9
 		"firing heat" 12.2
@@ -210,6 +210,9 @@ effect "Starlus ion impact"
 		"frame rate" 14
 		"no repeat"
 	lifetime 30
+	"random angle" 60
+	"random velocity" 3
+	"velocity scale" -0.01
 	"random frame rate" 3
 
 # Beam turret
