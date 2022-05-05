@@ -326,7 +326,7 @@ outfit "Starlus Heavy AM"
 		"reload" 8
 		"firing energy" 50
 		"firing heat" 12
-	description "Not long after the Remnant settled on Aventine, they began to discover caches of alien technology in vaults deep under the mountains, guarded by ancient but still-functioning point-defense systems. The Remnant learned how to duplicate those defense systems, and they are now considered to be much more useful than most of the items that they were guarding."
+	description "This is the heavy Anti-Missile used by the Starlus, a hard hitting beam keeps ships safe from even the strongest of missiles."
 
 effect "Starlus Heavy"
 	sprite "effect/heavy AM"
