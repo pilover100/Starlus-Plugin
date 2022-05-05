@@ -273,3 +273,65 @@ effect "cartridge eject"
 	"random angle" 5
 	"random velocity" -1
 	"random spin" 5
+
+# Anti Missile, one fast light AM (like korath) and one slower heavy AM (Like remnant)
+
+# Light anti-missile
+
+outfit "Starlus Light AM"
+	category "Turrets"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/unknown"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"turret mounts" -1
+	weapon
+		"hit effect" "Starlus Light"
+		"anti-missile" 8
+		"velocity" 278
+		"lifetime" 1
+		"reload" 5
+		"firing energy" 25
+		"firing heat" 5
+	description "This is the light Anti-Missile used by the Starlus, a high fire rate keeps ships safe from high volumes of light missiles."
+
+effect "Starlus Light"
+	sprite "effect/light AM"
+		"no repeat"
+		"frame rate" 6
+	sound "warder"
+	"lifetime" 11
+	"velocity scale" 1
+
+# Heavy AM
+
+outfit "Starlus Heavy AM"
+	category "Turrets"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/unknown"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	weapon
+		"hit effect" "Starlus Heavy"
+		"anti-missile" 38
+		"velocity" 310
+		"lifetime" 1
+		"reload" 8
+		"firing energy" 50
+		"firing heat" 12
+	description "Not long after the Remnant settled on Aventine, they began to discover caches of alien technology in vaults deep under the mountains, guarded by ancient but still-functioning point-defense systems. The Remnant learned how to duplicate those defense systems, and they are now considered to be much more useful than most of the items that they were guarding."
+
+effect "Starlus Heavy"
+	sprite "effect/heavy AM"
+		"no repeat"
+		"frame rate" 6
+	sound "heavy anti-missile"
+	"lifetime" 11
+	"velocity scale" 1
