@@ -108,6 +108,21 @@ Ion Streamer
 Size: tbd
 Continuous bombardment of ions
 
+Anti-Missile:
+light and heavy effects needed + sprites
+
+Starlus Light AM:
+Size: 25
+fire rate: 12 per second
+power: 8
+range: 278
+
+Starlus Heavy AM:
+Size: 35
+fire rate: 7.5 per second
+power: 38
+range: 310
+
 Reactors:
 
 Nuclear-Organic, no cooling, conductive coils around reaction vessel
