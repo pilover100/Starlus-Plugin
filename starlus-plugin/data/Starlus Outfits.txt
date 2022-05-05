@@ -8,3 +8,57 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+outfit "'Geyser' Class Reactor"
+	category "Power"
+	licenses
+		"Starlus Outfit"
+	cost 527000
+	thumbnail "outfit/unknown"
+	mass 25
+	"outfit space" -25
+	"energy generation" 3.4
+	"heat generation" 4.8
+
+outfit "'Brinicle' Class Reactor"
+	category "Power"
+	licenses
+		"Starlus Outfit"
+	cost 1510000
+	thumbnail "outfit/unknown"
+	mass 53
+	"outfit space" -53
+	"energy generation" 9.01
+	"heat generation" 16
+
+outfit "'Pororoca' Class Reactor"
+	category "Power"
+	licenses
+		"Starlus Outfit"
+	cost 3560000
+	thumbnail "outfit/unknown"
+	mass 87
+	"outfit space" -87
+	"energy generation" 20.2
+	"heat generation" 36.2
+
+outfit "'Maelstrom' Class Reactor"
+	category "Power"
+	licenses
+		"Starlus Outfit"
+	cost 6830000
+	thumbnail "outfit/unknown"
+	mass 125
+	"outfit space" -125
+	"energy generation" 32.5
+	"heat generation" 58.5
+
+outfit "'Mareel' Class Reactor"
+	category "Power"
+	licenses
+		"Starlus Outfit"
+	cost 16400000
+	thumbnail "outfit/unknown"
+	mass 137
+	"outfit space" -137
+	"energy generation" 41.1
+	"heat generation" 53.4
