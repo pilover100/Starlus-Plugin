@@ -18,6 +18,7 @@ outfit "'Geyser' Class Reactor"
 	"outfit space" -25
 	"energy generation" 3.4
 	"heat generation" 4.8
+	description `This is the smallest of the Starlus generators. Whilst it isn't technically an active nuclear chain, it boasts power levels approaching that of a full fledged nuclear reactor thanks to the efficiency of the nuclear-organic systems that are employed within this generator.`
 
 outfit "'Brinicle' Class Reactor"
 	category "Power"
@@ -29,6 +30,7 @@ outfit "'Brinicle' Class Reactor"
 	"outfit space" -53
 	"energy generation" 9.01
 	"heat generation" 16
+	description `This is the smallest active nuclear generator operated by the Starlus. It works almost like a standard nuclear reactor, but instead of heating water or another coolant which could ultimately contaminate the water the Starlus live in, it transfers all its energy to an organic mesh which turns it into a revolving magnetic field which is then turned into electricity by large induction coils.`
 
 outfit "'Pororoca' Class Reactor"
 	category "Power"
@@ -40,6 +42,7 @@ outfit "'Pororoca' Class Reactor"
 	"outfit space" -87
 	"energy generation" 20.2
 	"heat generation" 36.2
+	description `This is considered a medium sized reactor by the Starlus, it employs the same nuclear-organic technology as its siblings. However, while this technology is very efficient at producing electricity, it does waste an awful lot of heat requiring either large heat sinks or heavy cooling.`
 
 outfit "'Maelstrom' Class Reactor"
 	category "Power"
@@ -51,6 +54,7 @@ outfit "'Maelstrom' Class Reactor"
 	"outfit space" -125
 	"energy generation" 32.5
 	"heat generation" 58.5
+	description `This is a large heavy duty fission reactor, designed to power the energy hungry Foreshadow turrets on their larger Warships. It generates immense amounts of heat but is very powerful for its size.`
 
 outfit "'Mareel' Class Reactor"
 	category "Power"
@@ -62,3 +66,4 @@ outfit "'Mareel' Class Reactor"
 	"outfit space" -137
 	"energy generation" 41.1
 	"heat generation" 53.4
+	description `X - tbd, reactor is not available initially`
