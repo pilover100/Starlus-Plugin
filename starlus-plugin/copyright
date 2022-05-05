@@ -22,11 +22,14 @@ Comment: Derived from works by X-27 (under the CC-BY_SA-3.0 license)
 Files:
  images/projectile/neutron*
  images/effect/neutron impact*
+ images/effect/light AM*
 Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
 
-Files: images/projectile/starlus ion*
+Files:
+ images/projectile/starlus ion*
+ images/effect/heavy AM*
 Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
 Comment: Derived from works by @Karirawri (under the same license).
