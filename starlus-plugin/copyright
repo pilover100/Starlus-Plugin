@@ -10,7 +10,7 @@ License: GPL-3+
 Files: images/*
 Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
-Comment: Exceptions noted below
+Comment: Exceptions and derivations noted below
 
 Files:
  images/projectile/foreshadow*
@@ -23,6 +23,7 @@ Files:
  images/projectile/neutron*
  images/effect/neutron impact*
  images/effect/light AM*
+ images/effect/starlus ion impact*
 Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
