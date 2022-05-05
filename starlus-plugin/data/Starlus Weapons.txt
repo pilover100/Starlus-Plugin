@@ -176,7 +176,7 @@ outfit "Ion Streamer"
 		sprite "projectile/starlus ion"
 			"frame rate" 30
 		sound "hion"
-		"hit effect" "proton impact" 3
+		"hit effect" "Starlus ion impact" 3
 		"submunition" "Starlus Ion Fragment" 3
 		"velocity" 35
 		"lifetime" 8
@@ -194,7 +194,7 @@ outfit "Starlus Ion Fragment"
 		sprite "projectile/starlus ion frag"
 			"no repeat"
 			"frame time" 8
-		"hit effect" "proton impact"
+		"hit effect" "Starlus ion impact"
 		"inaccuracy" 1
 		"random velocity" 8
 		"lifetime" 25
@@ -204,6 +204,13 @@ outfit "Starlus Ion Fragment"
 		"hit force" 3
 		"shield damage" 2.5
 		"hull damage" 0.6
+
+effect "Starlus ion impact"
+	sprite "effect/starlus ion impact"
+		"frame rate" 14
+		"no repeat"
+	lifetime 30
+	"random frame rate" 3
 
 # Beam turret
 
