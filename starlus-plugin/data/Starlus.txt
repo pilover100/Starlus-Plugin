@@ -30,6 +30,7 @@ outfitter "Starlus Basic"  # Basic stuff, small power and engines, neutron canno
 
 outfitter "Starlus Intermediate"  # Larger engines and reactors, torpedo launchers, heavy AM
 	"Pulse-Torpedo Launcher"
+	"Ion Streamer"
 
 outfitter "Starlus Advanced"  # Their largest reactors, engines, regens and the mighty foreshadow turret
 	`"Foreshadow" class beam Turret`

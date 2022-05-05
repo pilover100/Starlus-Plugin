@@ -162,6 +162,49 @@ outfit "Pulse-Torpedo Launcher"
 	description `The Pulse-Torpedo launcher is the main shield stripping weapon of the Starlus, capable of stripping enemy shields from a considerable distance away. Each launcher fires volleys of 2 missiles each time it fires for an average rate of 2 torpedoes every second.`
 	description `The on board guidance systems aboard the torpedo are specialized in payload delivery and can avoid most obstacles as it approaches its target, however once it is within striking distance and the torpedo is finally armed it is no longer able to dodge other obstacles.`
 
+# Ion Streamer
+
+outfit "Ion Streamer"
+	category "Guns"
+	cost 1650000
+	thumbnail "outfit/unknown"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -35
+	"gun ports" -1
+	weapon
+		sprite "projectile/starlus ion"
+			"frame rate" 30
+		sound "hion"
+		"hit effect" "proton impact" 3
+		"submunition" "Starlus Ion Fragment" 3
+		"velocity" 35
+		"lifetime" 8
+		"reload" 1
+		"firing energy" 2.9
+		"firing heat" 12.2
+		"firing force" 9
+		"hit force" 3
+		"shield damage" 7.5
+		"hull damage" 2.23
+	description "This is the shield stripping Starlus weapon of choice for medium range combat. Very similar to the Sheragi weapons, this produces a bombardment of ions that soon strips away enemy shields."
+
+outfit "Starlus Ion Fragment"
+	weapon
+		sprite "projectile/starlus ion frag"
+			"no repeat"
+			"frame time" 8
+		"hit effect" "proton impact"
+		"inaccuracy" 1
+		"random velocity" 8
+		"lifetime" 25
+		"random lifetime" 8
+		"acceleration" 0.001
+		"drag" .02
+		"hit force" 3
+		"shield damage" 2.5
+		"hull damage" 0.6
+
 # Beam turret
 
 outfit "Foreshadow Cartridge"
