@@ -8,6 +8,8 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+# nuclear-organic Reactors
+
 outfit "'Geyser' Class Reactor"
 	category "Power"
 	licenses
@@ -67,3 +69,27 @@ outfit "'Mareel' Class Reactor"
 	"energy generation" 41.1
 	"heat generation" 53.4
 	description `X - tbd, reactor is not available initially`
+
+# Energy Storage
+
+outfit "Starlus Small Battery"
+	category "Power"
+	licenses
+		"Starlus Outfit"
+	cost 9500
+	thumbnail "outfit/unknown"
+	mass 5
+	"outfit space" -5
+	"energy capacity" 650
+	description `This small battery is modular, and designed to keep small to medium sized ships running whilst operating their energy intensive weapons. However, the Starlus aren't the best at battery technology and it shows.`
+
+outfit "Starlus Large Battery"
+	category "Power"
+	licenses
+		"Starlus Outfit"
+	cost 55000
+	thumbnail "outfit/unknown"
+	mass 22
+	"outfit space" -22
+	"energy capacity" 3250
+	description `This is a larger battery from the Starlus, designed to keep their larger ships running and to store energy before a Foreshadow strike. As with the small battery, this isn't the best technology available.`
