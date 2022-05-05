@@ -94,7 +94,7 @@ outfit "Pulse-Torpedo"
 		"Starlus Outfit"
 	cost 1
 	thumbnail "outfit/unknown"
-	mass 0.5
+	mass 0.375
 	"Pulse Torp Capacity" -1
 	description "The ammo for the shield stripping Pulse-Torpedo Launcher, capable of weaving between asteroids and ships and the bulk of AM fire on the battlefield until it makes its final strike."
 	description "Each Pulse-Torpedo launcher can hold up to 32 of these."
@@ -126,7 +126,7 @@ outfit "Pulse-Torpedo Launcher"
 		"Starlus Outfit"
 	cost 1
 	thumbnail "outfit/unknown"
-	mass 20
+	mass 8
 	"outfit space" -20
 	"weapon capacity" -20
 	"gun ports" -1
