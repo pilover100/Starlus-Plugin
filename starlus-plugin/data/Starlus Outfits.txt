@@ -93,3 +93,56 @@ outfit "Starlus Large Battery"
 	"outfit space" -22
 	"energy capacity" 3250
 	description `This is a larger battery from the Starlus, designed to keep their larger ships running and to store energy before a Foreshadow strike. As with the small battery, this isn't the best technology available.`
+
+# Regenerators - shield + hull combined
+
+outfit "Small Regeneration Station"
+	category "Systems"
+	licenses
+		"Starlus Outfit"
+	cost 550000
+	thumbnail "outfit/unknown"
+	mass 23
+	"outfit space" -23
+	"shield generation" 1
+	"shield energy" 1
+	"shield delay" 6
+	"depleted shield delay" 15
+	"hull repair rate" 0.65
+	"hull energy" 0.6
+	"hull heat" 0.55
+	description `A small restorative station designed to keep Starlus ships in good working order. Capable of repairing ships even when under fire and to recharge shields whilst out of combat, this regenerator is an invaluable tool for the Starlus.`
+
+outfit "Medium Regeneration Station"
+	category "Systems"
+	licenses
+		"Starlus Outfit"
+	cost 1150000
+	thumbnail "outfit/unknown"
+	mass 47
+	"outfit space" -47
+	"shield generation" 1
+	"shield energy" 1
+	"hull repair rate" 1.64
+	"hull energy" 1.48
+	"hull heat" 1.39
+	"shield delay" 6
+	"depleted shield delay" 15
+	description `A medium sized regenerator, designed to provide medium sized Starlus warships with ample repair facilities to patch up their hull in flight. However, as with all Starlus regenerators, it is unable to recharge shields whilst the ship is under fire.`
+
+outfit "Large Regeneration Station"
+	category "Systems"
+	licenses
+		"Starlus Outfit"
+	cost 2275000
+	thumbnail "outfit/unknown"
+	mass 89
+	"outfit space" -89
+	"shield generation" 1
+	"shield energy" 1
+	"hull repair rate" 3.56
+	"hull energy" 3.2
+	"hull heat" 3
+	"shield delay" 6
+	"depleted shield delay" 15
+	description `This is the largest Starlus regenerator, designed to keep even the largest of Starlus warships in perfect working order. Much like its smaller cousins, it doesn't regenerate shields when the ship is under fire, but is a mighty in-flight hull repair facility.`
