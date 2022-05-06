@@ -52,3 +52,38 @@ ship "Epee"
 	explode "small explosion" 20
 	"final explode" "final explosion small"
 	description `This is a Starlus designed fighter craft, it features ample hull strength and spacious weapon space but is limited in the strength of its shields. Additionally, the Starlus do not provide their fighters with regenerators requiring them to instead return to their carrier for repairs and shield recharges.`
+
+ship "Foil"
+	sprite "ship/foil"
+	thumbnail "thumbnail/foil"
+	swizzle 0
+	attributes
+		category "Drone"
+		cost 1
+		shields 0
+		hull 2000
+		automaton 1
+		mass 50
+		drag 1.2
+		"heat dissipation" 0.65
+		"fuel capacity" 25
+		"outfit space" 77
+		"weapon capacity" 12
+		"engine capacity" 35
+		weapon
+			"blast radius" 100
+			"shield damage" 100
+			"hull damage" 100
+			"hit force" 10
+		outfits
+			"Neutron Cannon"
+			"'Geyser' Class Reactor"
+			"Starlus Small Battery"
+			"'Sutlej' class engine"
+		gun 0 0
+		engine 0 0
+			zoom 1.4
+			over
+		explode "tiny explosion" 15
+		"final explode" "final explosion small"
+		description `This is a small Starlus drone, minimally armed and fully automatic it is used where extra firepower is needed in battle without risking too many lives.`
