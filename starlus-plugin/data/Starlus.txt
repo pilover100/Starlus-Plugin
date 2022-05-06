@@ -29,6 +29,9 @@ outfitter "Starlus Basic"  # Basic stuff, small power and engines, neutron canno
 	"Neutron Turret"
 	"Starlus Light AM"
 	"'Geyser' Class Reactor"
+	"Small Regeneration Station"
+	"'Sutlej' class engine"
+	"Starlus Small Battery"
 
 outfitter "Starlus Intermediate"  # Larger engines and reactors, torpedo launchers, heavy AM
 	"Pulse-Torpedo Launcher"
@@ -36,10 +39,17 @@ outfitter "Starlus Intermediate"  # Larger engines and reactors, torpedo launche
 	"Starlus Heavy AM"
 	"'Brinicle' Class Reactor"
 	"'Pororoca' Class Reactor"
+	"Medium Regeneration Station"
+	"Starlus Large Battery"
+	"'Yukon' class engine"
+	"'Salado' class engine"
+	"'Volta' Class Engine Booster"
 
 outfitter "Starlus Advanced"  # Their largest reactors, engines, regens and the mighty foreshadow turret
 	`"Foreshadow" class beam Turret`
 	"'Maelstrom' Class Reactor"
+	"Large Regeneration Station"
+	"'Lobourg' class engine"
 
 outfitter "Starlus Ammo"  # Only will contain pulse torpedoes and foreshadow cartridges for rearming ships and a map
 	"Pulse-Torpedo"
