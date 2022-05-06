@@ -24,6 +24,7 @@ Files:
  images/effect/neutron impact*
  images/effect/light AM*
  images/effect/starlus ion impact*
+ images/land/wormhole
 Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
@@ -35,11 +36,10 @@ Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
 Comment: Derived from works by @Karirawri (under the same license).
 
-Files:
- images/land/wormhole
+Files: images/effect/starlus flare/*
 Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
-Comment: Derived from works by Michael Zahniser (under the same license).
+Comment: Derived from works by Michael Zahniser and @karirawri (under the same license).
 
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify

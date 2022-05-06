@@ -158,6 +158,13 @@ outfit "'Sutlej' class engine"
 	mass 35
 	"engine capacity" -35
 	"outfit space" -35
+	"afterburner effect" "ionic afterburner"  # temporary effect
+	"flare sprite" "effect/starlus flare/tiny"
+		"frame rate" 30
+	"flare sound" "plasma tiny"
+	"steering flare sprite" "effect/starlus flare/tiny"
+		"frame rate" 30
+	"steering flare sound" "plasma tiny"
 	thrust 14
 	"thrusting energy" 1.65
 	"thrusting heat" 1.8
@@ -180,6 +187,13 @@ outfit "'Yukon' class engine"
 	mass 48
 	"outfit space" -48
 	"engine capacity" -48
+	"afterburner effect" "ionic afterburner"  # temporary effect
+	"flare sprite" "effect/starlus flare/small"
+		"frame rate" 30
+	"flare sound" "plasma small"
+	"steering flare sprite" "effect/starlus flare/small"
+		"frame rate" 30
+	"steering flare sound" "plasma small"
 	thrust 17
 	"thrusting energy" 1.95
 	"thrusting heat" 2.15
@@ -202,6 +216,13 @@ outfit "'Salado' class engine"
 	mass 68
 	"outfit space" -68
 	"engine capacity" -68
+	"afterburner effect" "ionic afterburner"  # temporary effect
+	"flare sprite" "effect/starlus flare/medium"
+		"frame rate" 30
+	"flare sound" "plasma medium"
+	"steering flare sprite" "effect/starlus flare/medium"
+		"frame rate" 30
+	"steering flare sound" "plasma medium"
 	thrust 28
 	"thrusting energy" 3.1
 	"thrusting heat" 3.5
@@ -224,6 +245,13 @@ outfit "'Lobourg' class engine"
 	mass 124
 	"outfit space" -124
 	"engine capacity" -124
+	"afterburner effect" "ionic afterburner"  # temporary effect
+	"flare sprite" "effect/starlus flare/large"
+		"frame rate" 30
+	"flare sound" "plasma large"
+	"steering flare sprite" "effect/starlus flare/large"
+		"frame rate" 30
+	"steering flare sound" "plasma large"
 	thrust 58.2
 	"thrusting energy" 6.3
 	"thrusting heat" 7.15
@@ -244,6 +272,12 @@ outfit "'Volta' Class Engine Booster"
 	thumbnail "outfit/unknown"
 	"engine accelerator space" -1
 	mass 5
+	"flare sprite" "effect/starlus flare/tiny"
+		"frame rate" 30
+	"flare sound" "plasma small"
+	"steering flare sprite" "effect/starlus flare/tiny"
+		"frame rate" 30
+	"steering flare sound" "plasma small"
 	thrust 7.5
 	"thrusting energy" 1.5
 	"thrusting heat" 3.75
