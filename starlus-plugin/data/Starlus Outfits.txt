@@ -252,3 +252,31 @@ outfit "'Volta' Class Engine Booster"
 	"turning heat" 1.4
 	description `This small device modifies the Starlus engines in such a way that they produce around 150% of nominal thrust, but at the expense of requiring more energy than an additional standalone engine would and producing far more heat.`
 	description `Because it modifies the existing engines, this can increase performance on compatible engines without using extra engine space.`
+
+# Special stuff, allows it to function either for the starlus or the player (the starlus never fly sold ship variants, and the player can never acquire starlus flown variants)
+
+outfit "Starlus Command Centre"
+	category "Systems"  # yh ok, it may be a special outfit, but in terms of ship layout it's better under systems
+	licenses
+		"Starlus Species"  # an unobtainable outfit
+	cost 1
+	thumbnail "outfit/unknown"
+	"Starlus Command" 1  # Literally just to allow ships to fly and not be attribute locked
+	"Starlus Command points" -1  # To prevent ship selling to gain outfit
+	"unplunderable"  # Well why should the player need it?
+	description `If you're reading this, you're cheating... or reading the data files.`
+
+outfit "Starlus-Human crew conversion"
+	category "Systems"
+	licenses
+		"Starlus Ship"  # Because you only obtain it when buying Starlus ships, never sold in outfitters
+	cost 10000
+	thumbnail "outfit/unknown"
+	"Starlus Command" 1  # Attribute lock it to Starlus ships
+	"Starlus Command points" -1
+	"unplunderable"
+	"bunks" -2  # Needs balancing out to fit, but likely just going to stick on as many as needed to reduce crew counts
+	"crew" -1  # Humans need fewer people than eels to run a ship
+	mass -5
+	description `Whilst most Starlus ships are completely unusable by humans, this conversion allows a former starlus ship to operate under human control.`
+	description `The conversion means that fewer crew is required due to humans being more adept at performing ship-board tasks and bunk count is lower because of the extra space required for each person. Mass is also decreased as humans only require air to breath and the ship no longer needs to be filled with water.`
