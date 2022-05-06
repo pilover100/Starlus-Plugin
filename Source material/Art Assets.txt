@@ -30,7 +30,7 @@ Crew: 15
 Guns: 5
 Turrets: 1 (AM)
 
-Saber:
+Sabre:
 Class: Medium Warship
 Crew: 22
 Guns: 6

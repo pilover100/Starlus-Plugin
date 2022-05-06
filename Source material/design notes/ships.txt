@@ -4,7 +4,7 @@ Fighter: Epee - 5 crew, 3 guns
 Drone: Foil - 1 gun
 Interceptor: Rapier - 7 crew, 3 guns (but more weapon space than fighter)
 LW: Scimitar - 15 crew, 5 guns, 1 turret
-MW (guns): Scimitar - 22 crew, 6 guns (4 of which missiles), 2 turrets
+MW (guns): Sabre - 22 crew, 6 guns (4 of which missiles), 2 turrets
 MW (turrets): Katana - 30 crew, 2 guns, 5 turrets (heavier than scimitar)
 HW: Odachi - 3 guns, 7 turrets
 
