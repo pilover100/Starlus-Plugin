@@ -1,0 +1,54 @@
+# Copyright (c) 2022 by pilover100
+#
+# Starlus Plugin is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Starlus Plugin is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+ship "Epee"
+	sprite "ship/epee"
+	thumbnail "thumbnail/epee"
+	swizzle 0
+	attributes
+		category "Fighter"
+		cost 1
+		shields 750
+		hull 4000
+		"required crew" 5
+		"bunks" 5
+		mass 110
+		drag 1
+		"heat dissipation" 0.72
+		"fuel capacity" 50
+		"outfit space" 111
+		"weapon capacity" 36
+		"engine capacity" 35
+		"Starlus Command" -3
+		"Starlus Command points" 3
+		weapon
+			"blast radius" 100
+			"shield damage" 100
+			"hull damage" 100
+			"hit force" 10
+	outfits
+		"Neutron Cannon" 3
+		"'Geyser' Class Reactor"
+		"Starlus Small Battery" 3
+		"'Sutlej' class engine"
+		"Starlus Command Centre" 3
+	gun 0 -320
+	gun 240 220
+	gun -240 220
+	engine -50 280
+		zoom 1
+		over
+	engine 50 280
+		zoom 1
+		over
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	"final explode" "final explosion small"
+	description `This is a Starlus designed fighter craft, it features ample hull strength and spacious weapon space but is limited in the strength of its shields. Additionally, the Starlus do not provide their fighters with regenerators requiring them to instead return to their carrier for repairs and shield recharges.`

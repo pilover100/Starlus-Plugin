@@ -56,7 +56,7 @@ outfitter "Starlus Ammo"  # Only will contain pulse torpedoes and foreshadow car
 	"Foreshadow Cartridge"
 
 shipyard "Starlus Basic"
-	"Shuttle"
+	"Epee"
 
 shipyard "Starlus Advanced"
 	"Sparrow"

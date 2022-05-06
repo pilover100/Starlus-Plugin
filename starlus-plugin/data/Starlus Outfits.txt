@@ -309,7 +309,7 @@ outfit "Starlus-Human crew conversion"
 	"Starlus Command" 1  # Attribute lock it to Starlus ships
 	"Starlus Command points" -1
 	"unplunderable"
-	"bunks" -2  # Needs balancing out to fit, but likely just going to stick on as many as needed to reduce crew counts
+	"bunks" -1  # Needs balancing out to fit, but likely just going to stick on as many as needed to reduce crew counts
 	"crew" -1  # Humans need fewer people than eels to run a ship
 	mass -5
 	description `Whilst most Starlus ships are completely unusable by humans, this conversion allows a former starlus ship to operate under human control.`
