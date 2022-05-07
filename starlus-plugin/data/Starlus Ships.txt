@@ -39,15 +39,22 @@ ship "Epee"
 		"Starlus Small Battery" 3
 		"'Sutlej' class engine"
 		"Starlus Command Centre" 3
-	gun 0 -320
-	gun 240 220
-	gun -240 220
-	engine -50 280
-		zoom 1
+	gun 0 -53.5
+	gun 26.5 -10
+	gun -26.5 -10
+	engine 0 28.5
+		zoom 1.4
 		over
-	engine 50 280
+	"steering engine" -6 22
 		zoom 1
+		angle 90
 		over
+		left
+	"steering engine" 6 22
+		zoom 1
+		angle -90
+		over
+		right
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	"final explode" "final explosion small"
