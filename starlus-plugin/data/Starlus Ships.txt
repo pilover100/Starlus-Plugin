@@ -10,6 +10,8 @@
 
 ship "Epee"
 	sprite "ship/epee"
+	licenses
+		"Starlus Ship"
 	thumbnail "thumbnail/epee"
 	swizzle 0
 	attributes
@@ -62,6 +64,8 @@ ship "Epee"
 
 ship "Foil"
 	sprite "ship/foil"
+	licenses
+		"Starlus Ship"
 	thumbnail "thumbnail/foil"
 	swizzle 0
 	attributes
@@ -87,16 +91,18 @@ ship "Foil"
 			"'Geyser' Class Reactor"
 			"Starlus Small Battery"
 			"'Sutlej' class engine"
-		gun 0 0
-		engine 0 0
+		gun 0 -54
+		engine 0 29
 			zoom 1.4
-			over
+			under
 		explode "tiny explosion" 15
 		"final explode" "final explosion small"
 		description `This is a small Starlus drone, minimally armed and fully automatic it is used where extra firepower is needed in battle without risking too many lives.`
 
 ship "Rapier"
 	sprite "ship/rapier"
+	licenses
+		"Starlus Ship"
 	thumbnail "thumbnail/rapier"
 	swizzle 0
 	attributes
@@ -134,7 +140,10 @@ ship "Rapier"
 		gun 0 0 "Neutron Cannon"
 		gun 0 0 "Neutron Cannon"
 		engine 0 0
-			zoom 1.4
+			zoom 1
+			over
+		engine 0 0
+			zoom 1
 			over
 		explode "tiny explosion" 15
 		"final explode" "final explosion small"
