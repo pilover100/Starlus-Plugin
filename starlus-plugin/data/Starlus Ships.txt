@@ -14,7 +14,7 @@ ship "Epee"
 	swizzle 0
 	attributes
 		category "Fighter"
-		cost 1
+		cost 950000
 		shields 750
 		hull 4000
 		"required crew" 5
@@ -66,7 +66,7 @@ ship "Foil"
 	swizzle 0
 	attributes
 		category "Drone"
-		cost 1
+		cost 770000
 		shields 0
 		hull 2000
 		automaton 1
@@ -101,7 +101,7 @@ ship "Rapier"
 	swizzle 0
 	attributes
 		category "Interceptor"
-		cost 1
+		cost 1200000
 		shields 1000
 		hull 4500
 		"required crew" 7
