@@ -21,7 +21,7 @@ ship "Epee"
 		hull 4000
 		"required crew" 5
 		"bunks" 5
-		mass 110
+		mass 125
 		drag 1
 		"heat dissipation" 0.72
 		"fuel capacity" 50
@@ -74,13 +74,15 @@ ship "Foil"
 		shields 0
 		hull 2000
 		automaton 1
-		mass 50
+		mass 65
 		drag 1.2
-		"heat dissipation" 0.65
+		"heat dissipation" 0.71
 		"fuel capacity" 25
 		"outfit space" 77
 		"weapon capacity" 12
 		"engine capacity" 35
+		"active cooling" 1
+		"cooling energy" .1
 		weapon
 			"blast radius" 100
 			"shield damage" 100
@@ -98,6 +100,7 @@ ship "Foil"
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `This is a small Starlus drone, minimally armed and fully automatic it is used where extra firepower is needed in battle without risking too many lives.`
+	description `Because the Foil does not have the same thermal mass that larger crewed ships have, the Starlus have fitted it with a small integrated cooling system to prevent it from over heating.`
 
 ship "Rapier"
 	sprite "ship/rapier"
