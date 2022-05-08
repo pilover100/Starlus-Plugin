@@ -86,18 +86,18 @@ ship "Foil"
 			"shield damage" 100
 			"hull damage" 100
 			"hit force" 10
-		outfits
-			"Neutron Cannon"
-			"'Geyser' Class Reactor"
-			"Starlus Small Battery"
-			"'Sutlej' class engine"
-		gun 0 -54
-		engine 0 29
-			zoom 1.4
-			under
-		explode "tiny explosion" 15
-		"final explode" "final explosion small"
-		description `This is a small Starlus drone, minimally armed and fully automatic it is used where extra firepower is needed in battle without risking too many lives.`
+	outfits
+		"Neutron Cannon"
+		"'Geyser' Class Reactor"
+		"Starlus Small Battery"
+		"'Sutlej' class engine"
+	gun 0 -54
+	engine 0 29
+		zoom 1.4
+		under
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `This is a small Starlus drone, minimally armed and fully automatic it is used where extra firepower is needed in battle without risking too many lives.`
 
 ship "Rapier"
 	sprite "ship/rapier"
@@ -127,24 +127,24 @@ ship "Rapier"
 			"shield damage" 100
 			"hull damage" 100
 			"hit force" 10
-		outfits
-			"Pulse-Torpedo Launcher"
-			"Neutron Cannon" 2
-			"Small Regeneration Station"
-			"'Geyser' Class Reactor"
-			"Starlus Small Battery" 3
-			"Hyperdrive"
-			"'Sutlej' class engine"
-			"Starlus Command Centre" 4
-		gun 0 0 "Pulse-Torpedo Launcher"
-		gun 0 0 "Neutron Cannon"
-		gun 0 0 "Neutron Cannon"
-		engine 0 0
-			zoom 1
-			over
-		engine 0 0
-			zoom 1
-			over
-		explode "tiny explosion" 15
-		"final explode" "final explosion small"
-		description `This heavy interceptor is a powerful enemy when angered, armed with long range weapons and capable of stripping both shields and tearing through hull this little craft is not to be underestimated.`
+	outfits
+		"Pulse-Torpedo Launcher"
+		"Neutron Cannon" 2
+		"Small Regeneration Station"
+		"'Geyser' Class Reactor"
+		"Starlus Small Battery" 3
+		"Hyperdrive"
+		"'Sutlej' class engine"
+		"Starlus Command Centre" 4
+	gun 0 0 "Pulse-Torpedo Launcher"
+	gun 0 0 "Neutron Cannon"
+	gun 0 0 "Neutron Cannon"
+	engine 0 0
+		zoom 1
+		over
+	engine 0 0
+		zoom 1
+		over
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `This heavy interceptor is a powerful enemy when angered, armed with long range weapons and capable of stripping both shields and tearing through hull this little craft is not to be underestimated.`
