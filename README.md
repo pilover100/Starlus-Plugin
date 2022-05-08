@@ -9,7 +9,7 @@ However, if you want to download the absolute latest content, the plugin itself 
 
 For those not in the know, your plugin folder can be found in these places:
 
-* Windows: <code>%appdata%\roaming\endless-sky\plugins\ </code>
+* Windows: <code>%appdata%\endless-sky\plugins\ </code>
 * Linux: <code>~/.local/share/endless-sky/plugins/</code>
 * Mac OS X: <code>~/Library/ApplicationSupport/endless-sky/plugins/</code>
 
