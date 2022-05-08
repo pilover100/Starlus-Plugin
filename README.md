@@ -3,7 +3,6 @@
 A comprehensive content based plugin for Endless-Sky, focused around a tier 1.8 species located south of human space between Coalition space and the graveyard.
 
 ## *Installing Starlus Plugin*
----
 
 The recommended way to install the plugin is to head over to releases and download the zip file named "Starlus-Plugin vx.y.z.zip", this provides you with a zip file which you can then extract into your plugin folder for Endless Sky.
 However, if you want to download the absolute latest content, the plugin itself is contained within the "starlus-plugin" folder at the root of the repository. Download that folder and place it into your plugin folder.
@@ -15,12 +14,10 @@ For those not in the know, your plugin folder can be found in these places:
 * Mac OS X: <code>~/Library/ApplicationSupport/endless-sky/plugins/</code>
 
 ## *Contributing*
----
 
 Starlus Plugin is almost entirely managed by a single contributor pilover100 with only a few exceptions (shout out to Epsil-Astra who did all the ship sprites), if you wish to contribute ideas or bug reports, please open an issue with the details or give me a ping on the ES discord and I'll try to sort through it when I can.
 
 ## *Species Lore*
----
 
 The Starlus are a race of eel-like creatures predating humanity as a species, but their current system of governance has only been around since the human 17th century.
 Their technology revolves around material sciences and chemical engineering giving them extremely good hull technology but little improvement over humanity for shield technology.
@@ -62,7 +59,6 @@ Given their expertise in materials science though, they possess exceptional hull
 Though these dedicated hull destroyers need to be paired with shield strippers in order to more effective and their technology has a considerable power draw requiring either powerful generators or batteries to be useful.
 
 ## *Historical Timeline*
----
 
 Starlus space is home to a rich history brought to it by technological innovation and a mystical wormhole.
 
