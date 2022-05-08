@@ -17,7 +17,7 @@ For those not in the know, your plugin folder can be found in these places:
 ## *Contributing*
 ---
 
-Starlus Plugin is almost entirely managed by a single contributer pilover100 with only a few exceptions (shout out to Epsil-Astra who did all the ship sprites), if you wish to contribute ideas or bug reports, please open an issue with the details or give me a ping on the ES discord and I'll try to sort through it when I can.
+Starlus Plugin is almost entirely managed by a single contributor pilover100 with only a few exceptions (shout out to Epsil-Astra who did all the ship sprites), if you wish to contribute ideas or bug reports, please open an issue with the details or give me a ping on the ES discord and I'll try to sort through it when I can.
 
 ## *Species Lore*
 ---
@@ -67,17 +67,21 @@ Though these dedicated hull destroyers need to be paired with shield strippers i
 Starlus space is home to a rich history brought to it by technological innovation and a mystical wormhole.
 
 Important events:
+BCE: Before Common Era (BC), ACE: After Common Era (AD)
 
-* Starlus civilization born
-* Starlus start exploring their home system
-* The first arrival, the wormhole brings foreign travelers to their system, inspiring the Starlus to explore space
-* Invention of the first hyperdrive
-* Colonization of nearby habitable planets
-* Discovery of the wormhole
-* The second arrival, this time the wormhole brings violence, a young waring species is connected to the Starlus by the wormhole.
-* Starlus start to develop military hardware
-* Numerous over encounters occur via the wormhole, some peaceful, some violent, some are just empty systems.
-* Every habitable planet within their region of space is colonized
-* The Starlus technocracy is established
-* Foreshadow developed, the most powerful weapon in their arsenal
-* The player arrives to the Starlus
+* ~220,000 BCE: The first members of the Starlus Species appear
+* ~2000 BCE: Modern Starlus civilization is born
+* ~200 BCE: Starlus start exploring their home system
+* ~400 ACE: The first arrival, the wormhole brings foreign travelers to their system, inspiring the Starlus to explore space more extensively
+* ~525 ACE: Invention of the first hyperdrive
+* ~550 ACE: Colonization of nearby habitable planets
+* ~600 ACE: Discovery of the wormhole
+* ~650 ACE: The second arrival, this time the wormhole brings violence, a young waring species is connected to the Starlus by the wormhole.
+* ~650 ACE: Starlus start to develop military hardware
+* ~750 ACE <-> present day: Numerous other encounters occur via the wormhole, some peaceful, some violent, some are just empty systems.
+* ~1525 ACE: Every habitable planet within their region of space is colonized
+* ~1600 ACE: The Starlus technocracy is established
+* ~1850 ACE: Foreshadow developed, the most powerful weapon in their arsenal
+* ~3010 ACE: The player arrives to the Starlus
+
+Dates after this point are variable as they are influenced by the player
