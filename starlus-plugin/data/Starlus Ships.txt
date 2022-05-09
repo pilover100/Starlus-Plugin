@@ -213,3 +213,61 @@ ship "Scimitar"
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `This is the first of the thorougher-bred warships developed by the Starlus when they encountered various violent species in their long storied past. This vessel has been revised several times over, each iteration more capable than the last. The vessel's current stock configuration allows it to fill in many roles within the Starlus military with both capable shield strippers and some heavy hull damage as well.`
+
+ship "Sabre"
+	sprite "ship/sabre"
+	licenses
+		"Starlus Ship"
+	thumbnail "thumbnail/sabre"
+	swizzle 0
+	attributes
+		category "Medium Warship"
+		cost 1
+		shields 1
+		hull 1
+		"required crew" 22
+		bunks 25
+		mass 1
+		drag 1.8
+		"heat dissipation" 0.73
+		"fuel capacity" 750
+		"cargo space" 40
+		"outfit space" 500
+		"weapon capacity" 227
+		"engine capacity" 68
+		"Starlus Command" -12
+		"Starlus Command points" 12
+		weapon
+			"blast radius" 100
+			"shield damage" 100
+			"hull damage" 100
+			"hit force" 10
+	outfits
+		"Pulse-Torpedo Launcher" 2
+		"Pulse-Torpedo" 64
+		"Neutron Turret" 1
+		"Starlus Light AM"
+		"Ion Streamer" 4
+		"Medium Regeneration Station"
+		"Starlus Sensor Array"
+		"'Pororoca' Class Reactor"
+		"'Salado' class engine"
+		"Starlus Command Centre" 12
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+		zoom 1
+		over
+	engine 0 0
+		zoom 1
+		over
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `This medium sized Warship is the largest of the Starlus gun-centric designs featuring excellent shield stripping abilities with a limited number of anti-hull weapons mounted on the vessel.`
+	description `Because of the size of this vessel, it comprises the higher end of most Starlus fleets and serves as a heavy gunship style vessel.`
