@@ -174,8 +174,8 @@ ship "Scimitar"
 		"heat dissipation" 0.77
 		"fuel capacity" 650
 		"cargo space" 25
-		"outfit space" 386
-		"weapon capacity" 205
+		"outfit space" 350
+		"weapon capacity" 159
 		"engine capacity" 48
 		"Starlus Command" -10
 		"Starlus Command points" 10
@@ -185,7 +185,8 @@ ship "Scimitar"
 			"hull damage" 100
 			"hit force" 10
 	outfits
-		"Ion Streamer" 4
+		"Neutron Cannon" 2
+		"Ion Streamer" 2
 		"Pulse-Torpedo Launcher" 2
 		"Starlus Light AM"
 		"Pulse-Torpedo" 64
@@ -196,8 +197,8 @@ ship "Scimitar"
 		"Hyperdrive"
 		"'Yukon' class engine"
 		"Starlus Command Centre" 10
-	gun 0 0 "Ion Streamer"
-	gun 0 0 "Ion Streamer"
+	gun 0 0 "Neutron Cannon"
+	gun 0 0 "Neutron Cannon"
 	gun 0 0 "Ion Streamer"
 	gun 0 0 "Ion Streamer"
 	gun 0 0 "Pulse-Torpedo Launcher"
@@ -211,4 +212,4 @@ ship "Scimitar"
 		over
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
-	description `This is the first of the thorougher-bred warships developed by the Starlus when they encountered various violent species in their long storied past. This vessel has been revised several times over, each iteration more capable than the last. The vessel's current stock configuration allows it to act as a highly capable shield stripper allowing other ships dedicated to breaching hulls to engage the target safely.`
+	description `This is the first of the thorougher-bred warships developed by the Starlus when they encountered various violent species in their long storied past. This vessel has been revised several times over, each iteration more capable than the last. The vessel's current stock configuration allows it to fill in many roles within the Starlus military with both capable shield strippers and some heavy hull damage as well.`
