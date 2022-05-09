@@ -111,17 +111,17 @@ ship "Rapier"
 	attributes
 		category "Interceptor"
 		cost 1200000
-		shields 1000
+		shields 1750
 		hull 4500
 		"required crew" 7
 		"bunks" 9
-		mass 150
-		drag 1.1
-		"heat dissipation" 0.67
+		mass 195
+		drag 1.2
+		"heat dissipation" 0.75
 		"fuel capacity" 450
 		"cargo space" 10
-		"outfit space" 162
-		"weapon capacity" 44
+		"outfit space" 200
+		"weapon capacity" 64
 		"engine capacity" 35
 		"Starlus Command" -4
 		"Starlus Command points" 4
@@ -131,14 +131,16 @@ ship "Rapier"
 			"hull damage" 100
 			"hit force" 10
 	outfits
-		"Pulse-Torpedo Launcher"
+		"Pulse-Torpedo Launcher" 2
 		"Neutron Cannon" 2
+		"Starlus Sensor Array"
 		"Small Regeneration Station"
 		"'Geyser' Class Reactor"
 		"Starlus Small Battery" 3
 		"Hyperdrive"
 		"'Sutlej' class engine"
 		"Starlus Command Centre" 4
+	gun 0 0 "Pulse-Torpedo Launcher"
 	gun 0 0 "Pulse-Torpedo Launcher"
 	gun 0 0 "Neutron Cannon"
 	gun 0 0 "Neutron Cannon"
@@ -151,3 +153,4 @@ ship "Rapier"
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `This heavy interceptor is a powerful enemy when angered, armed with long range weapons and capable of stripping both shields and tearing through hull this little craft is not to be underestimated.`
+	description `As this is the first standalone ship the Starlus designed, it is equipped with integrated pumps and machinery which allow the ship to remain cool even under intense loads. Now though, the starlus use this vessel as a scouting platform and as a surveillance platform through their region of space.`

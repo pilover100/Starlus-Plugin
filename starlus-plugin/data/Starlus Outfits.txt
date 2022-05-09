@@ -94,6 +94,18 @@ outfit "Starlus Large Battery"
 	"energy capacity" 3250
 	description `This is a larger battery from the Starlus, designed to keep their larger ships running and to store energy before a Foreshadow strike. As with the small battery, this isn't the best technology available.`
 
+# Scanner
+
+outfit "Starlus Sensor Array"
+	category "Systems"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/unknown"
+	mass 5
+	"tactical scan power" 50
+	description `This powerful sensor set is designed to provide real time combat information about vessels in the immediate vicinity of a Starlus ship from range to heat levels.`
+
 # Regenerators - shield + hull combined
 
 outfit "Small Regeneration Station"
