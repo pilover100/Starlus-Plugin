@@ -58,9 +58,15 @@ However, this comes at a cost, the Starlus have exceptionally weak shields despi
 Given their expertise in materials science though, they possess exceptional hull damaging and long range weapons including the powerful, but compact neutron cannon.
 Though these dedicated hull destroyers need to be paired with shield strippers in order to more effective and their technology has a considerable power draw requiring either powerful generators or batteries to be useful.
 
+---
+
+***This section of the README provides a few pointers to the story of the Starlus, so if you rather not be spoiled you may want to skip over this bit and [head back on up.](#starlus-plugin)***
+
+---
+
 ## *Historical Timeline*
 
-Starlus space is home to a rich history brought to it by technological innovation and a mystical wormhole.
+<details><summary>Starlus space is home to a rich history brought to it by technological innovation and a mystical wormhole.</summary>
 
 Important events:
 BCE: Before Common Era (BC), ACE: After Common Era (AD)
@@ -81,3 +87,42 @@ BCE: Before Common Era (BC), ACE: After Common Era (AD)
 * ~3010 ACE: The player arrives to the Starlus
 
 Dates after this point are variable as they are influenced by the player
+</details>
+<br>
+
+## *Story*
+
+<details><summary>Starlus Story</summary>
+
+As mentioned in the [Historical Timeline](#historical-timeline), the Starlus civilization is exposed to a mystical wormhole. There is very little information about the origins of this wormhole, it could be a deliberate creation, an experiment, naturally occurring or even an unintended accident.
+
+What is known though, is that every so often the wormhole links Starlus space to various other systems around the galaxy, and sometimes even beyond. As such the Starlus have met many species in their history and this has led to them being cautious towards others and developing a large military presence withing their systems.
+
+When the player meets the Starlus, the first barrier to overcome is that of communication. Eventually, the player will be able to establish dialogue through a number of different species dotted throughout the galaxy but currently the remnant are the only option.
+
+Once communication is established, the player will have the opportunity to work alongside the Starlus in a number of ways.
+
+* First they can help the Starlus logistically moving freight around their region to various ports, but they won't take passengers.
+* Second, they can take instruments to various locations within their region to take measurements.
+* Finally they can provide them with various samples and references of human literature and technology.
+
+Once the player has started to earn their trust the player will be allowed to purchase a selection of outfits from the Starlus for their own use and shortly after the wormhole will open.
+
+Details on the wormhole campaigns are [found below.](#the-wormhole)
+
+After the first of these wormhole campaigns the player will be more trusted by the Starlus and allowed to purchase more advanced Starlus outfits.
+
+Once the player has completed at least 3 wormhole campaigns and provided the Starlus with enough cultural knowledge about humanity the will be entrusted with *converted* Starlus ships for them to fly.
+
+</details>
+<br>
+
+## *The Wormhole*
+
+<details><summary>The Wormhole is a fickle thing...</summary>
+
+The wormhole campaigns are unique to ES in that they aren't just a set order of events, instead campaigns are randomly chosen from a set of possible campaigns, some are none violent, some involve fighting other species or even brokering a peace to avoid bloodshed from either side.
+
+Because of this random aspect of the wormhole campaigns the Starlus Plugin has great replay-ability and can be easily expanded to include future additions and even other plugins. More information on expansions to this plugin will be added shortly.
+
+</details>
