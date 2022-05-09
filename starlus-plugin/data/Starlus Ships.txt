@@ -164,9 +164,9 @@ ship "Scimitar"
 	swizzle 0
 	attributes
 		category "Light Warship"
-		cost 1
-		shields 1
-		hull 27000
+		cost 15750000
+		shields 8000
+		hull 31000
 		"required crew" 15
 		"bunks" 20
 		mass 400
