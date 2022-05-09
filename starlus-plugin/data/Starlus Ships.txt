@@ -117,10 +117,10 @@ ship "Rapier"
 		"bunks" 9
 		mass 195
 		drag 1.2
-		"heat dissipation" 0.75
+		"heat dissipation" 0.85
 		"fuel capacity" 450
-		"cargo space" 10
-		"outfit space" 200
+		"cargo space" 12
+		"outfit space" 215
 		"weapon capacity" 64
 		"engine capacity" 35
 		"Starlus Command" -4
@@ -135,8 +135,8 @@ ship "Rapier"
 		"Neutron Cannon" 2
 		"Starlus Sensor Array"
 		"Small Regeneration Station"
-		"'Geyser' Class Reactor"
-		"Starlus Small Battery" 3
+		"'Brinicle' Class Reactor"
+		"Starlus Large Battery"
 		"Hyperdrive"
 		"'Sutlej' class engine"
 		"Starlus Command Centre" 4
