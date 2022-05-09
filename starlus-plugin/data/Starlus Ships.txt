@@ -132,6 +132,7 @@ ship "Rapier"
 			"hit force" 10
 	outfits
 		"Pulse-Torpedo Launcher" 2
+		"Pulse-Torpedo" 64
 		"Neutron Cannon" 2
 		"Starlus Sensor Array"
 		"Small Regeneration Station"
@@ -154,3 +155,60 @@ ship "Rapier"
 	"final explode" "final explosion small"
 	description `This heavy interceptor is a powerful enemy when angered, armed with long range weapons and capable of stripping both shields and tearing through hull this little craft is not to be underestimated.`
 	description `As this is the first standalone ship the Starlus designed, it is equipped with integrated pumps and machinery which allow the ship to remain cool even under intense loads. Now though, the starlus use this vessel as a scouting platform and as a surveillance platform through their region of space.`
+
+ship "Scimitar"
+	sprite "ship/scimitar"
+	licenses
+		"Starlus Ship"
+	thumbnail "thumbnail/scimitar"
+	swizzle 0
+	attributes
+		category "Light Warship"
+		cost 1
+		shields 1
+		hull 27000
+		"required crew" 15
+		"bunks" 20
+		mass 400
+		drag 1.5
+		"heat dissipation" 0.77
+		"fuel capacity" 650
+		"cargo space" 25
+		"outfit space" 386
+		"weapon capacity" 205
+		"engine capacity" 48
+		"Starlus Command" -10
+		"Starlus Command points" 10
+		weapon
+			"blast radius" 100
+			"shield damage" 100
+			"hull damage" 100
+			"hit force" 10
+	outfits
+		"Ion Streamer" 4
+		"Pulse-Torpedo Launcher" 2
+		"Starlus Light AM"
+		"Pulse-Torpedo" 64
+		"Starlus Sensor Array"
+		"Small Regeneration Station"
+		"'Brinicle' Class Reactor"
+		"Starlus Large Battery"
+		"Hyperdrive"
+		"'Yukon' class engine"
+		"Starlus Command Centre" 10
+	gun 0 0 "Ion Streamer"
+	gun 0 0 "Ion Streamer"
+	gun 0 0 "Ion Streamer"
+	gun 0 0 "Ion Streamer"
+	gun 0 0 "Pulse-Torpedo Launcher"
+	gun 0 0 "Pulse-Torpedo Launcher"
+	turret 0 0 "Starlus Light AM"
+	engine 0 0
+		zoom 1
+		over
+	engine 0 0
+		zoom 1
+		over
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `This is the first of the thorougher-bred warships developed by the Starlus when they encountered various violent species in their long storied past. This vessel has been revised several times over, each iteration more capable than the last. The vessel's current stock configuration allows it to act as a highly capable shield stripper allowing other ships dedicated to breaching hulls to engage the target safely.`
