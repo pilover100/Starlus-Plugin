@@ -250,6 +250,7 @@ ship "Sabre"
 		"Ion Streamer" 4
 		"Medium Regeneration Station"
 		"Starlus Sensor Array"
+		"Starlus Large Battery"
 		"'Pororoca' Class Reactor"
 		"'Salado' class engine"
 		"Starlus Command Centre" 12
@@ -271,3 +272,126 @@ ship "Sabre"
 	"final explode" "final explosion small"
 	description `This medium sized Warship is the largest of the Starlus gun-centric designs featuring excellent shield stripping abilities with a limited number of anti-hull weapons mounted on the vessel.`
 	description `Because of the size of this vessel, it comprises the higher end of most Starlus fleets and serves as a heavy gunship style vessel.`
+
+ship "Katana"
+	sprite "ship/katana"
+	licenses
+		"Starlus Ship"
+	thumbnail "thumbnail/katana"
+	swizzle 0
+	attributes
+		category "Medium Warship"
+		cost 1
+		shields 1
+		hull 1
+		"required crew" 30
+		bunks 35
+		mass 1
+		drag 2
+		"heat dissipation" 0.71
+		"fuel capacity" 750
+		"cargo space" 45
+		"outfit space" 564
+		"weapon capacity" 280
+		"engine capacity" 68
+		"Starlus Command" -12
+		"Starlus Command points" 12
+		weapon
+			"blast radius" 100
+			"shield damage" 100
+			"hull damage" 100
+			"hit force" 10
+	outfits
+		"Pulse-Torpedo Launcher" 2
+		"Pulse-Torpedo" 64
+		`"Foreshadow" class beam Turret`
+		"Foreshadow Cartridge" 960
+		"Neutron Turret" 2
+		"Starlus Light AM" 2
+		"Medium Regeneration Station"
+		"Starlus Sensor Array"
+		"Starlus Large Battery" 2
+		"'Maelstrom' Class Reactor"
+		"'Salado' class engine"
+		"Starlus Command Centre" 12
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+		zoom 1
+		over
+	engine 0 0
+		zoom 1
+		over
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `This medium sized Warship easily rivals human warships in terms of raw firepower. It is capable of holding the mighty foreshadow turret and serves as a heavy battleship against highly shielded targets. As such, it is rarely found in patrols and is instead reserved for battles and defensive postings that require immense firepower.`
+	description `Because of the complexity of this vessel, it can only be built in specialized shipyards and is not as widely available within Starlus Space.`
+
+ship "Odachi"
+	sprite "ship/odachi"
+	licenses
+		"Starlus Ship"
+	thumbnail "thumbnail/odachi"
+	swizzle 0
+	attributes
+		category "Heavy Warship"
+		cost 1
+		shields 1
+		hull 1
+		"required crew" 50
+		bunks 60
+		mass 1
+		drag 2
+		"heat dissipation" 0.67
+		"fuel capacity" 850
+		"cargo space" 52
+		"outfit space" 930
+		"weapon capacity" 490
+		"engine capacity" 124
+		"Starlus Command" -12
+		"Starlus Command points" 12
+		weapon
+			"blast radius" 100
+			"shield damage" 100
+			"hull damage" 100
+			"hit force" 10
+	outfits
+		"Pulse-Torpedo Launcher" 4
+		"Pulse-Torpedo" 128
+		`"Foreshadow" class beam Turret` 2
+		"Foreshadow Cartridge" 1920
+		"Neutron Turret" 3
+		"Starlus Heavy AM" 2
+		"Large Regeneration Station"
+		"Starlus Sensor Array"
+		"Starlus Large Battery" 3
+		"'Maelstrom' Class Reactor"
+		"'Geyser' Class Reactor"
+		"'Lobourg' class engine"
+		"Starlus Command Centre" 12
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+		zoom 1
+		over
+	engine 0 0
+		zoom 1
+		over
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `This is the single largest Warship produced for active service within Starlus space, and the most powerful. It features immense firepower and armour capable of withstanding even the most punishing of blows. The few fleets of these warships in existence are highly valued and closely guarded as they serve as a major part of the Starlus military fleets.`
+	description `Because of the size and complexity of this vessel, it can only be produced in a few select locations within Starlus territory and is reserved for only heavy duty combat roles and core guard duties.`
