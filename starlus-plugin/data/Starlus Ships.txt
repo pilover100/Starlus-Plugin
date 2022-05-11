@@ -223,16 +223,16 @@ ship "Sabre"
 	attributes
 		category "Medium Warship"
 		cost 1
-		shields 1
-		hull 1
-		"required crew" 22
-		bunks 25
-		mass 1
-		drag 1.8
+		shields 15000
+		hull 50000
+		"required crew" 30
+		bunks 35
+		mass 550
+		drag 2.1
 		"heat dissipation" 0.73
 		"fuel capacity" 750
 		"cargo space" 40
-		"outfit space" 500
+		"outfit space" 480
 		"weapon capacity" 227
 		"engine capacity" 68
 		"Starlus Command" -12
@@ -282,12 +282,12 @@ ship "Katana"
 	attributes
 		category "Medium Warship"
 		cost 1
-		shields 1
-		hull 1
-		"required crew" 30
-		bunks 35
-		mass 1
-		drag 2
+		shields 21000
+		hull 70000
+		"required crew" 45
+		bunks 50
+		mass 600
+		drag 2.4
 		"heat dissipation" 0.71
 		"fuel capacity" 750
 		"cargo space" 45
@@ -330,7 +330,7 @@ ship "Katana"
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `This medium sized Warship easily rivals human warships in terms of raw firepower. It is capable of holding the mighty foreshadow turret and serves as a heavy battleship against highly shielded targets. As such, it is rarely found in patrols and is instead reserved for battles and defensive postings that require immense firepower.`
-	description `Because of the complexity of this vessel, it can only be built in specialized shipyards and is not as widely available within Starlus Space.`
+	description `Because of the complexity of this vessel, it can only be built in specialized shipyards and is not as widely available within Starlus space.`
 
 ship "Odachi"
 	sprite "ship/odachi"
