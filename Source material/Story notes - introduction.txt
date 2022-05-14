@@ -1,0 +1,19 @@
+Overview
+
+Once the player has managed to obtain some sort of translator to speak to the starlus, either through the remnant (currently the only way) or some other faction these intro missions are played.
+
+Formal greetings:
+The starlus, once they are able, should formally welcome the player to their region of space recognising them as the first alien species (alien to them) that has come to them from "other means" (not the wormhole).
+They should tell the player a bit about their society and that the player is welcome to help out in various ways by transporting goods and taking various measurements for them. No passenger transports will be done though (Starlus need water filled ships).
+
+after the player has done a number of missions about their teritory, the starlus welcome them more warmly and ask about human culture in return for knowledge about theirs
+
+durring a few missions in which the player brings the human cultural archive from alxeandria, and various recordings of human literature and music the starlus deem fit to present the player access to a number of their lesser outfits. (basic and intermediate outfitters).
+
+once the player has recieved their Starlus Outfit license, the wormhole will activate for the first campaign, when this happens a mission dialogue will appear when they land on a starlus planet informing them about the wormhole and promting the player to go to the starlus capital. as it's the very first campaign, some extra text will appear to inform the player about how it works (viewable again via the logbook)
+
+Once the first campaign is completed the player will be given access to all starlus outfits
+
+after 3 campaigns the player will be granted access to ships
+
+following campaings are just for further challange if desired.
