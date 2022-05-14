@@ -1,0 +1,21 @@
+For a list of n campaigns:
+
+each campaign starts with a 100/n slice to trigger
+with each campaign completed, the size of the slice for others increase (to avoid replying campaigns)
+
+i.e. the formula to trigger a campaign
+
+((100/n) * campaign index) - 1 < random < (100/n) * (campaign index + 1)
+
+with each campaign played, n is decreased by 1 and when it reaches 1 the last campaign is played with a special message
+
+The campaign index starts at 0
+
+To account for campaigns being removed, the effective campaign index is calculated as follows:
+
+each finished campaign adds 2^their index to "Finished Campaigns" (exponentials done by branches + loops)
+to get the effective campaign index, the remainder of "Finished Campaigns" / 2^index is used to identify which campaigns have been completed
+if "Finished Campaigns" % index^2 - index-to-test > 0 then that campaign has been played (assuming that you go down the indexs in reverse order)
+by counting the number of campaigns done with indexes less than the campaign index for the triggering mission, the effective index is found by: index - finished campaigns (indexes less than index)
+
+by using apply nodes, information can be fed into a single conversation/function to do all the mathematics by using player conditions (which are wipped after the calculations to avoid save bloat)
