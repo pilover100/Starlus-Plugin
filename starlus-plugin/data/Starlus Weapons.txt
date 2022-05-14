@@ -302,6 +302,8 @@ outfit "Starlus Light AM"
 		"anti-missile" 8
 		"velocity" 278
 		"lifetime" 1
+		"burst count" 5
+		"burst reload" 2
 		"reload" 5
 		"firing energy" 25
 		"firing heat" 5
@@ -329,10 +331,12 @@ outfit "Starlus Heavy AM"
 	"turret mounts" -1
 	weapon
 		"hit effect" "Starlus Heavy"
-		"anti-missile" 38
+		"anti-missile" 5
 		"velocity" 310
 		"lifetime" 1
-		"reload" 8
+		"burst reload" 1
+		"burst count" 10
+		"reload" 2
 		"firing energy" 50
 		"firing heat" 12
 	description "This is the heavy Anti-Missile used by the Starlus, a hard hitting beam keeps ships safe from even the strongest of missiles."
