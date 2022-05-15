@@ -8,9 +8,8 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-galaxy "Milky Way"
-	pos 0 0
-	sprite ui/galaxy
+galaxy "label starlus"
+	pos -353 800
 
 system "Starlax ce mei"
 	pos -326.918 819.538
@@ -631,7 +630,7 @@ system "Starlee le lar"
 		offset 356.689
 
 system "Starlee le-ba Ces"
-	pos -462.918 962.538
+	pos -482.918 962.538
 	government Starlus
 	habitable 806.68
 	link "carf deh le-ba"
