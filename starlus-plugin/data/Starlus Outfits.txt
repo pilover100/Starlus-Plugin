@@ -103,6 +103,7 @@ outfit "Starlus Sensor Array"
 	cost 1
 	thumbnail "outfit/unknown"
 	mass 5
+	"outfit space" -5
 	"tactical scan power" 50
 	description `This powerful sensor set is designed to provide real time combat information about vessels in the immediate vicinity of a Starlus ship from range to heat levels.`
 

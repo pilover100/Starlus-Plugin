@@ -120,7 +120,7 @@ ship "Rapier"
 		"heat dissipation" 0.85
 		"fuel capacity" 450
 		"cargo space" 12
-		"outfit space" 215
+		"outfit space" 225
 		"weapon capacity" 64
 		"engine capacity" 35
 		"Starlus Command" -4
