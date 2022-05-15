@@ -1,2 +1,4 @@
 starlus-plugin/data/commodities.txt
 .vscode/settings.json
+*.bak
+
