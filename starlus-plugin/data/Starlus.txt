@@ -62,7 +62,8 @@ shipyard "Starlus Basic"
 	"Scimitar"
 
 shipyard "Starlus Advanced"
-	"Sparrow"
+	"Katana"
+	"Odachi"
 
 phrase "Starlus Greetings"
 	word
@@ -305,7 +306,8 @@ phrase "Starlus Hostile"
 		"you have reduced our available materials surplus!"
 		"you are now an enemy of the Starlus!"
 		"you have done wrong in our society!"
-	replace "a %" "an "  # No vowels after just "a"!
+	replace
+		"a %" "an "  # No vowels after just "a"!
 
 phrase "Starlus Disabled Hostile"
 	word

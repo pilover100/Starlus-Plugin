@@ -310,7 +310,7 @@ outfit "Starlus Command Centre"
 	thumbnail "outfit/unknown"
 	"Starlus Command" 1  # Literally just to allow ships to fly and not be attribute locked
 	"Starlus Command points" -1  # To prevent ship selling to gain outfit
-	"unplunderable"  # Well why should the player need it?
+	"unplunderable" 1  # Well why should the player need it?
 	description `If you're reading this, you're cheating... or reading the data files.`
 
 outfit "Starlus-Human crew conversion"
@@ -321,7 +321,7 @@ outfit "Starlus-Human crew conversion"
 	thumbnail "outfit/unknown"
 	"Starlus Command" 1  # Attribute lock it to Starlus ships
 	"Starlus Command points" -1
-	"unplunderable"
+	"unplunderable"1
 	"bunks" -1  # Needs balancing out to fit, but likely just going to stick on as many as needed to reduce crew counts
 	"crew" -1  # Humans need fewer people than eels to run a ship
 	mass -5

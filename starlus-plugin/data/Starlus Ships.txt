@@ -10,12 +10,12 @@
 
 ship "Epee"
 	sprite "ship/epee"
-	licenses
-		"Starlus Ship"
 	thumbnail "thumbnail/epee"
 	swizzle 0
 	attributes
 		category "Fighter"
+		licenses
+			"Starlus Ship"
 		cost 950000
 		shields 750
 		hull 4000
@@ -64,12 +64,12 @@ ship "Epee"
 
 ship "Foil"
 	sprite "ship/foil"
-	licenses
-		"Starlus Ship"
 	thumbnail "thumbnail/foil"
 	swizzle 0
 	attributes
 		category "Drone"
+		licenses
+			"Starlus Ship"
 		cost 770000
 		shields 0
 		hull 2000
@@ -104,12 +104,12 @@ ship "Foil"
 
 ship "Rapier"
 	sprite "ship/rapier"
-	licenses
-		"Starlus Ship"
 	thumbnail "thumbnail/rapier"
 	swizzle 0
 	attributes
 		category "Interceptor"
+		licenses
+			"Starlus Ship"
 		cost 1200000
 		shields 1750
 		hull 4500
@@ -158,12 +158,12 @@ ship "Rapier"
 
 ship "Scimitar"
 	sprite "ship/scimitar"
-	licenses
-		"Starlus Ship"
 	thumbnail "thumbnail/scimitar"
 	swizzle 0
 	attributes
 		category "Light Warship"
+		licenses
+			"Starlus Ship"
 		cost 15750000
 		shields 8000
 		hull 31000
@@ -216,12 +216,12 @@ ship "Scimitar"
 
 ship "Sabre"
 	sprite "ship/sabre"
-	licenses
-		"Starlus Ship"
 	thumbnail "thumbnail/sabre"
 	swizzle 0
 	attributes
 		category "Medium Warship"
+		licenses
+			"Starlus Ship"
 		cost 1
 		shields 15000
 		hull 50000
@@ -232,8 +232,8 @@ ship "Sabre"
 		"heat dissipation" 0.73
 		"fuel capacity" 750
 		"cargo space" 40
-		"outfit space" 480
-		"weapon capacity" 227
+		"outfit space" 490
+		"weapon capacity" 235
 		"engine capacity" 68
 		"Starlus Command" -12
 		"Starlus Command points" 12
@@ -275,12 +275,12 @@ ship "Sabre"
 
 ship "Katana"
 	sprite "ship/katana"
-	licenses
-		"Starlus Ship"
 	thumbnail "thumbnail/katana"
 	swizzle 0
 	attributes
 		category "Medium Warship"
+		licenses
+			"Starlus Ship"
 		cost 1
 		shields 21000
 		hull 70000
@@ -291,8 +291,8 @@ ship "Katana"
 		"heat dissipation" 0.71
 		"fuel capacity" 750
 		"cargo space" 45
-		"outfit space" 564
-		"weapon capacity" 280
+		"outfit space" 575
+		"weapon capacity" 285
 		"engine capacity" 68
 		"Starlus Command" -12
 		"Starlus Command points" 12
@@ -334,12 +334,12 @@ ship "Katana"
 
 ship "Odachi"
 	sprite "ship/odachi"
-	licenses
-		"Starlus Ship"
 	thumbnail "thumbnail/odachi"
 	swizzle 0
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Starlus Ship"
 		cost 40000000
 		shields 28000
 		hull 90000
@@ -350,8 +350,8 @@ ship "Odachi"
 		"heat dissipation" 0.67
 		"fuel capacity" 850
 		"cargo space" 52
-		"outfit space" 930
-		"weapon capacity" 490
+		"outfit space" 950
+		"weapon capacity" 510
 		"engine capacity" 124
 		"Starlus Command" -12
 		"Starlus Command points" 12
