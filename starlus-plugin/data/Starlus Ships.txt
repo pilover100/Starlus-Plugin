@@ -340,13 +340,13 @@ ship "Odachi"
 	swizzle 0
 	attributes
 		category "Heavy Warship"
-		cost 1
-		shields 1
-		hull 1
-		"required crew" 50
-		bunks 60
-		mass 1
-		drag 2
+		cost 40000000
+		shields 28000
+		hull 90000
+		"required crew" 63
+		bunks 70
+		mass 1200
+		drag 4
 		"heat dissipation" 0.67
 		"fuel capacity" 850
 		"cargo space" 52
