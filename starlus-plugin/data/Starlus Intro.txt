@@ -80,16 +80,18 @@ mission "Starlus All Groups [0]"
 		never
 
 # Remnant String - because I want to get started with the main mission arc for the starlus this will be the only one for now until I write some others
+# Needs reworking, the remnant are going to want to be much more cautious than this
 
 mission "Starlus Remnant [1]"
-	name "Prepare First Contact Team"
+	name "Visit Taely"
 	description "Head to <planet> in order to prepare a team to investigate the species you've found."
 	source
 		government "Remnant"
 		not planet "Viminal"
 	destination "Viminal"
-	to offer
-		has "Starlus All Groups [0]: active"
+	to offer  # Disable the mission chain, remnant intro is under a revamp atm (mostly textual)
+#		has "Starlus All Groups [0]: active"
+		never
 	on offer
 		conversation
 			`Do you want to tell the Remnant about the new species you recently found south of human space?`
@@ -97,31 +99,30 @@ mission "Starlus Remnant [1]"
 				`	(Yes)`
 				`	(No, not now)`
 					defer
-			`	You make your way the spaceport on <origin> to what appears to be an information desk and inform the person sat behind it about the new species you've found.`
+			`	You make your way the spaceport on <origin> to the spaceport information desk and inform the remnant sat behind the counter about the new species you've found.`
 			branch sign
 				has "remnant: sign studies complete"
-			`	The attendant behind the desk chants her reply to you, "This discovery of yours is most certainly of interest to our communities, and whilst we may not be able to invest a large amount of resources to this venture we can almost certainly take steps to establish communication with this species."`
+			`	The attendant behind the desk chants her reply to you, "This discovery of yours is most certainly of interest to our community, and whilst we may not be able to invest a large amount of resources to this venture, we can almost certainly take steps to learn what we can from this species and help you establish contact with them."`
 				goto continue
 			label sign
-			`	The attendant behind the desk briskly signs her reply, "This discovery of yours is most certainly of interest to our communities, and whilst we may not be able to invest a large amount of resources to this venture we can almost certainly take steps to establish communication with this species."`
+			`	The attendant behind the desk briskly signs her reply, "This discovery of yours is most certainly of interest to our communities, and whilst we may not be able to invest a large amount of resources to this venture we can almost certainly take steps to learn what we can from this species and help you establish contact with them."`
 			label continue
-			`	"I believe that Xeno-engineering prefect Taely on <planet> will be best qualified to help you and organize an expeditionary team, I will send a message to her to expect you." the attendant concludes.`
+			`	"I believe that xeno-engineering Prefect Taely will be best qualified to help you and organize an expeditionary team, you may find her on <planet>. I will send a message ahead to her to expect you." the attendant concludes.`
 			choice
-				`	"Ok, I'm on my way!"`
+				`	"Ok, I will head there right away."`
 					accept
 				`	"I'd rather not, sorry."`
 					decline
 	on accept
-		fail "Starlus All Groups [0]"
+		fail "Starlus All Groups [0]"  # Now locked into the remnant chain
 
 mission "Starlus Remnant [2]"
-	name "Bring on the Remnant!"
-	description "Head to <planet> with the team of Remnant researchers to meet the new species you've found."
+	name "First contact"
+	description "Head to <planet> with the team of Remnant researchers in the <npc> to observe the new species you've found."
 	source "Viminal"
 	destination "Amnis Starlus Vita"
-	blocked "You need <bunks> of passenger and <tons> of cargo space to continue, return when you have space!"
+	blocked "You need <tons> of cargo space to continue, return when you have the space!"
 	cargo "Research Equipment" 25
-	passengers 15
 	to offer
 		has "Starlus Remnant [1]: done"
 	on offer
@@ -130,39 +131,25 @@ mission "Starlus Remnant [2]"
 			`	"I've heard you've found a new species that we might be interested in <first>?" she enquires`
 			choice
 				`	"Yes I have"`
-			`	"Excellent! This is definitely of great interest to us and I have assembled a team to meet them in their own environment on <planet>.", Taely continues.`
-			`	"Our Current plan is to visit these beings and attempt to create a dialog with them and compile a dictionary of their language so that we can talk with each other.`
-			`	"Once we've set up our research outpost though I'll need to come back here, our shipyards won't do well if I'm gone too long. Given that though, I'll definitely be interested in meeting these new aliens!" she trills.`
+			`	"Excellent! This is definitely of great interest to us, but at the same time we must maintain precautions." she signs. "To that extent, the <npc> will follow you to this new species and remain in orbit."`
 			choice
-				`	"Sure, let's do this!"`
-					goto load_up
-				`	"Ok, tell your team to prepare for the trip."`
-					goto load_up
-				`	"Actually, I've go better things to do."`
-					decline
-			label load_up
-			`	"Excellent! We'll begin loading up immediately. Let the Embers guide your path <first>" Taely finishes.`
-				accept
-	on complete
-		conversation
-			`You land the <ship> at the same aquatic mega-city you landed the first time you visited <planet> and the Remnant prepare to disembark.`
-			`	"Any advice before we first meet these people <first>?" ask Taely.`
+				`	"So we are not going to talk to them directly?"`
+					goto contact
+				`	"What am I going to be doing then in this mission?"`
+					goto player_action
+			label contact
+			`	"The remant research team will not establish contact, no. But we can help you begin to communicate with them if that is what you desire.", explains Taely.`
+			`	"So I am going down to the surface on my own then?"`
+			`	Taely signs the affiritive, "We believe it will be much safer for us if we do not directly have contact with them but we also appriciate that there is much you can learn from directly conversing with them. All that we ask is that you share what you learn with us, once you have made progress."`
+				goto decide
+			label player_action
+			`	"We need you <first>, to act as our go-between, it is too hazardous for us to directly communicate with this species so you will head to the surface alone whilst the <npc> remains in orbit.`
+			`	"The remnant appriciate that you will have much to learn from directly communicating with this species so all we ask is that you provide us with a copy of what you learn from your time on the surface." Taely signs.`
+			label decide
 			choice
-				`	"Just watch your step, you don't want to tread on one"`
-					goto tread
-				`	"Make sure you've got some good underwater equipment"`
-					goto kit
-				`	"No not really, good luck!"`
-			`	"Ok, meet us outside in the spaceport when you're ready and we'll get started" signs Taely.`
-				decline
-			label tread
-			`	"No, we certainly wouldn't want that would we?", Taely signs amusingly, "I suppose we should be should be careful, we don't want to have come to start a war here."`
-				goto end
-			label kit
-			`	"Yes, our underwater mics will be invaluable here, given what you've told us about this species they'll be essential to any communication here." Taely signs.`
-				goto end
-			label end
-			`	"Well I suppose we better get a move on and try communicating with them, meet us outside in the spaceport when you're ready." finishes Taley.`
+				`	"This sounds agreeable to me, I'll prepare the <ship> immediately!"`
+					accept
+			
 	on visit
 		dialog "You've arrived at <planet> but you've left some of your passengers or cargo behind! You better depart and wait for them to arrive."
 
@@ -232,6 +219,7 @@ mission "Starlus Remnant [4]"
 		dialog
 			`You have reached <planet>, but your escorts carrying the supplies haven't got here yet! Launch back into orbit and wait for them to arrive.`
 	on complete
+		event "label starlus space"
 		conversation
 			`"Greetings Captain" signs the lead researcher, "We see that you have bought us the supplies that we have requested to maintain long term operations here until we manage our own routine logistics route, in return would you like to look at anything in particular in our progress with the Starlus?"`
 			`	"Wait, 'Starlus'?" you ask.`
@@ -291,3 +279,7 @@ mission "Starlus Remnant [4]"
 			action
 				set "language: Starlus"  # This opens up the start of the starlus mission chain proper where the player cuts out the remnant and talks to them direct
 				log "Species" "Starlus" "A group of aquatic eels run by a technocratic government."
+
+event "label starlus space"
+	galaxy "label starlus"
+		sprite "label/starlus"
