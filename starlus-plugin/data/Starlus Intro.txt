@@ -232,6 +232,7 @@ mission "Starlus Remnant [4]"
 		dialog
 			`You have reached <planet>, but your escorts carrying the supplies haven't got here yet! Launch back into orbit and wait for them to arrive.`
 	on complete
+		event "label starlus space"
 		conversation
 			`"Greetings Captain" signs the lead researcher, "We see that you have bought us the supplies that we have requested to maintain long term operations here until we manage our own routine logistics route, in return would you like to look at anything in particular in our progress with the Starlus?"`
 			`	"Wait, 'Starlus'?" you ask.`
@@ -291,3 +292,7 @@ mission "Starlus Remnant [4]"
 			action
 				set "language: Starlus"  # This opens up the start of the starlus mission chain proper where the player cuts out the remnant and talks to them direct
 				log "Species" "Starlus" "A group of aquatic eels run by a technocratic government."
+
+event "label starlus space"
+	galaxy "label starlus"
+		sprite "label/starlus"

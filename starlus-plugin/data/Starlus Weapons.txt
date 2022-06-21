@@ -261,7 +261,7 @@ outfit `"Foreshadow" class beam Turret`
 		"hull damage" 250
 		"hit force" 20
 		"turret turn" 1
-		piercing 0.4
+		piercing 0.05
 	description `This is the ultimate weapon of the Starlus, capable of firing penetrating beams across a system to punch through even the thickest enemy armour. However, each shot has a catch: Due to the power required in an instant, each pulse of the laser beam requires 20 cartridges to store to energy required and to create the resulting beam. As a result, each shot is rather expensive at 12 thousand credits.`
 	description `This turret can hold up to 960 cartridges (96 tonnes) and is the largest offensive turret in the galaxy.`
 
@@ -271,7 +271,6 @@ effect "foreshadow impact"
 		"no repeat"
 	"lifetime" 30
 	"random angle" 360
-	"random frame rate" 15
 	"random velocity" 3
 	"velocity scale" -.0025
 
@@ -303,6 +302,8 @@ outfit "Starlus Light AM"
 		"anti-missile" 8
 		"velocity" 278
 		"lifetime" 1
+		"burst count" 5
+		"burst reload" 2
 		"reload" 5
 		"firing energy" 25
 		"firing heat" 5
@@ -330,10 +331,12 @@ outfit "Starlus Heavy AM"
 	"turret mounts" -1
 	weapon
 		"hit effect" "Starlus Heavy"
-		"anti-missile" 38
+		"anti-missile" 5
 		"velocity" 310
 		"lifetime" 1
-		"reload" 8
+		"burst reload" 1
+		"burst count" 10
+		"reload" 2
 		"firing energy" 50
 		"firing heat" 12
 	description "This is the heavy Anti-Missile used by the Starlus, a hard hitting beam keeps ships safe from even the strongest of missiles."
