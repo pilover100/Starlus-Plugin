@@ -119,8 +119,8 @@ outfit "Small Regeneration Station"
 	"outfit space" -23
 	"shield generation" 0.5
 	"shield energy" 0.5
-	"shield delay" 6
-	"depleted shield delay" 15
+	"shield delay" 30
+	"depleted shield delay" 120
 	"hull repair rate" 0.65
 	"hull energy" 0.6
 	"hull heat" 0.55
@@ -139,8 +139,8 @@ outfit "Medium Regeneration Station"
 	"hull repair rate" 1.64
 	"hull energy" 1.48
 	"hull heat" 1.39
-	"shield delay" 6
-	"depleted shield delay" 15
+	"shield delay" 30
+	"depleted shield delay" 120
 	description `A medium sized regenerator, designed to provide medium sized Starlus warships with ample repair facilities to patch up their hull in flight. However, as with all Starlus regenerators, it is unable to recharge shields whilst the ship is under fire.`
 
 outfit "Large Regeneration Station"
@@ -156,8 +156,8 @@ outfit "Large Regeneration Station"
 	"hull repair rate" 3.56
 	"hull energy" 3.2
 	"hull heat" 3
-	"shield delay" 6
-	"depleted shield delay" 15
+	"shield delay" 30
+	"depleted shield delay" 120
 	description `This is the largest Starlus regenerator, designed to keep even the largest of Starlus warships in perfect working order. Much like its smaller cousins, it doesn't regenerate shields when the ship is under fire, but is a mighty in-flight hull repair facility.`
 
 # Engines
@@ -188,7 +188,7 @@ outfit "'Sutlej' class engine"
 	"afterburner energy" 3.3
 	"afterburner heat" 3.85
 	"afterburner fuel" 0.17
-	description ``
+	description `This is the smallest of Starlus engines, designed for their fighters and drones. It isn't the most powerful engine set but combines thrust and steering into one unit, it also can increase thrust drasticaly at the expense of efficiency.`
 
 outfit "'Yukon' class engine"
 	category "Engines"
@@ -217,7 +217,8 @@ outfit "'Yukon' class engine"
 	"afterburner energy" 3.9
 	"afterburner heat" 4.5
 	"afterburner fuel" 0.2
-	description ``
+	description `This is a small engine, designed to fit inside the Starlus' lighter warships and logistical vessels. As with all their engines, it has the capability to increase thrust on demand.`
+	description `	Starlus engines can have their thrust increased through separate booster modules at the expense of more energy being consumed and heat produced.`
 
 outfit "'Salado' class engine"
 	category "Engines"
@@ -246,7 +247,8 @@ outfit "'Salado' class engine"
 	"afterburner energy" 6.2
 	"afterburner heat" 7.2
 	"afterburner fuel" 0.23
-	description ``
+	description `This is a larger engine designed by the Starlus to be used in their medium warships and heavier logistics vessels. As with other engines designed by the Starlus, it can increase thrust on demand at the expense of extra energy costs and waste heat.`
+	description `	Starlus engines can have their thrust increased through separate booster modules at the expense of more energy being consumed and heat produced.`
 
 outfit "'Lobourg' class engine"
 	category "Engines"
@@ -275,7 +277,8 @@ outfit "'Lobourg' class engine"
 	"afterburner energy" 12.6
 	"afterburner heat" 14.5
 	"afterburner fuel" 0.25
-	description ``
+	description `This is the largest engine designed by the Starlus, suitible for only their heaviest warships. Whilst it isn't as powerful compared to the atomic engines of deep sky, it is more efficient and can boost its thrust on demand when needed.`
+	description `	Starlus engines can have their thrust increased through separate booster modules at the expense of more energy being consumed and heat produced.`
 
 outfit "'Volta' Class Engine Booster"
 	category "Engines"
