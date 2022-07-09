@@ -37,9 +37,9 @@ ship "Epee"
 			"hit force" 10
 	outfits
 		"Neutron Cannon" 3
-		"'Geyser' Class Reactor"
+		"P001 'Geyser' Class Reactor"
 		"Starlus Small Battery" 3
-		"'Sutlej' class engine"
+		"E001 'Sutlej' class engine"
 		"Starlus Command Centre" 3
 	gun 0 -53.5
 	gun 26.5 -10
@@ -90,9 +90,9 @@ ship "Foil"
 			"hit force" 10
 	outfits
 		"Neutron Cannon"
-		"'Geyser' Class Reactor"
+		"P001 'Geyser' Class Reactor"
 		"Starlus Small Battery"
-		"'Sutlej' class engine"
+		"E001 'Sutlej' class engine"
 	gun 0 -54
 	engine 0 29
 		zoom 1.4
@@ -136,10 +136,10 @@ ship "Rapier"
 		"Neutron Cannon" 2
 		"Starlus Sensor Array"
 		"Small Regeneration Station"
-		"'Brinicle' Class Reactor"
+		"P002 'Brinicle' Class Reactor"
 		"Starlus Large Battery"
 		"Hyperdrive"
-		"'Sutlej' class engine"
+		"E001 'Sutlej' class engine"
 		"Starlus Command Centre" 4
 	gun -21 -25 "Pulse-Torpedo Launcher"
 	gun 21 -25 "Pulse-Torpedo Launcher"
@@ -192,10 +192,10 @@ ship "Scimitar"
 		"Pulse-Torpedo" 64
 		"Starlus Sensor Array"
 		"Small Regeneration Station"
-		"'Brinicle' Class Reactor"
+		"P002 'Brinicle' Class Reactor"
 		"Starlus Large Battery"
 		"Hyperdrive"
-		"'Yukon' class engine"
+		"E002 'Yukon' class engine"
 		"Starlus Command Centre" 10
 	gun 0 0 "Neutron Cannon"
 	gun 0 0 "Neutron Cannon"
@@ -251,8 +251,8 @@ ship "Sabre"
 		"Medium Regeneration Station"
 		"Starlus Sensor Array"
 		"Starlus Large Battery"
-		"'Pororoca' Class Reactor"
-		"'Salado' class engine"
+		"P003 'Pororoca' Class Reactor"
+		"E003 'Salado' class engine"
 		"Starlus Command Centre" 12
 	gun 0 0
 	gun 0 0
@@ -311,8 +311,8 @@ ship "Katana"
 		"Medium Regeneration Station"
 		"Starlus Sensor Array"
 		"Starlus Large Battery" 2
-		"'Maelstrom' Class Reactor"
-		"'Salado' class engine"
+		"P004 'Maelstrom' Class Reactor"
+		"E003 'Salado' class engine"
 		"Starlus Command Centre" 12
 	gun 0 0
 	gun 0 0
@@ -370,9 +370,9 @@ ship "Odachi"
 		"Large Regeneration Station"
 		"Starlus Sensor Array"
 		"Starlus Large Battery" 3
-		"'Maelstrom' Class Reactor"
-		"'Geyser' Class Reactor"
-		"'Lobourg' class engine"
+		"P004 'Maelstrom' Class Reactor"
+		"P001 'Geyser' Class Reactor"
+		"E004 'Lobourg' class engine"
 		"Starlus Command Centre" 12
 	gun 0 0
 	gun 0 0
