@@ -100,7 +100,7 @@ ship "Foil"
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `This is a small Starlus drone, minimally armed and fully automatic it is used where extra firepower is needed in battle without risking too many lives.`
-	description `Because the Foil does not have the same thermal mass that larger crewed ships have, the Starlus have fitted it with a small integrated cooling system to prevent it from over heating.`
+	description `Because the Foil does not have the same thermal mass that larger crewed ships have, the Starlus have fitted it with a small integrated cooling system to prevent it from overheating.`
 
 ship "Rapier"
 	sprite "ship/rapier"
@@ -154,7 +154,7 @@ ship "Rapier"
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `This heavy interceptor is a powerful enemy when angered, armed with long range weapons and capable of stripping both shields and tearing through hull this little craft is not to be underestimated.`
-	description `As this is the first standalone ship the Starlus designed, it is equipped with integrated pumps and machinery which allow the ship to remain cool even under intense loads. Now though, the starlus use this vessel as a scouting platform and as a surveillance platform through their region of space.`
+	description `As this is the first standalone ship the Starlus designed, it is equipped with integrated pumps and machinery which allow the ship to remain cool even under intense loads. Now though, the Starlus use this vessel as a scouting platform and as a surveillance platform through their region of space.`
 
 ship "Scimitar"
 	sprite "ship/scimitar"
@@ -212,7 +212,7 @@ ship "Scimitar"
 		over
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
-	description `This is the first of the thorougher-bred warships developed by the Starlus when they encountered various violent species in their long storied past. This vessel has been revised several times over, each iteration more capable than the last. The vessel's current stock configuration allows it to fill in many roles within the Starlus military with both capable shield strippers and some heavy hull damage as well.`
+	description `This is the first of the thorougher-bred warships developed by the Starlus when they encountered various violent species in their long storied past. This vessel has been revised several times over, each iteration more capable than the last. The vessel's stock configuration allows it to fill in many roles within the Starlus military with shield stripping capability and some heavy hull damage as well.`
 
 ship "Sabre"
 	sprite "ship/sabre"
