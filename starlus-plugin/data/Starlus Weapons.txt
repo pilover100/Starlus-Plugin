@@ -30,16 +30,16 @@ outfit "Neutron Cannon"
 		"inaccuracy" 2
 		velocity 40
 		"lifetime" 40
-		reload 10
+		reload 20
 		"burst count" 3
 		"burst reload" 2
 		"firing energy" 30
 		"firing heat" 50
 		"firing force" 2
-		"shield damage" 5
-		"hull damage" 75
+		"shield damage" 10
+		"hull damage" 130
 		"hit force" 25
-	description `This light cannon is the main weapon of choice for lighter Starlus ships. Capable of striking targets even a considerable distance away with a burst of 3 shots.The main disadvantage of this weapon though is the inability to penetrate shields making it highly ineffective against shielded targets.`
+	description `This light cannon is the main weapon of choice for lighter Starlus ships. Capable of striking targets even a considerable distance away with a burst of 3 shots. The main disadvantage of this weapon though is the inability to penetrate shields making it highly ineffective against shielded targets.`
 
 outfit "Neutron Turret"
 	category "Turrets"
@@ -61,17 +61,17 @@ outfit "Neutron Turret"
 		inaccuracy 2
 		velocity 40
 		lifetime 40
-		reload 5
-		"burst count" 3
+		reload 20
+		"burst count" 6
 		"burst reload" 2
 		"firing energy" 30
 		"firing heat" 50
 		"firing force" 2
-		"shield damage" 5
-		"hull damage" 75
+		"shield damage" 10
+		"hull damage" 130
 		"hit force" 25
 		"turret turn" 3
-	description `The light cannon of the Starlus has seen itself mounted upon a turret for target tracking and a large field of fire on larger, slower ships which cannot make good use of their guns. To make as good use of the turret as possible, 2 cannons have been mounted and each fire in sequence for a total of 12 shots each second.`
+	description `The light cannon of the Starlus has seen itself mounted upon a turret for target tracking and a large field of fire on larger, slower ships which cannot make good use of their guns. To make as good use of the turret as possible, 2 cannons have been mounted and each fire in sequence for a fire rate of nearly 3 shots a second.`
 	description `Naturally, the turreted version of the neutron cannon carries the same disadvantage as its forwards facing counterpart and is highly ineffective against shields.`
 
 effect "neutron impact"
