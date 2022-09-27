@@ -41,19 +41,18 @@ ship "Epee"
 		"Starlus Small Battery" 3
 		"E001 'Sutlej' class engine"
 		"Starlus Command Centre" 3
-	gun 0 -53.5
-	gun 26.5 -10
-	gun -26.5 -10
-	engine 0 28.5
-		zoom 1.4
-		over
-	"steering engine" -6 22
-		zoom 1
+	gun 0 -33.5
+	gun -29 10
+	gun 29 10
+	engine -3.5 32
+		under
+	engine 3.5 32
+		under
+	"steering engine" -4.5 30
 		angle 90
 		over
 		left
-	"steering engine" 6 22
-		zoom 1
+	"steering engine" 4.5 30
 		angle -90
 		over
 		right
@@ -93,8 +92,8 @@ ship "Foil"
 		"P001 'Geyser' Class Reactor"
 		"Starlus Small Battery"
 		"E001 'Sutlej' class engine"
-	gun 0 -54
-	engine 0 29
+	gun 0 -41
+	engine 0 24.5
 		zoom 1.4
 		under
 	explode "tiny explosion" 15
@@ -141,16 +140,20 @@ ship "Rapier"
 		"Hyperdrive"
 		"E001 'Sutlej' class engine"
 		"Starlus Command Centre" 4
-	gun -21 -25 "Pulse-Torpedo Launcher"
-	gun 21 -25 "Pulse-Torpedo Launcher"
-	gun 31 5 "Neutron Cannon"
-	gun -31 5 "Neutron Cannon"
-	engine -16.5 41.5
-		zoom 1
+	gun -18.5 -11.5 "Neutron Cannon"
+	gun 18.5 -11.5 "Neutron Cannon"
+	gun -30.5 8 "Pulse-Torpedo Launcher"
+	gun 30.5 8 "Pulse-Torpedo Launcher"
+	engine -13 43.5
 		under
-	engine 16.5 41.5
-		zoom 1
+	engine 13 43.5
 		under
+	"steering engine" -14.5 42
+		angle 90
+		left
+	"steering engine" 14.5 42
+		angle -90
+		right
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `This heavy interceptor is a powerful enemy when angered, armed with long range weapons and capable of stripping both shields and tearing through hull this little craft is not to be underestimated.`
