@@ -25,8 +25,9 @@ outfitter "Starlus Basic"  # Basic stuff, small power and engines, neutron canno
 	"Hyperdrive"
 	"Cargo Scanner"
 	"Outfit Scanner"
-	"Neutron Cannon"
-	"Neutron Turret"
+	"Xi Class Neutron Cannon"
+	"Xi Class Neutron Turret"
+	"Kappa Class Anti-Fighter Turret"
 	"Starlus Light AM"
 	"P001 'Geyser' Class Reactor"
 	"Small Regeneration Station"
@@ -34,8 +35,9 @@ outfitter "Starlus Basic"  # Basic stuff, small power and engines, neutron canno
 	"Starlus Small Battery"
 
 outfitter "Starlus Intermediate"  # Larger engines and reactors, torpedo launchers, heavy AM
-	"Pulse-Torpedo Launcher"
-	"Ion Streamer"
+	"Phoenix Class Torpedo Launcher"
+	"Zeta Class Ion Repeater"
+	"Tau Class Major Artillery Turret"
 	"Starlus Heavy AM"
 	"P002 'Brinicle' Class Reactor"
 	"P003 'Pororoca' Class Reactor"
@@ -46,14 +48,16 @@ outfitter "Starlus Intermediate"  # Larger engines and reactors, torpedo launche
 	"E005-B 'Volta' Class Engine Booster"
 
 outfitter "Starlus Advanced"  # Their largest reactors, engines, regens and the mighty foreshadow turret
-	`"Foreshadow" class beam Turret`
+	`Alpha Class Beam Artillery`
+	"Orion Class HEKI Launcher"
 	"P004 'Maelstrom' Class Reactor"
 	"Large Regeneration Station"
 	"E004 'Lobourg' class engine"
 
 outfitter "Starlus Ammo"  # Only will contain pulse torpedoes and foreshadow cartridges for rearming ships and a map
-	"Pulse-Torpedo"
-	"Foreshadow Cartridge"
+	"Phoenix Class Torpedo"
+	"Alpha Artillery Cartridge"
+	"Orion Class HEKI Missile"
 
 shipyard "Starlus Basic"
 	"Epee"
