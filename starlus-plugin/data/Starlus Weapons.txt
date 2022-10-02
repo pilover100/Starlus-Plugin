@@ -413,6 +413,74 @@ effect "cartridge eject"
 	"random velocity" -1
 	"random spin" 5
 
+# Lighter artillery turret
+
+outfit "Tau Class Major Artillery Turret"
+	category "Turrets"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/unknown"
+	mass 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		sprite "projectile/tau art"
+			"frame rate" 10
+			"random start frame"
+			rewind
+		sound "tau fire"
+		"hit effect" "tau impact" 2
+		inaccuracy 0.1
+		velocity 40
+		lifetime 100
+		reload 60
+		"burst count" 2
+		"burst reload" 30
+		"firing energy" 30
+		"firing heat" 50
+		"firing force" 2
+		"shield damage" 100
+		"hull damage" 430
+		"hit force" 50
+		"turret turn" 1.2
+	description `This turret is the main defensive artillery of the Starlus. It fires a pair of 120mm shells towards a target roughly half a second appart each time it fires to increase the likelyhood of hitting the target`
+	description `This turret is mostly utilised on medium Starlus warships as it is both reliable and powerful`
+
+# Anti fighter turret - pretty potent but short range
+
+outfit "Kappa Class Anti-Fighter Turret"
+	category "Turrets"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/unknown"
+	mass 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		sprite "projectile/kappa"
+			"frame rate" 10
+			"random start frame"
+			rewind
+		sound "tau fire"
+		"hit effect" "tau impact" 2
+		inaccuracy 3
+		velocity 50
+		lifetime 5
+		reload 6
+		"burst count" 20
+		"burst reload" 3
+		"firing energy" 10
+		"firing heat" 5
+		"shield damage" 50
+		"hull damage" 80
+		"hit force" 5
+		"turret turn" 3.25
+	description `This turret is a potent anti-fighter turret. whilst it has very short range it can fire 20 rounds each second at a target causing devestating damage against strike craft that come within range.`
+
 # Anti Missile, one fast light AM (like korath) and one slower heavy AM (Like remnant)
 
 # Light anti-missile
