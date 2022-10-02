@@ -36,7 +36,7 @@ ship "Epee"
 			"hull damage" 100
 			"hit force" 10
 	outfits
-		"Neutron Cannon" 3
+		"Xi Class Neutron Cannon" 3
 		"P001 'Geyser' Class Reactor"
 		"Starlus Small Battery" 3
 		"E001 'Sutlej' class engine"
@@ -88,7 +88,7 @@ ship "Foil"
 			"hull damage" 100
 			"hit force" 10
 	outfits
-		"Neutron Cannon"
+		"Xi Class Neutron Cannon"
 		"P001 'Geyser' Class Reactor"
 		"Starlus Small Battery"
 		"E001 'Sutlej' class engine"
@@ -130,9 +130,9 @@ ship "Rapier"
 			"hull damage" 100
 			"hit force" 10
 	outfits
-		"Pulse-Torpedo Launcher" 2
-		"Pulse-Torpedo" 64
-		"Neutron Cannon" 2
+		"Phoenix Class Torpedo Launcher" 2
+		"Phoenix Class Torpedo" 64
+		"Xi Class Neutron Cannon" 2
 		"Starlus Sensor Array"
 		"Small Regeneration Station"
 		"P002 'Brinicle' Class Reactor"
@@ -140,10 +140,10 @@ ship "Rapier"
 		"Hyperdrive"
 		"E001 'Sutlej' class engine"
 		"Starlus Command Centre" 4
-	gun -18.5 -11.5 "Neutron Cannon"
-	gun 18.5 -11.5 "Neutron Cannon"
-	gun -30.5 8 "Pulse-Torpedo Launcher"
-	gun 30.5 8 "Pulse-Torpedo Launcher"
+	gun -18.5 -11.5 "Xi Class Neutron Cannon"
+	gun 18.5 -11.5 "Xi Class Neutron Cannon"
+	gun -30.5 8 "Phoenix Class Torpedo Launcher"
+	gun 30.5 8 "Phoenix Class Torpedo Launcher"
 	engine -13 43.5
 		under
 	engine 13 43.5
@@ -188,11 +188,11 @@ ship "Scimitar"
 			"hull damage" 100
 			"hit force" 10
 	outfits
-		"Neutron Cannon" 2
-		"Ion Streamer" 2
-		"Pulse-Torpedo Launcher" 2
+		"Xi Class Neutron Cannon" 2
+		"Zeta Class Ion Repeater" 2
+		"Phoenix Class Torpedo Launcher" 2
 		"Starlus Light AM"
-		"Pulse-Torpedo" 64
+		"Phoenix Class Torpedo" 64
 		"Starlus Sensor Array"
 		"Small Regeneration Station"
 		"P002 'Brinicle' Class Reactor"
@@ -200,12 +200,12 @@ ship "Scimitar"
 		"Hyperdrive"
 		"E002 'Yukon' class engine"
 		"Starlus Command Centre" 10
-	gun 0 0 "Neutron Cannon"
-	gun 0 0 "Neutron Cannon"
-	gun 0 0 "Ion Streamer"
-	gun 0 0 "Ion Streamer"
-	gun 0 0 "Pulse-Torpedo Launcher"
-	gun 0 0 "Pulse-Torpedo Launcher"
+	gun 0 0 "Xi Class Neutron Cannon"
+	gun 0 0 "Xi Class Neutron Cannon"
+	gun 0 0 "Zeta Class Ion Repeater"
+	gun 0 0 "Zeta Class Ion Repeater"
+	gun 0 0 "Phoenix Class Torpedo Launcher"
+	gun 0 0 "Phoenix Class Torpedo Launcher"
 	turret 0 0 "Starlus Light AM"
 	engine 0 0
 		zoom 1
@@ -246,11 +246,11 @@ ship "Sabre"
 			"hull damage" 100
 			"hit force" 10
 	outfits
-		"Pulse-Torpedo Launcher" 2
-		"Pulse-Torpedo" 64
-		"Neutron Turret" 1
+		"Phoenix Class Torpedo Launcher" 2
+		"Phoenix Class Torpedo" 64
+		"Xi Class Neutron Turret" 1
 		"Starlus Light AM"
-		"Ion Streamer" 4
+		"Zeta Class Ion Repeater" 4
 		"Medium Regeneration Station"
 		"Starlus Sensor Array"
 		"Starlus Large Battery"
@@ -305,11 +305,11 @@ ship "Katana"
 			"hull damage" 100
 			"hit force" 10
 	outfits
-		"Pulse-Torpedo Launcher" 2
-		"Pulse-Torpedo" 64
-		`"Foreshadow" class beam Turret`
-		"Foreshadow Cartridge" 960
-		"Neutron Turret" 2
+		"Phoenix Class Torpedo Launcher" 2
+		"Phoenix Class Torpedo" 64
+		`Alpha Class Beam Artillery`
+		"Alpha Artillery Cartridge" 960
+		"Xi Class Neutron Turret" 2
 		"Starlus Light AM" 2
 		"Medium Regeneration Station"
 		"Starlus Sensor Array"
@@ -364,11 +364,11 @@ ship "Odachi"
 			"hull damage" 100
 			"hit force" 10
 	outfits
-		"Pulse-Torpedo Launcher" 4
-		"Pulse-Torpedo" 128
-		`"Foreshadow" class beam Turret` 2
-		"Foreshadow Cartridge" 1920
-		"Neutron Turret" 3
+		"Phoenix Class Torpedo Launcher" 4
+		"Phoenix Class Torpedo" 128
+		`Alpha Class Beam Artillery` 2
+		"Alpha Artillery Cartridge" 1920
+		"Xi Class Neutron Turret" 3
 		"Starlus Heavy AM" 2
 		"Large Regeneration Station"
 		"Starlus Sensor Array"

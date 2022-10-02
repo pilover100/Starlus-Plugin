@@ -10,7 +10,7 @@
 
 # Neutron tech
 
-outfit "Neutron Cannon"
+outfit "Xi Class Neutron Cannon"
 	category "Guns"
 	licenses
 		"Starlus Outfit"
@@ -41,7 +41,7 @@ outfit "Neutron Cannon"
 		"hit force" 25
 	description `This light cannon is the main weapon of choice for lighter Starlus ships. Capable of striking targets even a considerable distance away with a burst of 3 shots. The main disadvantage of this weapon though is the inability to penetrate shields making it highly ineffective against shielded targets.`
 
-outfit "Neutron Turret"
+outfit "Xi Class Neutron Turret"
 	category "Turrets"
 	licenses
 		"Starlus Outfit"
@@ -72,7 +72,7 @@ outfit "Neutron Turret"
 		"hit force" 25
 		"turret turn" 3
 	description `The light cannon of the Starlus has seen itself mounted upon a turret for target tracking and a large field of fire on larger, slower ships which cannot make good use of their guns. To make as good use of the turret as possible, 2 cannons have been mounted and each fire in sequence for a fire rate of nearly 3 shots a second.`
-	description `Naturally, the turreted version of the neutron cannon carries the same disadvantage as its forwards facing counterpart and is highly ineffective against shields.`
+	description `Naturally, the turreted version of the Xi Neutron Cannon carries the same disadvantage as its forwards facing counterpart and is highly ineffective against shields.`
 
 effect "neutron impact"
 	sprite "effect/neutron impact"
@@ -87,7 +87,7 @@ effect "neutron impact"
 
 # Pulse Tech
 
-outfit "Pulse-Torpedo"
+outfit "Phoenix Class Torpedo"
 	plural "Pulse-Torpedoes"
 	category "Ammunition"
 	licenses
@@ -96,7 +96,7 @@ outfit "Pulse-Torpedo"
 	thumbnail "outfit/unknown"
 	mass 0.375
 	"Pulse Torp Capacity" -1
-	description "The ammo for the shield stripping Pulse-Torpedo Launcher, capable of weaving between asteroids and ships and the bulk of AM fire on the battlefield until it makes its final strike."
+	description "The ammo for the shield stripping Phoenix Torpedo Launcher, capable of weaving between asteroids and ships and the bulk of AM fire on the battlefield until it makes its final strike."
 	description "Each Pulse-Torpedo launcher can hold up to 32 of these."
 
 outfit "Pulse-Torpedo armed"
@@ -120,7 +120,7 @@ outfit "Pulse-Torpedo armed"
 		"hit force" 100
 		"missile strength" 20
 
-outfit "Pulse-Torpedo Launcher"
+outfit "Phoenix Class Torpedo Launcher"
 	category "Secondary Weapons"
 	licenses
 		"Starlus Outfit"
@@ -136,7 +136,7 @@ outfit "Pulse-Torpedo Launcher"
 			"frame rate" 30
 			rewind
 		sound "thunderhead"
-		ammo "Pulse-Torpedo"
+		ammo "Phoenix Class Torpedo"
 		icon "icon/pulse torp"
 		"submunition" "Pulse-Torpedo armed"
 		"split range" 200
@@ -159,12 +159,12 @@ outfit "Pulse-Torpedo Launcher"
 		"missile strength" 50
 		phasing
 		parallel
-	description `The Pulse-Torpedo launcher is the main shield stripping weapon of the Starlus, capable of stripping enemy shields from a considerable distance away. Each launcher fires volleys of 2 missiles each time it fires for an average rate of 2 torpedoes every second.`
+	description `The Phoenix Class Pulse-Torpedo launcher is the main shield stripping weapon of the Starlus, capable of stripping enemy shields from a considerable distance away. Each launcher fires volleys of 2 torpedoes each time it fires for an average rate of 2 torpedoes every second.`
 	description `The on board guidance systems aboard the torpedo are specialized in payload delivery and can avoid most obstacles as it approaches its target, however once it is within striking distance and the torpedo is finally armed it is no longer able to dodge other obstacles.`
 
 # Ion Streamer
 
-outfit "Ion Streamer"
+outfit "Zeta Class Ion Repeater"
 	category "Guns"
 	cost 1650000
 	thumbnail "outfit/unknown"
@@ -180,13 +180,15 @@ outfit "Ion Streamer"
 		"submunition" "Starlus Ion Fragment" 3
 		"velocity" 35
 		"lifetime" 3
-		"reload" 1
+		"burst count" 180
+		"burst reload" 1
+		reload 1
 		"firing energy" 2.9
 		"firing heat" 12.2
-		"firing force" 9
-		"hit force" 3
+		"firing force" 4.5
+		"hit force" 1.5
 		"shield damage" 7.5
-		"hull damage" 2.23
+		"hull damage" 1.5
 	description "This is the shield stripping Starlus weapon of choice for medium range combat. Very similar to the Sheragi weapons, this produces a bombardment of ions that soon strips away enemy shields."
 
 outfit "Starlus Ion Fragment"
@@ -215,20 +217,148 @@ effect "Starlus ion impact"
 	"velocity scale" -0.01
 	"random frame rate" 3
 
+# Orion HEKI missile
+
+outfit "Orion Class HEKI Missile"
+	category "Ammunition"
+	licenses
+		"Starlus Outfit"
+	cost 20
+	thumbnail "outfit/unknown"
+	mass 0.2
+	"Orion HEKI Capacity" -1
+	description "This missile is ammo for the Orion Class HEKI launcher. Each missile is a multi-stage missile that intercepts a vessel, then detonates to release a relativistic projectile that slices through armour plating like butter."
+	description "Each Orion Class HEKI Launcher can hold up to 20 of these missiles"
+
+outfit "Orion Class HEKI Launcher"
+	category "Secondary Weapons"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/unknown"
+	mass 10
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	"Orion HEKI Capacity" 20
+	weapon
+		sprite "projectile/orion HEKI"
+			"frame rate" 30
+			rewind
+		sound "thunderhead"
+		ammo "Orion Class HEKI Missile"
+		icon "icon/orion HEKI"
+		"submunition" "orion HEKI stage I"
+		"fire effect" "meteor fire"
+		"hit effect" "medium explosion"
+		"inaccuracy" 7
+		velocity 5
+		lifetime 60
+		reload 90
+		"firing energy" 20
+		"firing heat" 40
+		"acceleration" 2.4
+		drag .1
+		turn 0
+		homing 4
+		"radar tracking" 0.7
+		"optical tracking" 0.6
+		"missile strength" 20
+		parallel
+	description `The Orion High Explosive Kinetic Impact Missile is a heavy missile system designed to punch through heavy armour plating aboard larger ships. The missile itself is comprised of 2 stages and the warhead which detonates when close to the target forcing a projectile into the armour plating of its target. Because of the final speed of the projectile, this weapon can pierce through shields to some degree`
+	description `The on board guidance systems aboard the missile are specialized in payload delivery and can avoid most obstacles as it approaches its target once launched. However once it is within striking distance and the missile is finally armed it is no longer able to dodge other obstacles in its path.`
+
+outfit "orion HEKI stage I"
+	weapon
+		sprite "projectile/orion HEKI"
+			"frame rate" 30
+			rewind
+		"hit effect" "small explosion"
+		"die effect" "missile death"
+		"submunition" "orion HEKI stage II"
+		"split range" 1000
+		lifetime 600
+		velocity 4
+		acceleration 2.4
+		drag .1
+		turn 3
+		homing 4
+		"radar tracking" 0.7
+		"optical tracking" 0.6
+		"missile strength" 70
+		phasing
+
+outfit "orion HEKI stage II"
+	weapon
+		sprite "projectile/orion HEKI II"
+			"frame rate" 30
+			rewind
+		"hit effect" "small explosion"
+		"die effect" "missile death"
+		"submunition" "orion HEKI stage III"
+		"split range" 150
+		lifetime 300
+		velocity 4
+		acceleration 4.8
+		drag .1
+		turn 3
+		homing 4
+		"radar tracking" 0.7
+		"optical tracking" 0.6
+		"shield damage" 800
+		"hull damage" 100
+		"discharge damage" 7
+		"hit force" 100
+		"missile strength" 70
+		phasing
+
+outfit "orion HEKI stage III"
+	weapon
+		sprite "projectile/orion HEKI II"
+			"frame rate" 30
+			rewind
+		"hit effect" "small explosion"
+		"die effect" "missile death"
+		"submunition" "orion HEKI slug"
+		"split range" 50
+		lifetime 300
+		velocity 4
+		acceleration 4.8
+		drag .1
+		turn 3
+		homing 2  # Force the missile to point dead at the target, this is because the projectile goes straight out and won't be as slow as the missile is so can't utilise any "lead"
+		"radar tracking" 0.7
+		"optical tracking" 0.6
+		"missile strength" 20
+
+outfit "orion HEKI slug"
+	weapon
+		sprite "projectile/orion HEKI slug"
+			"frame rate" 30
+			rewind
+		"hit effect" "small explosion"
+		"die effect" "missile death"
+		lifetime 30
+		velocity 10
+		"shield damage" 100
+		"hull damage" 800
+		"hit force" 90
+		piercing 0.1
+
 # Beam turret
 
-outfit "Foreshadow Cartridge"
+outfit "Alpha Artillery Cartridge"
 	category "Ammunition"
 	licenses
 		"Starlus Outfit"
 	cost 600
 	thumbnail "outfit/unknown"
 	mass 0.1
-	"Foreshadow Cartridge Capacity" -1
-	description "The ammo for the fearsome Foreshadow beam turret, each cartridge is essentially a supercapacitor capable of dispelling its charge into a destructive beam that is focused into a penetrating laser that can strike a target a considerable distance away. Because of the power involved, each cartridge is single use only but the blast can even damage the hull when shields are still up."
-	description "Each Foreshadow turret can hold up to 960 of these."
+	"Alpha Artillery Cartridge Capacity" -1
+	description "The ammo for the fearsome Alpha Class beam turret, each cartridge is essentially a supercapacitor capable of dispelling its charge into a destructive beam that is focused into a penetrating laser that can strike a target a considerable distance away. Because of the power involved, each cartridge is single use only but the blast can even damage the hull when shields are still up."
+	description "Each Alpha Class turret can hold up to 960 of these."
 
-outfit `"Foreshadow" class beam Turret`
+outfit `Alpha Class Beam Artillery`
 	category "Turrets"
 	licenses
 		"Starlus Outfit"
@@ -238,17 +368,17 @@ outfit `"Foreshadow" class beam Turret`
 	"outfit space" -136
 	"weapon capacity" -136
 	"turret mounts" -1
-	"Foreshadow Cartridge Capacity" 960
+	"Alpha Artillery Cartridge Capacity" 960
 	weapon
-		sprite "projectile/foreshadow"
+		sprite "projectile/alpha artillery"
 			"frame rate" 12
 			"random start frame"
 			rewind
-		sound "foreshadow"
-		"hit effect" "foreshadow impact" 5
+		sound "alpha"
+		"hit effect" "alpha impact" 5
 		"fire effect" "cartridge eject"
-		ammo "Foreshadow Cartridge"
-		icon "icon/foreshadow"
+		ammo "Alpha Artillery Cartridge"
+		icon "icon/alpha"
 		inaccuracy 0.1
 		velocity 4000
 		lifetime 1
@@ -263,10 +393,10 @@ outfit `"Foreshadow" class beam Turret`
 		"turret turn" 1
 		piercing 0.05
 	description `This is the ultimate weapon of the Starlus, capable of firing penetrating beams across a system to punch through even the thickest enemy armour. However, each shot has a catch: Due to the power required in an instant, each pulse of the laser beam requires 20 cartridges to store to energy required and to create the resulting beam. As a result, each shot is rather expensive at 12 thousand credits.`
-	description `This turret can hold up to 960 cartridges (96 tonnes) and is the largest offensive turret in the galaxy.`
+	description `This turret can hold up to 960 cartridges (96 tonnes) and is the largest offensive turret in Starlus Space.`
 
-effect "foreshadow impact"
-	sprite "effect/foreshadow impact"
+effect "alpha impact"
+	sprite "effect/alpha impact"
 		"frame rate" 10
 		"no repeat"
 	"lifetime" 30
