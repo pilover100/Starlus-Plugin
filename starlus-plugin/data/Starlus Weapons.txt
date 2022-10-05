@@ -275,6 +275,7 @@ effect "orion trail"
 	lifetime 60
 	"random angle" 180
 	"random spin" 10
+	"velocity scale" 0.1
 
 effect "orion detonate"
 	sprite "effect/explosion/large"
@@ -291,7 +292,7 @@ outfit "orion HEKI stage I"
 			rewind
 		"hit effect" "small explosion"
 		"die effect" "missile death"
-		"live effect" "orion trail" 20
+		"live effect" "orion trail" 200
 		"submunition" "orion HEKI stage II"
 		"split range" 1000
 		lifetime 600
@@ -307,19 +308,19 @@ outfit "orion HEKI stage I"
 
 outfit "orion HEKI stage II"
 	weapon
-		sprite "projectile/orion HEKI II"
+		sprite "projectile/orion HEKI stage 2"
 			"frame rate" 30
 			rewind
 		"hit effect" "small explosion"
 		"die effect" "missile death"
-		"live effect" "orion trail" 10
+		"live effect" "orion trail" 100
 		"submunition" "orion HEKI stage III"
 		"split range" 150
 		lifetime 300
 		velocity 4
 		acceleration 4.8
 		drag .1
-		turn 3
+		turn 5
 		homing 4
 		"radar tracking" 0.7
 		"optical tracking" 0.6
@@ -337,14 +338,14 @@ outfit "orion HEKI stage III"
 			rewind
 		"hit effect" "small explosion"
 		"die effect" "orion detonate"
-		"live effect" "orion trail" 10
+		"live effect" "orion trail" 100
 		"submunition" "orion HEKI slug"
 		"split range" 50
 		lifetime 300
 		velocity 4
 		acceleration 4.8
 		drag .1
-		turn 3
+		turn 5
 		homing 2  # Force the missile to point dead at the target, this is because the projectile goes straight out and won't be as slow as the missile is so can't utilise any "lead"
 		"radar tracking" 0.7
 		"optical tracking" 0.6
@@ -355,14 +356,15 @@ outfit "orion HEKI slug"
 		sprite "projectile/orion HEKI slug"
 			"frame rate" 30
 			rewind
+		inaccuracy 2
 		"hit effect" "small explosion"
 		"die effect" "missile death"
 		lifetime 30
 		velocity 10
-		"shield damage" 100
-		"hull damage" 800
-		"hit force" 90
-		piercing 0.1
+		"shield damage" 500
+		"hull damage" 1000
+		"hit force" 400
+		piercing 0.2
 
 # Beam turret
 
