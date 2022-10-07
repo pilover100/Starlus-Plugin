@@ -36,8 +36,8 @@ outfit "Xi Class Neutron Cannon"
 		"firing energy" 30
 		"firing heat" 50
 		"firing force" 2
-		"shield damage" 10
-		"hull damage" 130
+		"shield damage" 50
+		"hull damage" 180
 		"hit force" 25
 	description `This light cannon is the main weapon of choice for lighter Starlus ships. Capable of striking targets even a considerable distance away with a burst of 3 shots. The main disadvantage of this weapon though is the inability to penetrate shields making it highly ineffective against shielded targets.`
 
@@ -61,16 +61,16 @@ outfit "Xi Class Neutron Turret"
 		inaccuracy 2
 		velocity 40
 		lifetime 40
-		reload 20
+		reload 10
 		"burst count" 6
 		"burst reload" 2
 		"firing energy" 30
 		"firing heat" 50
 		"firing force" 2
-		"shield damage" 10
-		"hull damage" 130
+		"shield damage" 50
+		"hull damage" 180
 		"hit force" 25
-		"turret turn" 3
+		"turret turn" 2.25
 	description `The light cannon of the Starlus has seen itself mounted upon a turret for target tracking and a large field of fire on larger, slower ships which cannot make good use of their guns. To make as good use of the turret as possible, 2 cannons have been mounted and each fire in sequence for a fire rate of nearly 3 shots a second.`
 	description `Naturally, the turreted version of the Xi Neutron Cannon carries the same disadvantage as its forwards facing counterpart and is highly ineffective against shields.`
 
@@ -361,8 +361,8 @@ outfit "orion HEKI slug"
 		"die effect" "missile death"
 		lifetime 30
 		velocity 10
-		"shield damage" 500
-		"hull damage" 1000
+		"shield damage" 800
+		"hull damage" 1200
 		"hit force" 400
 		piercing 0.2
 
@@ -408,11 +408,11 @@ outfit `Alpha Class Beam Artillery`
 		"burst reload" 1
 		"firing energy" 180.6
 		"firing heat" 200
-		"shield damage" 10
+		"shield damage" 25
 		"hull damage" 250
 		"hit force" 20
-		"turret turn" 1
-		piercing 0.05
+		"turret turn" 0.75
+		piercing 0.1
 	description `This is the ultimate weapon of the Starlus, capable of firing penetrating beams across a system to punch through even the thickest enemy armour. However, each shot has a catch: Due to the power required in an instant, each pulse of the laser beam requires 20 cartridges to store to energy required and to create the resulting beam. As a result, each shot is rather expensive at 12 thousand credits.`
 	description `This turret can hold up to 960 cartridges (96 tonnes) and is the largest offensive turret in Starlus Space.`
 
@@ -462,10 +462,10 @@ outfit "Tau Class Major Artillery Turret"
 		"firing energy" 30
 		"firing heat" 50
 		"firing force" 2
-		"shield damage" 100
-		"hull damage" 430
+		"shield damage" 150
+		"hull damage" 500
 		"hit force" 50
-		"turret turn" 1.2
+		"turret turn" 1
 	description `This turret is the main defensive artillery of the Starlus. It fires a pair of 120mm shells towards a target roughly half a second appart each time it fires to increase the likelyhood of hitting the target`
 	description `This turret is mostly utilised on medium Starlus warships as it is both reliable and powerful`
 
@@ -496,8 +496,8 @@ outfit "Kappa Class Anti-Fighter Turret"
 		"burst reload" 3
 		"firing energy" 10
 		"firing heat" 5
-		"shield damage" 50
-		"hull damage" 80
+		"shield damage" 40
+		"hull damage" 50
 		"hit force" 5
 		"turret turn" 3.25
 	description `This turret is a potent anti-fighter turret. whilst it has very short range it can fire 20 rounds each second at a target causing devestating damage against strike craft that come within range.`
