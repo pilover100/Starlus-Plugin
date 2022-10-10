@@ -225,10 +225,22 @@ outfit "Orion Class HEKI Missile"
 		"Starlus Outfit"
 	cost 20
 	thumbnail "outfit/orion HEKI"
-	mass 0.2
+	mass 0.4
 	"Orion HEKI Capacity" -1
 	description "This missile is ammo for the Orion Class HEKI launcher. Each missile is a multi-stage missile that intercepts a vessel, then detonates to release a relativistic projectile that slices through armour plating like butter."
 	description "Each Orion Class HEKI Launcher can hold up to 20 of these missiles"
+
+outfit "Orion HEKI Missile Rack"
+	category "Ammunition"
+	licenses
+		"Starlus Outfit"
+	cost 1
+	thumbnail "outfit/orion rack"
+	mass 2
+	"outfit space" 6
+	"Orion HEKI Capacity" 10
+	ammo "Orion Class HEKI Missile"
+	description "This is a storage rack for the powerful Orion HEKI Missiles. Each missile is held in a storage array and is then loaded into the launcher before being fired. Because of the propellents used in the missiles, and their shear size, each missile has to be stored as an entire unit making transfer of these muntions rather difficult to do manually."
 
 outfit "Orion Class HEKI Launcher"
 	category "Secondary Weapons"
@@ -236,7 +248,7 @@ outfit "Orion Class HEKI Launcher"
 		"Starlus Outfit"
 	cost 1
 	thumbnail "outfit/orion launcher"
-	mass 10
+	mass 6
 	"outfit space" -14
 	"weapon capacity" -14
 	"gun ports" -1
@@ -436,7 +448,7 @@ effect "cartridge eject"
 
 # Lighter artillery turret
 
-outfit "Tau Class Major Artillery Turret"
+outfit "Tau Class Artillery"
 	category "Turrets"
 	licenses
 		"Starlus Outfit"
