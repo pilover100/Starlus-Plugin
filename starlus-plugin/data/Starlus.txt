@@ -94,7 +94,7 @@ phrase "Starlus Military Tech"
 	word
 		"have you seen our advanced weapons technology?"
 		"have you tried out our long range torpedo weapons?"
-		"have you tested our Foreshadow turrets?"
+		"have you tested our Alpha Artillery?"
 		"have you seen our combat vessels in action?"
 	word
 		" "
@@ -328,6 +328,8 @@ phrase "Starlus Disabled Hostile"
 		"now leave us alone before our warships hunt you down!"
 		"you have diminished our resources, you must now be eliminated!"
 		"you have beaten one ship, but we can still fight back!"
+	replace
+		"a %" "an " 
 
 phrase "Starlus Names"  # Mostly unintelligible to humans, they're mostly just random characters that have at least some way of pronouncing them
 	word  # Prefix        Needs expansion in the future, but this is a good enough list for now.
@@ -381,3 +383,52 @@ phrase "Starlus Names"  # Mostly unintelligible to humans, they're mostly just r
 		" eh"
 		" ds"
 		" pk"
+
+fleet "Small Starlus Military"
+	government Starlus
+	names "Starlus Names"
+	personality heroic disables surveillance
+	variant
+		Rapier
+	variant
+		Rapier 2
+	variant
+		Scimitar
+	variant
+		Scimitar
+		Rapier 2
+	variant
+		Scimitar 2
+	variant
+		Scimitar 2
+		Rapier
+
+fleet "Large Starlus Military"
+	government Starlus
+	names "Starlus Names"
+	personality heroic disables
+	variant
+		Odachi
+	variant
+		odachi
+		Katana 2
+	variant 2
+		Katana
+	variant 2
+		Sabre 2
+	variant 2
+		Katana
+		Sabre
+	variant 2
+		Katana
+		Sabre 2
+	variant
+		Odachi
+		Sabre
+	variant
+		Odachi
+		Sabre 2
+	variant 2
+		Odachi
+		Sabre 2
+		Katana
