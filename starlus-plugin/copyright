@@ -12,8 +12,8 @@ Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
 
 Files:
- images/projectile/foreshadow*
- images/effect/foreshadow impact*
+ images/projectile/alpha artillery*
+ images/effect/alpha impact*
 Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
 Comment: Derived from works by X-27 (under the CC-BY_SA-3.0 license)
@@ -23,7 +23,7 @@ Files:
  images/effect/neutron impact*
  images/effect/light AM*
  images/effect/starlus ion impact*
- images/land/wormhole
+ images/land/wormhole*
 Copyright: "pilover100" <pilover100.852@gmail.com>
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
