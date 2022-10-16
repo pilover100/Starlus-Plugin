@@ -8,6 +8,64 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+# Military patrols
+mission "Starlus Boarder Patrol"
+	landing
+	invisible
+	to offer
+		not "Starlus know about player"
+	to complete
+		never
+	to fail
+		has "Starlus know about player"
+	npc save
+		government Starlus
+		personality heroic waiting disables mining harvests
+		system "carf deh na"
+		fleet "Small Starlus Military" 2
+	on fail
+		set "Starlus know about player"
+
+mission "Starlus Boarder Protection"
+	landing
+	invisible
+	repeat
+	to offer
+		has "Starlus know about player"  # This stops the starlus spamming warfleets if they don't deem the player a threat but rather an asset
+		"reputation: Starlus" < 10
+		"reputation: Starlus" > -100
+	on offer
+		fail "Starlus Boarder Patrol"
+	to complete
+		never
+	npc save
+		government Starlus
+		personality heroic waiting disables
+		system "carf deh na"
+		fleet "Starlus Military" 3
+
+mission "Starlus Fight Player"
+	landing
+	invisible
+	repeat
+	to offer
+		has "Starlus know about player"
+		"reputation: Starlus" < -100
+	on offer
+		fail "Starlus Boarder Patrol"
+		fail "Starlus Boarder Protection"
+	to complete never
+	npc save
+		government Starlus
+		personality heroic vindictive nemesis waiting
+		system "carf deh na"
+		fleet "Large Starlus Military" 5
+	npc save
+		government Starlus
+		personality heroic vindictive nemesis staying
+		system "Starlax ce yi"  # The Starlus homeworld
+		fleet "Large Starlus Military" 10
+
 # First contact missions
 
 mission "Starlus All Groups [0]"
