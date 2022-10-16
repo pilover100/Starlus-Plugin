@@ -255,6 +255,7 @@ ship "Sabre"
 		"Starlus Sensor Array"
 		"Starlus Large Battery"
 		"P003 'Pororoca' Class Reactor"
+		"Hyperdrive"
 		"E003 'Salado' class engine"
 		"Starlus Command Centre" 12
 	gun 0 0
@@ -316,6 +317,7 @@ ship "Katana"
 		"Starlus Large Battery" 2
 		"P004 'Maelstrom' Class Reactor"
 		"E003 'Salado' class engine"
+		"Hyperdrive"
 		"Starlus Command Centre" 12
 	gun 0 0
 	gun 0 0
@@ -376,6 +378,7 @@ ship "Odachi"
 		"P004 'Maelstrom' Class Reactor"
 		"P001 'Geyser' Class Reactor"
 		"E004 'Lobourg' class engine"
+		"Hyperdrive"
 		"Starlus Command Centre" 12
 	gun 0 0
 	gun 0 0
@@ -398,3 +401,122 @@ ship "Odachi"
 	"final explode" "final explosion small"
 	description `This is the single largest Warship produced for active service within Starlus space, and the most powerful. It features immense firepower and armour capable of withstanding even the most punishing of blows. The few fleets of these warships in existence are highly valued and closely guarded as they serve as a major part of the Starlus military fleets.`
 	description `Because of the size and complexity of this vessel, it can only be produced in a few select locations within Starlus territory and is reserved for only heavy duty combat roles and core guard duties.`
+
+ship "Zweihander"
+	sprite "ship/zweihander"
+	thumbnail "thumbnail/zweihander"
+	swizzle 0
+	attributes
+		category "Utility"
+		licenses
+			"Starlus Ship"
+		cost 1
+		shields 18000
+		hull 100000
+		"required crew" 80
+		bunks 100
+		mass 1500
+		drag 5
+		"heat dissipation" 0.45
+		"fuel capacity" 650
+		"cargo space" 60
+		"outfit space" 3000
+		"weapon capacity" 210
+		"engine capacity" 70
+		"Starlus Command" -15
+		"Starlus Command points" 15
+		weapon
+			"blast radius" 100
+			"shield damage" 100
+			"hull damage" 100
+			"hit force" 10
+	outfits
+		"Kappa Class Anti-Fighter Turret" 3
+		"Starlus Heavy AM" 3
+		"Large Regeneration Station"
+		"Starlus Sensor Array"
+		"Starlus Large Battery" 2
+		"P004 'Maelstrom' Class Reactor"
+		"E003 'Salado' class engine"
+		"Hyperdrive"
+		"Starlus Command Centre" 15
+	gun 0 0
+		"angle" 20
+	gun 0 0
+		"angle" -20
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	bay Fighter 0 0
+		right
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		right
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		right
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		right
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		right
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		right
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		left
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		left
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		left
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		left
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		left
+		"launch effect" smoke 3
+	bay Fighter 0 0
+		left
+		"launch effect" smoke 3
+	bay Drone 0 0
+		right
+		"launch effect" smoke
+	bay Drone 0 0
+		right
+		"launch effect" smoke
+	bay Drone 0 0
+		right
+		"launch effect" smoke
+	bay Drone 0 0
+		right
+		"launch effect" smoke
+	bay Drone 0 0
+		Left
+		"launch effect" smoke
+	bay Drone 0 0
+		Left
+		"launch effect" smoke
+	bay Drone 0 0
+		Left
+		"launch effect" smoke
+	bay Drone 0 0
+		Left
+		"launch effect" smoke
+	engine 0 0
+		zoom 1
+		under
+	engine 0 0
+		zoom 1
+		under
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `This is the largest combat vessel devised by the Starlus. Whilst the Zweihander itself doesn't participate in combat it can carry a large compliment of fighters and drones into battle to aid other Starlus warships in battle.`
+	description `Because of the size and cost of the Zweinhander, it is only produced in small numbers and carriers are often refitted in favour of building new ones.`

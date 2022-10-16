@@ -182,7 +182,7 @@ outfit "Zeta Class Ion Repeater"
 		"lifetime" 3
 		"burst count" 180
 		"burst reload" 1
-		reload 1
+		reload 3
 		"firing energy" 2.9
 		"firing heat" 12.2
 		"firing force" 4.5
