@@ -37,14 +37,14 @@ outfitter "Starlus Basic"  # Basic stuff, small power and engines, neutron canno
 outfitter "Starlus Intermediate"  # Larger engines and reactors, torpedo launchers, heavy AM
 	"Phoenix Class Torpedo Launcher"
 	"Zeta Class Ion Repeater"
-	"Tau Class Major Artillery Turret"
+	"Tau Class Artillery"
 	"Starlus Heavy AM"
 	"P002 'Brinicle' Class Reactor"
 	"P003 'Pororoca' Class Reactor"
 	"Medium Regeneration Station"
 	"Starlus Large Battery"
 	"E002 'Yukon' class engine"
-	"P003 'Salado' class engine"
+	"E003 'Salado' class engine"
 	"E005-B 'Volta' Class Engine Booster"
 
 outfitter "Starlus Advanced"  # Their largest reactors, engines, regens and the mighty foreshadow turret
@@ -410,7 +410,7 @@ fleet "Large Starlus Military"
 	variant
 		Odachi
 	variant
-		odachi
+		Odachi
 		Katana 2
 	variant 2
 		Katana

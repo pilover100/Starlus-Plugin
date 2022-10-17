@@ -42,7 +42,12 @@ mission "Starlus Boarder Protection"
 		government Starlus
 		personality heroic waiting disables
 		system "carf deh na"
-		fleet "Starlus Military" 3
+		fleet "Small Starlus Military" 2
+	npc save
+		government Starlus
+		personality heroic waiting disables
+		system "carf deh na"
+		fleet "Large Starlus Military"
 
 mission "Starlus Fight Player"
 	landing

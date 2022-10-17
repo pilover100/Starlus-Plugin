@@ -345,7 +345,7 @@ outfit "orion HEKI stage II"
 
 outfit "orion HEKI stage III"
 	weapon
-		sprite "projectile/orion HEKI II"
+		sprite "projectile/orion HEKI stage 2"
 			"frame rate" 30
 			rewind
 		"hit effect" "small explosion"

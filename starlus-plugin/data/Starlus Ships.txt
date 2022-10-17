@@ -235,7 +235,7 @@ ship "Sabre"
 		"heat dissipation" 0.73
 		"fuel capacity" 750
 		"cargo space" 40
-		"outfit space" 490
+		"outfit space" 505
 		"weapon capacity" 235
 		"engine capacity" 68
 		"Starlus Command" -12
@@ -295,7 +295,7 @@ ship "Katana"
 		"heat dissipation" 0.71
 		"fuel capacity" 750
 		"cargo space" 45
-		"outfit space" 575
+		"outfit space" 595
 		"weapon capacity" 285
 		"engine capacity" 68
 		"Starlus Command" -12
@@ -355,7 +355,7 @@ ship "Odachi"
 		"heat dissipation" 0.67
 		"fuel capacity" 850
 		"cargo space" 52
-		"outfit space" 950
+		"outfit space" 965
 		"weapon capacity" 510
 		"engine capacity" 124
 		"Starlus Command" -12
