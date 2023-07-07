@@ -9,8 +9,6 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 galaxy "Milky Way"
-	pos 0 0
-	sprite ui/galaxy
 
 system "Starlax ce mei"
 	pos -326.918 819.538
@@ -18,11 +16,11 @@ system "Starlax ce mei"
 	habitable 486.68
 	link "Starlax ce yi"
 	link "carf deh ce-le"
-	asteroids "medium rock" 3 10.8576
-	asteroids "large rock" 5 7.3892
-	asteroids "small metal" 11 8.7464
-	asteroids "medium metal" 17 5.9566
-	asteroids "large metal" 4 5.9566
+	asteroids "medium rock" 3 10.858
+	asteroids "large rock" 5 7.389
+	asteroids "small metal" 11 8.746
+	asteroids "medium metal" 17 5.957
+	asteroids "large metal" 4 5.957
 	trade Clothing 370
 	trade Electronics 650
 	trade Equipment 470
@@ -39,7 +37,7 @@ system "Starlax ce mei"
 	object
 		sprite planet/ice6
 		distance 207.29
-		period 54.1135
+		period 54.114
 	object
 		sprite planet/cloud1
 		distance 627.05
@@ -47,7 +45,7 @@ system "Starlax ce mei"
 		object "opa da Starlus"
 			sprite planet/ice7
 			distance 193
-			period 21.8922
+			period 21.892
 	object
 		sprite planet/desert3
 		distance 1003.05
@@ -65,14 +63,14 @@ system "Starlax ce yi"
 	pos -356.679 784.394
 	government Starlus
 	habitable 425.92
-	link "Starlax ce-na Que"
-	link "Starlax ce-ba Po-ye"
 	link "Starlax ce mei"
+	link "Starlax ce-ba Po-ye"
+	link "Starlax ce-na Que"
 	asteroids "medium rock" 9 5.916
 	asteroids "large rock" 12 4.611
-	asteroids "small metal" 8 5.8725
-	asteroids "medium metal" 13 2.3055
-	asteroids "large metal" 7 4.9155
+	asteroids "small metal" 8 5.873
+	asteroids "medium metal" 13 2.306
+	asteroids "large metal" 7 4.916
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -90,7 +88,7 @@ system "Starlax ce yi"
 		sprite planet/lava6
 		distance 128
 		period 28.068
-		offset 40.8026
+		offset 40.803
 	object "Amnis Starlus Vita"
 		sprite planet/ice5
 		distance 385.952
@@ -100,7 +98,7 @@ system "Starlax ce yi"
 		sprite planet/rock17
 		distance 1099.65
 		period 706.767
-		offset 0.390257
+		offset 0.39
 	object
 		sprite planet/gas1
 		distance 1871.91
@@ -109,40 +107,40 @@ system "Starlax ce yi"
 		object
 			sprite planet/io
 			distance 220
-			period 13.0422
+			period 13.042
 			offset 110.059
 		object
 			sprite planet/ice7
 			distance 322.923
-			period 23.1934
+			period 23.193
 			offset 176.319
 
 system "Starlax ce-ba Po-ye"
 	pos -468.322 750.442
 	government Starlus
 	habitable 2140.92
-	link "Starlax ce-na Que"
 	link "Starlax ce yi"
+	link "Starlax ce-na Que"
 	link "carf deh ba"
-	asteroids "small rock" 1 8.7612
-	asteroids "medium rock" 8 7.4088
-	asteroids "large rock" 3 8.1144
+	asteroids "small rock" 1 8.761
+	asteroids "medium rock" 8 7.409
+	asteroids "large rock" 3 8.114
 	asteroids "small metal" 4 3.528
-	asteroids "medium metal" 15 3.9396
-	asteroids "large metal" 2 3.4104
+	asteroids "medium metal" 15 3.94
+	asteroids "large metal" 2 3.41
 	object
 		sprite star/f5
-		distance 24.6689
-		period 11.9369
+		distance 24.669
+		period 11.937
 		offset 180
 	object
 		sprite star/k5
-		distance 99.3311
-		period 11.9369
+		distance 99.331
+		period 11.937
 	object
 		sprite planet/ice5
 		distance 270.891
-		period 38.5436
+		period 38.544
 	object
 		sprite planet/rock15
 		distance 572.811
@@ -168,14 +166,14 @@ system "Starlax ce-na Que"
 	pos -371.679 723.394
 	government Starlus
 	habitable 320
-	link "Starlax na Reh"
 	link "Starlax ce yi"
 	link "Starlax ce-ba Po-ye"
 	link "Starlax ce-sa Bea"
-	asteroids "small rock" 6 3.0294
-	asteroids "medium rock" 7 4.5288
-	asteroids "large rock" 17 4.2228
-	asteroids "large metal" 1 2.3562
+	link "Starlax na Reh"
+	asteroids "small rock" 6 3.029
+	asteroids "medium rock" 7 4.529
+	asteroids "large rock" 17 4.223
+	asteroids "large metal" 1 2.356
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -192,7 +190,7 @@ system "Starlax ce-na Que"
 	object "Instra da Starlus"
 		sprite planet/cloud3
 		distance 269.165
-		period 98.7447
+		period 98.745
 		offset 183.967
 	object
 		sprite planet/ocean3
@@ -208,7 +206,7 @@ system "Starlax ce-na Que"
 		sprite planet/ice6
 		distance 1660.01
 		period 1512.35
-		offset 29.2897
+		offset 29.29
 	object
 		sprite planet/uranus
 		distance 2829.64
@@ -217,27 +215,27 @@ system "Starlax ce-na Que"
 		object
 			sprite planet/lava0
 			distance 364.989
-			period 29.7916
+			period 29.792
 			offset 117.036
 		object
 			sprite planet/europa
 			distance 453.989
-			period 41.3278
+			period 41.328
 			offset 315.388
 
 system "Starlax ce-sa Bea"
 	pos -298.678 751.069
 	government Starlus
 	habitable 425.92
-	link "Starlax na Reh"
-	link "carf deh na-sa"
 	link "Starlax ce-na Que"
 	link "Starlax ce-sa Poi"
-	asteroids "small rock" 1 2.4168
-	asteroids "medium rock" 7 6.2928
-	asteroids "large rock" 6 4.6968
-	asteroids "medium metal" 22 5.3352
-	asteroids "large metal" 1 5.2896
+	link "Starlax na Reh"
+	link "carf deh na-sa"
+	asteroids "small rock" 1 2.417
+	asteroids "medium rock" 7 6.293
+	asteroids "large rock" 6 4.697
+	asteroids "medium metal" 22 5.335
+	asteroids "large metal" 1 5.29
 	trade Clothing 350
 	trade Electronics 680
 	trade Equipment 480
@@ -254,12 +252,12 @@ system "Starlax ce-sa Bea"
 	object
 		sprite planet/cloud8
 		distance 170.16
-		period 43.0212
+		period 43.021
 	object "Rus da Starlus"
 		sprite planet/station6
 		distance 656.048
 		period 325.686
-		offset 0.7154
+		offset 0.715
 	object
 		sprite planet/callisto
 		distance 1469.05
@@ -273,7 +271,7 @@ system "Starlax ce-sa Bea"
 		object
 			sprite planet/dust0
 			distance 217
-			period 16.8262
+			period 16.826
 	object
 		sprite planet/jupiter
 		distance 2364.3
@@ -303,16 +301,16 @@ system "Starlax ce-sa Poi"
 	object
 		sprite star/g5
 		distance 51.659
-		period 15.3778
+		period 15.378
 	object
 		sprite star/k0
 		distance 66.341
-		period 15.3778
+		period 15.378
 		offset 180
 	object
 		sprite planet/ice2
 		distance 214.981
-		period 37.8155
+		period 37.816
 	object
 		sprite planet/rock12
 		distance 448.021
@@ -326,29 +324,29 @@ system "Starlax ce-sa Poi"
 		sprite planet/gas4
 		distance 2352.42
 		period 1368.81
-		offset 23.2234
+		offset 23.223
 		object
 			sprite planet/rock7
 			distance 260
-			period 14.7862
+			period 14.786
 		object
 			sprite planet/rock0
 			distance 347
-			period 22.7977
+			period 22.798
 
 system "Starlax na Reh"
 	pos -367.39 665.686
 	government Starlus
 	habitable 912.6
-	link "carf deh na"
 	link "Starlax ce-na Que"
 	link "Starlax ce-sa Bea"
-	asteroids "small rock" 1 2.5432
-	asteroids "medium rock" 3 3.0294
-	asteroids "large rock" 1 4.2262
-	asteroids "small metal" 14 1.9822
-	asteroids "medium metal" 285 2.9546
-	asteroids "large metal" 3 3.2164
+	link "carf deh na"
+	asteroids "small rock" 1 2.543
+	asteroids "medium rock" 3 3.029
+	asteroids "large rock" 1 4.226
+	asteroids "small metal" 14 1.982
+	asteroids "medium metal" 285 2.955
+	asteroids "large metal" 3 3.216
 	trade Clothing 310
 	trade Electronics 770
 	trade Equipment 650
@@ -361,21 +359,21 @@ system "Starlax na Reh"
 	trade Plastic 420
 	object
 		sprite star/k0
-		distance 47.1378
-		period 13.4401
+		distance 47.138
+		period 13.44
 	object
 		sprite star/k5
-		distance 53.8622
-		period 13.4401
+		distance 53.862
+		period 13.44
 		offset 180
 	object
 		sprite planet/rock12
 		distance 320.302
-		period 75.9031
+		period 75.903
 		object
 			sprite planet/rock3
 			distance 156
-			period 20.3008
+			period 20.301
 	object
 		sprite planet/uranus
 		distance 932.392
@@ -383,11 +381,11 @@ system "Starlax na Reh"
 		object "Reh dex saa"
 			sprite planet/tethys
 			distance 205
-			period 12.5402
+			period 12.54
 		object
 			sprite planet/ice7
 			distance 300
-			period 22.2001
+			period 22.2
 	object
 		sprite planet/gas11
 		distance 1904.43
@@ -398,12 +396,12 @@ system "Starlax sa Emi"
 	government Starlus
 	habitable 1080
 	link "carf deh na-sa"
-	asteroids "small rock" 1 3.4983
-	asteroids "medium rock" 1 3.7076
-	asteroids "large rock" 1 2.1827
-	asteroids "small metal" 23 3.4385
-	asteroids "medium metal" 21 3.1395
-	asteroids "large metal" 26 1.5249
+	asteroids "small rock" 1 3.498
+	asteroids "medium rock" 1 3.708
+	asteroids "large rock" 1 2.183
+	asteroids "small metal" 23 3.439
+	asteroids "medium metal" 21 3.14
+	asteroids "large metal" 26 1.525
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -420,16 +418,16 @@ system "Starlax sa Emi"
 	object
 		sprite planet/desert0
 		distance 257.41
-		period 50.2674
+		period 50.267
 		object
 			sprite planet/europa
 			distance 142
-			period 21.2713
+			period 21.271
 	object "Ostra tha Starlus"
 		sprite planet/cloud2
 		distance 974.476
 		period 370.259
-		offset 7.4189
+		offset 7.419
 		object
 			sprite planet/oberon
 			distance 178
@@ -438,19 +436,19 @@ system "Starlax sa Emi"
 		sprite planet/gas3
 		distance 2233.27
 		period 1284.58
-		offset 67.1375
+		offset 67.138
 		object
 			sprite planet/tethys
 			distance 279
-			period 11.9034
+			period 11.903
 		object
 			sprite planet/lava0
 			distance 429
-			period 22.6961
+			period 22.696
 		object
 			sprite planet/dust0
 			distance 724.36
-			period 49.7963
+			period 49.796
 			offset 258.721
 	object
 		sprite planet/gas1
@@ -460,7 +458,7 @@ system "Starlax sa Emi"
 		object
 			sprite planet/dust1
 			distance 253
-			period 16.0841
+			period 16.084
 		object
 			sprite planet/dust4
 			distance 353
@@ -471,8 +469,8 @@ system "Starlee ba lon"
 	government Starlus
 	habitable 945
 	link "carf deh le-ba"
-	asteroids "large rock" 2 0.8052
-	asteroids "large metal" 1 0.6864
+	asteroids "large rock" 2 0.805
+	asteroids "large metal" 1 0.686
 	trade Clothing 370
 	trade Electronics 650
 	trade Equipment 470
@@ -485,11 +483,11 @@ system "Starlee ba lon"
 	trade Plastic 420
 	object
 		sprite star/g5
-		distance 33.8624
+		distance 33.862
 		period 13.012
 	object
 		sprite star/m0
-		distance 66.1376
+		distance 66.138
 		period 13.012
 		offset 180
 	object "si Vita Starlus le"
@@ -501,7 +499,7 @@ system "Starlee ba lon"
 		sprite planet/gas2
 		distance 2179.44
 		period 1323.92
-		offset 77.4035
+		offset 77.404
 	object
 		sprite planet/gas1
 		distance 3366.08
@@ -510,30 +508,30 @@ system "Starlee ba lon"
 		object
 			sprite planet/dust0
 			distance 221
-			period 13.1312
+			period 13.131
 		object
 			sprite planet/dust4
 			distance 307
-			period 21.4992
+			period 21.499
 		object
 			sprite planet/ice7
 			distance 423
-			period 34.7717
+			period 34.772
 		object
 			sprite planet/lava0
 			distance 545
-			period 50.8523
+			period 50.852
 
 system "Starlee ce-ba xei"
 	pos -433.918 850.538
 	government Starlus
 	habitable 1715
 	link "carf deh le-ba"
-	asteroids "small rock" 47 2.5608
-	asteroids "medium rock" 9 3.6696
-	asteroids "large rock" 57 3.1416
-	asteroids "small metal" 11 2.9832
-	asteroids "medium metal" 21 1.9008
+	asteroids "small rock" 47 2.561
+	asteroids "medium rock" 9 3.67
+	asteroids "large rock" 57 3.142
+	asteroids "small metal" 11 2.983
+	asteroids "medium metal" 21 1.901
 	asteroids "large metal" 18 1.584
 	trade Clothing 240
 	trade Electronics 630
@@ -551,7 +549,7 @@ system "Starlee ce-ba xei"
 	object
 		sprite planet/cloud4
 		distance 260.64
-		period 40.6434
+		period 40.643
 	object
 		sprite planet/lava4
 		distance 623.4
@@ -571,23 +569,23 @@ system "Starlee ce-ba xei"
 		object
 			sprite planet/europa
 			distance 241
-			period 11.7567
+			period 11.757
 		object
 			sprite planet/dust5
 			distance 345
-			period 20.1368
+			period 20.137
 
 system "Starlee le lar"
 	pos -308.811 1001.11
 	government Starlus
 	habitable 625
 	link "carf deh le"
-	asteroids "small rock" 2 3.6168
-	asteroids "medium rock" 12 3.4848
-	asteroids "large rock" 3 3.1944
-	asteroids "small metal" 49 3.7224
-	asteroids "medium metal" 7 2.7984
-	asteroids "large metal" 24 3.6432
+	asteroids "small rock" 2 3.617
+	asteroids "medium rock" 12 3.485
+	asteroids "large rock" 3 3.194
+	asteroids "small metal" 49 3.722
+	asteroids "medium metal" 7 2.798
+	asteroids "large metal" 24 3.643
 	trade Clothing 370
 	trade Electronics 650
 	trade Equipment 470
@@ -623,7 +621,7 @@ system "Starlee le lar"
 		object
 			sprite planet/oberon
 			distance 132
-			period 14.5028
+			period 14.503
 	object
 		sprite planet/gas1
 		distance 2188.69
@@ -631,7 +629,7 @@ system "Starlee le lar"
 		offset 356.689
 
 system "Starlee le-ba Ces"
-	pos -462.918 962.538
+	pos -472.009 977.083
 	government Starlus
 	habitable 806.68
 	link "carf deh le-ba"
@@ -652,12 +650,12 @@ system "Starlee le-ba Ces"
 	trade Plastic 400
 	object
 		sprite star/k0
-		distance 33.7185
-		period 11.0367
+		distance 33.719
+		period 11.037
 	object
 		sprite star/m0
-		distance 51.2815
-		period 11.0367
+		distance 51.282
+		period 11.037
 		offset 180
 	object "meins da Starlus"
 		sprite planet/cloud0
@@ -668,20 +666,20 @@ system "Starlee le-ba Ces"
 		sprite planet/gas2
 		distance 1402.87
 		period 740.003
-		offset 30.0849
+		offset 30.085
 	object
 		sprite planet/gas7
 		distance 2114.12
 		period 1369
-		offset 6.57131
+		offset 6.571
 		object
 			sprite planet/rhea
 			distance 259
-			period 14.8279
+			period 14.828
 		object
 			sprite planet/europa
 			distance 352
-			period 23.4933
+			period 23.493
 	object
 		sprite planet/gas1
 		distance 2816.21
@@ -690,17 +688,17 @@ system "Starlee le-ba Ces"
 		object
 			sprite planet/rock17
 			distance 213
-			period 12.4247
+			period 12.425
 
 system "Starlee le-sa ras"
 	pos -199.811 972.109
 	government Starlus
 	habitable 486.68
 	link "carf deh le-sa"
-	asteroids "medium rock" 1 3.5316
-	asteroids "large rock" 1 4.4712
-	asteroids "small metal" 1 2.4948
-	asteroids "medium metal" 2 2.5596
+	asteroids "medium rock" 1 3.532
+	asteroids "large rock" 1 4.471
+	asteroids "small metal" 1 2.495
+	asteroids "medium metal" 2 2.56
 	asteroids "large metal" 1 3.888
 	trade Clothing 290
 	trade Electronics 740
@@ -718,7 +716,7 @@ system "Starlee le-sa ras"
 	object
 		sprite planet/titan
 		distance 171.89
-		period 40.8615
+		period 40.862
 	object "Ike de Starlus"
 		sprite planet/ocean9
 		distance 575.05
@@ -731,16 +729,16 @@ system "Starlee le-sa ras"
 		object
 			sprite planet/dust0
 			distance 152
-			period 17.0606
+			period 17.061
 	object
 		sprite planet/gas17
 		distance 2188.35
 		period 1856.16
-		offset 0.620568
+		offset 0.621
 		object
 			sprite planet/rock0
 			distance 247
-			period 16.5851
+			period 16.585
 
 system "carf deh ba"
 	pos -494.918 817.538
@@ -748,12 +746,12 @@ system "carf deh ba"
 	habitable 1050.92
 	link "Starlax ce-ba Po-ye"
 	link "carf deh le-ba"
-	asteroids "small rock" 8 2.4633
+	asteroids "small rock" 8 2.463
 	asteroids "medium rock" 20 1.785
-	asteroids "large rock" 16 2.3205
-	asteroids "small metal" 8 1.8207
-	asteroids "medium metal" 6 2.0349
-	asteroids "large metal" 13 5.2122
+	asteroids "large rock" 16 2.321
+	asteroids "small metal" 8 1.821
+	asteroids "medium metal" 6 2.035
+	asteroids "large metal" 13 5.212
 	trade Clothing 370
 	trade Electronics 650
 	trade Equipment 470
@@ -766,13 +764,13 @@ system "carf deh ba"
 	trade Plastic 420
 	object
 		sprite star/g5
-		distance 41.3389
-		period 12.7109
+		distance 41.339
+		period 12.711
 		offset 180
 	object
 		sprite star/k5
-		distance 60.6611
-		period 12.7109
+		distance 60.661
+		period 12.711
 	object
 		sprite planet/cloud1
 		distance 421.951
@@ -780,7 +778,7 @@ system "carf deh ba"
 		object
 			sprite planet/dust4
 			distance 194
-			period 22.0626
+			period 22.063
 	object
 		sprite planet/gas4
 		distance 1117.31
@@ -788,7 +786,7 @@ system "carf deh ba"
 		object
 			sprite planet/miranda
 			distance 264
-			period 15.1288
+			period 15.129
 	object
 		sprite planet/gas7
 		distance 1705.55
@@ -803,12 +801,12 @@ system "carf deh ce-le"
 	government Starlus
 	habitable 553.28
 	link "Starlax ce mei"
-	link "carf deh sa"
 	link "carf deh le"
 	link "carf deh le-ba"
 	link "carf deh le-sa"
-	asteroids "small metal" 7 2.7984
-	asteroids "medium metal" 6 3.6432
+	link "carf deh sa"
+	asteroids "small metal" 7 2.798
+	asteroids "medium metal" 6 3.643
 	asteroids "large metal" 3 2.376
 	trade Clothing 370
 	trade Electronics 650
@@ -822,17 +820,17 @@ system "carf deh ce-le"
 	trade Plastic 420
 	object
 		sprite star/m0
-		distance 47.6443
+		distance 47.644
 		period 20.427
 	object
 		sprite star/m4
-		distance 65.3557
+		distance 65.356
 		period 20.427
 		offset 180
 	object
 		sprite planet/callisto
 		distance 206.366
-		period 50.4131
+		period 50.413
 	object
 		sprite planet/gas14
 		distance 615.616
@@ -840,7 +838,7 @@ system "carf deh ce-le"
 		object
 			sprite planet/dust3
 			distance 233
-			period 14.4841
+			period 14.484
 	object
 		sprite planet/gas5
 		distance 1471.62
@@ -856,23 +854,23 @@ system "carf deh ce-le"
 		object
 			sprite planet/europa
 			distance 263
-			period 12.0405
+			period 12.041
 		object
 			sprite planet/ice0
 			distance 374
-			period 20.4182
+			period 20.418
 
 system "carf deh le"
 	pos -356.918 962.538
 	government Starlus
 	habitable 625
-	link "carf deh le-ba"
-	link "carf deh ce-le"
-	link "carf deh le-sa"
 	link "Starlee le lar"
-	asteroids "small metal" 1 4.1888
-	asteroids "medium metal" 2 2.8028
-	asteroids "large metal" 4 2.4024
+	link "carf deh ce-le"
+	link "carf deh le-ba"
+	link "carf deh le-sa"
+	asteroids "small metal" 1 4.189
+	asteroids "medium metal" 2 2.803
+	asteroids "large metal" 4 2.402
 	trade Clothing 370
 	trade Electronics 650
 	trade Equipment 470
@@ -889,7 +887,7 @@ system "carf deh le"
 	object
 		sprite planet/titan
 		distance 191.41
-		period 42.3708
+		period 42.371
 	object
 		sprite planet/rock8
 		distance 458.42
@@ -901,11 +899,11 @@ system "carf deh le"
 		object
 			sprite planet/miranda
 			distance 191
-			period 14.0516
+			period 14.052
 		object
 			sprite planet/desert4
 			distance 302
-			period 27.9375
+			period 27.938
 		object
 			sprite planet/rock17
 			distance 408
@@ -917,23 +915,23 @@ system "carf deh le"
 		object
 			sprite planet/dust0
 			distance 249
-			period 14.7329
+			period 14.733
 
 system "carf deh le-ba"
 	pos -435.918 894.538
 	government Starlus
 	habitable 806.68
-	link "carf deh ba"
-	link "carf deh le"
-	link "carf deh ce-le"
-	link "Starlee ce-ba xei"
 	link "Starlee ba lon"
+	link "Starlee ce-ba xei"
 	link "Starlee le-ba Ces"
+	link "carf deh ba"
+	link "carf deh ce-le"
+	link "carf deh le"
 	asteroids "small rock" 1 5.292
 	asteroids "medium rock" 1 5.292
 	asteroids "large rock" 4 5.67
 	asteroids "small metal" 6 3.402
-	asteroids "medium metal" 25 3.5532
+	asteroids "medium metal" 25 3.553
 	asteroids "large metal" 20 2.268
 	trade Clothing 370
 	trade Electronics 650
@@ -947,17 +945,17 @@ system "carf deh le-ba"
 	trade Plastic 420
 	object
 		sprite star/k0
-		distance 37.6853
-		period 13.0405
+		distance 37.685
+		period 13.041
 	object
 		sprite star/m0
-		distance 57.3147
-		period 13.0405
+		distance 57.315
+		period 13.041
 		offset 180
 	object
 		sprite planet/desert2
 		distance 213.605
-		period 43.9669
+		period 43.967
 	object
 		sprite planet/forest0
 		distance 588.015
@@ -979,10 +977,10 @@ system "carf deh le-sa"
 	pos -253.918 920.538
 	government Starlus
 	habitable 9265
-	link "carf deh sa"
+	link "Starlee le-sa ras"
 	link "carf deh ce-le"
 	link "carf deh le"
-	link "Starlee le-sa ras"
+	link "carf deh sa"
 	asteroids "large metal" 1 5.355
 	trade Clothing 240
 	trade Electronics 630
@@ -996,17 +994,17 @@ system "carf deh le-sa"
 	trade Plastic 370
 	object
 		sprite star/b5
-		distance 9.17431
-		period 6.59091
+		distance 9.174
+		period 6.591
 	object
 		sprite star/g5
 		distance 126.826
-		period 6.59091
+		period 6.591
 		offset 180
 	object
 		sprite planet/rock1
 		distance 361.826
-		period 28.6013
+		period 28.601
 	object
 		sprite planet/neptune
 		distance 845.916
@@ -1018,11 +1016,11 @@ system "carf deh le-sa"
 		object
 			sprite planet/dust5
 			distance 236
-			period 12.8973
+			period 12.897
 		object
 			sprite planet/ice7
 			distance 368
-			period 25.1132
+			period 25.113
 	object
 		sprite planet/gas13
 		distance 2403.37
@@ -1030,18 +1028,18 @@ system "carf deh le-sa"
 		object
 			sprite planet/dust0
 			distance 257
-			period 11.6308
+			period 11.631
 
 system "carf deh na"
 	pos -429.608 601.265
 	government Starlus
 	habitable 1080
 	link "Starlax na Reh"
-	asteroids "small rock" 74 4.4308
-	asteroids "medium rock" 22 3.8456
-	asteroids "large rock" 10 2.6752
+	asteroids "small rock" 74 4.431
+	asteroids "medium rock" 22 3.846
+	asteroids "large rock" 10 2.675
 	asteroids "medium metal" 6 4.389
-	asteroids "large metal" 1 6.0192
+	asteroids "large metal" 1 6.019
 	trade Clothing 290
 	trade Electronics 740
 	trade Equipment 530
@@ -1058,7 +1056,7 @@ system "carf deh na"
 	object
 		sprite planet/rock1
 		distance 160.96
-		period 24.8556
+		period 24.856
 	object
 		sprite planet/rock16
 		distance 404.52
@@ -1074,7 +1072,7 @@ system "carf deh na"
 		object
 			sprite planet/oberon
 			distance 253
-			period 13.2727
+			period 13.273
 
 system "carf deh na-sa"
 	pos -213.722 733.309
@@ -1094,7 +1092,7 @@ system "carf deh na-sa"
 	object
 		sprite planet/cloud6
 		distance 178.36
-		period 43.1901
+		period 43.19
 	object
 		sprite planet/gas10
 		distance 605.17
@@ -1102,7 +1100,7 @@ system "carf deh na-sa"
 		object
 			sprite planet/rhea
 			distance 213
-			period 16.3631
+			period 16.363
 	object
 		sprite planet/gas9
 		distance 1374.01
@@ -1110,7 +1108,7 @@ system "carf deh na-sa"
 		object
 			sprite planet/rock14
 			distance 226
-			period 12.7395
+			period 12.74
 		object
 			sprite planet/dust4
 			distance 360
@@ -1122,19 +1120,19 @@ system "carf deh na-sa"
 		object
 			sprite planet/oberon
 			distance 267
-			period 11.4591
+			period 11.459
 		object
 			sprite planet/dust0
 			distance 395
-			period 20.6196
+			period 20.62
 		object
 			sprite planet/callisto
 			distance 506
-			period 29.8958
+			period 29.896
 		object
 			sprite planet/rock17
 			distance 675
-			period 46.0618
+			period 46.062
 
 system "carf deh sa"
 	pos -203.918 862.538
@@ -1161,17 +1159,17 @@ system "carf deh sa"
 	trade Plastic 420
 	object
 		sprite star/f5
-		distance 15.0958
-		period 8.34036
+		distance 15.096
+		period 8.34
 		offset 180
 	object
 		sprite star/m0
-		distance 80.9042
-		period 8.34036
+		distance 80.904
+		period 8.34
 	object
 		sprite planet/ice1
 		distance 336.264
-		period 54.6762
+		period 54.676
 	object
 		sprite planet/dust7
 		distance 573.554
@@ -1187,32 +1185,32 @@ system "carf deh sa"
 		object
 			sprite planet/miranda
 			distance 275
-			period 11.6483
+			period 11.648
 		object
 			sprite planet/desert4
 			distance 390
-			period 19.6726
+			period 19.673
 
 planet "Amnis Starlus Vita"
 	attributes Starlus homeworld
 	landscape land/beach9-sfiera
-	description `This is the Starlus' home-world, a giant ball wrapped in oceans with only the odd volcanic island poking out from the planet-wide sea. The Starlus capital seems to be built upon giant raft cities with food production centres floating at the top and habitation areas sitting below the ocean surface.`
-	spaceport `Docking stations for ships are almost exclusively above water, particularly for cargo vessels with sub-surface docks only for the passenger transports. However, the surface pads have massive tunnels that extend out connecting the Starlus ships to the city below. Ship maintenance is almost exclusively done by machines with a combination of workers and computers controlling the spaceport's amenities.`
+	description "This is the Starlus' home-world, a giant ball wrapped in oceans with only the odd volcanic island poking out from the planet-wide sea. The Starlus capital seems to be built upon giant raft cities with food production centres floating at the top and habitation areas sitting below the ocean surface."
+	spaceport "Docking stations for ships are almost exclusively above water, particularly for cargo vessels with sub-surface docks only for the passenger transports. However, the surface pads have massive tunnels that extend out connecting the Starlus ships to the city below. Ship maintenance is almost exclusively done by machines with a combination of workers and computers controlling the spaceport's amenities."
 	shipyard "Starlus Advanced"
 	shipyard "Starlus Basic"
+	outfitter "Starlus Advanced"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	outfitter "Starlus Intermediate"
-	outfitter "Starlus Advanced"
 	"required reputation" 1
 	bribe 0.2
 	security 0.9
 
 planet "Dreda da Starlus"
-	attributes Starlus Farming
+	attributes Farming Starlus
 	landscape land/water9
-	description `This core world is a major production centre for the nutrients that the Starlus require. The marshes of this entire planet seem to covered in breading farms for the microbes that produce the vital nutrients that they need.`
-	spaceport `Because this entire world is almost entirely dedicated to food production, there is little in the way of amenities except for one port repairing ships and reloading ammunition shipped in from other systems.`
+	description "This core world is a major production centre for the nutrients that the Starlus require. The marshes of this entire planet seem to covered in breading farms for the microbes that produce the vital nutrients that they need."
+	spaceport "Because this entire world is almost entirely dedicated to food production, there is little in the way of amenities except for one port repairing ships and reloading ammunition shipped in from other systems."
 	outfitter "Starlus Ammo"
 	"required reputation" 10
 	bribe 0.3
@@ -1221,8 +1219,8 @@ planet "Dreda da Starlus"
 planet "Ike de Starlus"
 	attributes Starlus teraforming
 	landscape land/canyon12
-	description `This icy world is currently under a massive terraforming project attempting to warm the planets oceans enough for the ice sheets to recede back to the poles and allow for a new factory world to manifest. As such, this is currently the lest populated planet the Starlus occupy within their territory.`
-	spaceport `The spaceport is a series of temporary landing pads sat on the top of a large mesa in the northern regions of the planet away from any danger of flooding. The services here are by and large, absent with only a handful of refueling stations and repair bots in sight.`
+	description "This icy world is currently under a massive terraforming project attempting to warm the planets oceans enough for the ice sheets to recede back to the poles and allow for a new factory world to manifest. As such, this is currently the lest populated planet the Starlus occupy within their territory."
+	spaceport "The spaceport is a series of temporary landing pads sat on the top of a large mesa in the northern regions of the planet away from any danger of flooding. The services here are by and large, absent with only a handful of refueling stations and repair bots in sight."
 	outfitter "Starlus Ammo"
 	"required reputation" 10
 	bribe 0.3
@@ -1231,14 +1229,14 @@ planet "Ike de Starlus"
 planet "Instra da Starlus"
 	attributes Starlus industrial
 	landscape land/beach12-harro
-	description `This planet is quite Earth-like in nature and has much more land than most other worlds the Starlus occupy. Here their settlements are placed at the mouths of giant river deltas where they can make use of the mineral rich waters that flow into the sea. To them, this world is rather inhospitable but this could have been a popular tourist destination in human space.`
-	spaceport `This world is a major manufacturing centre so you're not surprised to see large warehouses full of machinery and equipment ready to be shipped out to other planets, almost all the docks have been built upon land to make use of the large smooth rocks as landing pads for their enormous cargo ships that frequently land here at the Starlus' most important trading centre`
-	shipyard "Starlus Basic"
+	description "This planet is quite Earth-like in nature and has much more land than most other worlds the Starlus occupy. Here their settlements are placed at the mouths of giant river deltas where they can make use of the mineral rich waters that flow into the sea. To them, this world is rather inhospitable but this could have been a popular tourist destination in human space."
+	spaceport "This world is a major manufacturing centre so you're not surprised to see large warehouses full of machinery and equipment ready to be shipped out to other planets, almost all the docks have been built upon land to make use of the large smooth rocks as landing pads for their enormous cargo ships that frequently land here at the Starlus' most important trading centre"
 	shipyard "Starlus Advanced"
+	shipyard "Starlus Basic"
+	outfitter "Starlus Advanced"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	outfitter "Starlus Intermediate"
-	outfitter "Starlus Advanced"
 	"required reputation" 10
 	bribe 0.1
 	security 0.7
@@ -1246,28 +1244,28 @@ planet "Instra da Starlus"
 planet "Ostra tha Starlus"
 	attributes Starlus
 	landscape land/lava1
-	description `This small young world is perhaps the most import world for the Starlus culturally and scientifically, as it was the first world that the they have successfully terraformed. Originally, Ostra tha Starlus was dominated by its volcanic islands but the Starlus have managed to flood the surface with water and introduce life to this desolate world.`
+	description "This small young world is perhaps the most import world for the Starlus culturally and scientifically, as it was the first world that the they have successfully terraformed. Originally, Ostra tha Starlus was dominated by its volcanic islands but the Starlus have managed to flood the surface with water and introduce life to this desolate world."
 	spaceport `The first word that comes to mind when you see the main spaceport here is "impressive". The main spaceport is built jutting out from the sides of a particularly large extinct volcano and was the very original that was created when they first came here. The structure consists of thousands of pads spiraling around the volcano of all sizes for ships to land when they visit this world complete with boarding tubes to connect them to the station.`
 	shipyard "Starlus Basic"
+	outfitter "Starlus Advanced"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	outfitter "Starlus Intermediate"
-	outfitter "Starlus Advanced"
 	"required reputation" 10
 	bribe 0.15
 	security 0.6
 
 planet "Pora de Starlus"
-	attributes Starlus Industrial
+	attributes Industrial Starlus
 	landscape land/valley8
-	description `This planet is the southern powerhouse of the starlus, abundant in natural resources and land, this planet lends itself to the industrial needs of the Starlus whilst providing enough space for the workers to live whilst monitoring the production centres`
-	spaceport `The main spaceport sprawls along the coast of one of the southern continents, providing easy access to transports bearing cargo from the factories on the land, and to the residents of the planet in the sea. As with most Starlus spaceports, most of the maintenance here is done by machine.`
-	shipyard "Starlus Basic"
+	description "This planet is the southern powerhouse of the starlus, abundant in natural resources and land, this planet lends itself to the industrial needs of the Starlus whilst providing enough space for the workers to live whilst monitoring the production centres"
+	spaceport "The main spaceport sprawls along the coast of one of the southern continents, providing easy access to transports bearing cargo from the factories on the land, and to the residents of the planet in the sea. As with most Starlus spaceports, most of the maintenance here is done by machine."
 	shipyard "Starlus Advanced"
+	shipyard "Starlus Basic"
+	outfitter "Starlus Advanced"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	outfitter "Starlus Intermediate"
-	outfitter "Starlus Advanced"
 	"required reputation" 10
 	bribe 0.4
 	security 0.8
@@ -1275,8 +1273,8 @@ planet "Pora de Starlus"
 planet "Reh dex saa"
 	attributes Starlus military
 	landscape land/beach1
-	description `Balmy by human standards, this tropical world is covered in oceans with occasional masses of land. However the Starlus have only developed upon rafts anchored to the sea bed below far away from any land.`
-	spaceport `As soon as you land, various robots set about scanning your ship. However, after discerning that their automated systems are of no use on your ship they move on to another ship and start maintenance there.`
+	description "Balmy by human standards, this tropical world is covered in oceans with occasional masses of land. However the Starlus have only developed upon rafts anchored to the sea bed below far away from any land."
+	spaceport "As soon as you land, various robots set about scanning your ship. However, after discerning that their automated systems are of no use on your ship they move on to another ship and start maintenance there."
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	"required reputation" 10
@@ -1286,8 +1284,8 @@ planet "Reh dex saa"
 planet "Rus da Starlus"
 	attributes Starlus Station research
 	landscape land/station0
-	description `A giant station dedicated to a stellar research program developing new understandings of the universe. Additionally, due to the convenience of a microgravity environment with advanced technology the Starlus have taken to using this station as a military research centre`
-	spaceport `Due to the aquatic nature of the Starlus, you and your crew can't enter the station but various robotic arms tend to your ship when you arrive. Otherwise, access to this station is extremely limited for non aquatic creatures.`
+	description "A giant station dedicated to a stellar research program developing new understandings of the universe. Additionally, due to the convenience of a microgravity environment with advanced technology the Starlus have taken to using this station as a military research centre"
+	spaceport "Due to the aquatic nature of the Starlus, you and your crew can't enter the station but various robotic arms tend to your ship when you arrive. Otherwise, access to this station is extremely limited for non aquatic creatures."
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
 	"required reputation" 10
@@ -1295,28 +1293,28 @@ planet "Rus da Starlus"
 	security 0.8
 
 planet "Rusde da Starlus"
-	attributes Starlus Moon Research
+	attributes Moon Research Starlus
 	landscape land/clouds_02
-	description `This small moon is home to the southern research station for the Starlus, focusing on advanced energy manipulation in an attempt to create more efficient engines and power cores for the Starlus. As such there is no shortage of advanced equipment or machinery here but natural goods are scarce.`
-	spaceport `The spaceport here is relatively simplistic, and fully above water for most vessels. The Landing pads are all spread out around a small island where the bulk of the research is held in the shallower parts of the moon's seas. However, some research is held further away from the port on specialized rafts for safety as the odd experiment has been known to violently explode.`
-	shipyard "Starlus Basic"
+	description "This small moon is home to the southern research station for the Starlus, focusing on advanced energy manipulation in an attempt to create more efficient engines and power cores for the Starlus. As such there is no shortage of advanced equipment or machinery here but natural goods are scarce."
+	spaceport "The spaceport here is relatively simplistic, and fully above water for most vessels. The Landing pads are all spread out around a small island where the bulk of the research is held in the shallower parts of the moon's seas. However, some research is held further away from the port on specialized rafts for safety as the odd experiment has been known to violently explode."
 	shipyard "Starlus Advanced"
+	shipyard "Starlus Basic"
+	outfitter "Starlus Advanced"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Intermediate"
-	outfitter "Starlus Advanced"
 	"required reputation" 10
 	bribe 0.4
 	security 0.9
 
 planet "Starlus Wormhole"
 	landscape land/wormhole
-	description `This unusual wormhole is a rather baffling phenomenon that currently doesn't seem to be willing to take you anywhere.`
+	description "This unusual wormhole is a rather baffling phenomenon that currently doesn't seem to be willing to take you anywhere."
 
 planet "meins da Starlus"
-	attributes Starlus Mining
+	attributes Mining Starlus
 	landscape land/sea2
-	description `A major mining world, this planet supplies nearly all the metals used in Starlus space for modern ship construction. Whilst unsuitable for long term habitation for many species, this world is useful enough to warrant a number of mining outposts to provide a steady stream of metals throughout this are of space.`
-	spaceport `The only spaceport here is rather sparse, even by the standards of the Starlus. It only serves to refuel, resupply and repair ships when they pick up their shipments of metal. As such there are very few facilities here to use for humans or Starlus alike.`
+	description "A major mining world, this planet supplies nearly all the metals used in Starlus space for modern ship construction. Whilst unsuitable for long term habitation for many species, this world is useful enough to warrant a number of mining outposts to provide a steady stream of metals throughout this are of space."
+	spaceport "The only spaceport here is rather sparse, even by the standards of the Starlus. It only serves to refuel, resupply and repair ships when they pick up their shipments of metal. As such there are very few facilities here to use for humans or Starlus alike."
 	outfitter "Starlus Ammo"
 	"required reputation" 10
 	bribe 0.25
@@ -1325,8 +1323,8 @@ planet "meins da Starlus"
 planet "opa da Starlus"
 	attributes Starlus depot moon
 	landscape land/bwerner5
-	description `This small oceanic moon is of little importance to the Starlus in most regards, its stocks of metals and production materials are limited and the surface has dark periods too long for any farming to occur. However, that said this moon is home to depots and production centres for military supplies and ammo strategically placed around the moon, ready for fast deployment throughout the core systems of the Starlus in the event of attack.`
-	spaceport `Each of this planet's many spaceports are relatively spartan, designed primarily to provide repairs and ammo to visiting vessels before they depart for patrols and other systems.`
+	description "This small oceanic moon is of little importance to the Starlus in most regards, its stocks of metals and production materials are limited and the surface has dark periods too long for any farming to occur. However, that said this moon is home to depots and production centres for military supplies and ammo strategically placed around the moon, ready for fast deployment throughout the core systems of the Starlus in the event of attack."
+	spaceport "Each of this planet's many spaceports are relatively spartan, designed primarily to provide repairs and ammo to visiting vessels before they depart for patrols and other systems."
 	shipyard "Starlus Basic"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
@@ -1338,8 +1336,8 @@ planet "opa da Starlus"
 planet "si Vita Starlus le"
 	attributes Starlus
 	landscape land/water4
-	description `This planet is the major population centre of the southern region of Starlus space, slightly colder than most of their worlds but by and large perfectly inhabitable. However, this planet is by and large dependant on others for resources to sustain its population`
-	spaceport `The main spaceport sees constant traffic from cargo freighters and transports carrying shipments from the rest of Starlus space from crates of heavy metals and reactor fuel to simple materials and spare parts for numerous devices.`
+	description "This planet is the major population centre of the southern region of Starlus space, slightly colder than most of their worlds but by and large perfectly inhabitable. However, this planet is by and large dependant on others for resources to sustain its population"
+	spaceport "The main spaceport sees constant traffic from cargo freighters and transports carrying shipments from the rest of Starlus space from crates of heavy metals and reactor fuel to simple materials and spare parts for numerous devices."
 	shipyard "Starlus Basic"
 	outfitter "Starlus Ammo"
 	outfitter "Starlus Basic"
