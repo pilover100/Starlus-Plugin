@@ -8,10 +8,11 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-galaxy "Milky Way"
+galaxy "label starlus"
+	pos -353 800
 
 system "Starlax ce mei"
-	pos -326.918 819.538
+	pos -327 820
 	government Starlus
 	habitable 486.68
 	link "Starlax ce yi"
@@ -60,7 +61,7 @@ system "Starlax ce mei"
 		period 2283.32
 
 system "Starlax ce yi"
-	pos -356.679 784.394
+	pos -357 784
 	government Starlus
 	habitable 425.92
 	link "Starlax ce mei"
@@ -116,7 +117,7 @@ system "Starlax ce yi"
 			offset 176.319
 
 system "Starlax ce-ba Po-ye"
-	pos -468.322 750.442
+	pos -468 750.909
 	government Starlus
 	habitable 2140.92
 	link "Starlax ce yi"
@@ -163,7 +164,7 @@ system "Starlax ce-ba Po-ye"
 		offset 289.643
 
 system "Starlax ce-na Que"
-	pos -371.679 723.394
+	pos -372 723
 	government Starlus
 	habitable 320
 	link "Starlax ce yi"
@@ -224,7 +225,7 @@ system "Starlax ce-na Que"
 			offset 315.388
 
 system "Starlax ce-sa Bea"
-	pos -298.678 751.069
+	pos -299 751
 	government Starlus
 	habitable 425.92
 	link "Starlax ce-na Que"
@@ -279,7 +280,7 @@ system "Starlax ce-sa Bea"
 		offset 107.533
 
 system "Starlax ce-sa Poi"
-	pos -254.251 800.427
+	pos -254 800
 	government Starlus
 	habitable 1111.68
 	link "Starlax ce-sa Bea"
@@ -335,7 +336,7 @@ system "Starlax ce-sa Poi"
 			period 22.798
 
 system "Starlax na Reh"
-	pos -367.39 665.686
+	pos -367 666
 	government Starlus
 	habitable 912.6
 	link "Starlax ce-na Que"
@@ -392,7 +393,7 @@ system "Starlax na Reh"
 		period 1100.44
 
 system "Starlax sa Emi"
-	pos -196.722 777.309
+	pos -197 777
 	government Starlus
 	habitable 1080
 	link "carf deh na-sa"
@@ -465,7 +466,7 @@ system "Starlax sa Emi"
 			period 26.508
 
 system "Starlee ba lon"
-	pos -532.918 870.538
+	pos -533 871
 	government Starlus
 	habitable 945
 	link "carf deh le-ba"
@@ -523,7 +524,7 @@ system "Starlee ba lon"
 			period 50.852
 
 system "Starlee ce-ba xei"
-	pos -433.918 850.538
+	pos -434 851
 	government Starlus
 	habitable 1715
 	link "carf deh le-ba"
@@ -576,7 +577,7 @@ system "Starlee ce-ba xei"
 			period 20.137
 
 system "Starlee le lar"
-	pos -308.811 1001.11
+	pos -309 1001
 	government Starlus
 	habitable 625
 	link "carf deh le"
@@ -629,7 +630,7 @@ system "Starlee le lar"
 		offset 356.689
 
 system "Starlee le-ba Ces"
-	pos -472.009 977.083
+	pos -472 977
 	government Starlus
 	habitable 806.68
 	link "carf deh le-ba"
@@ -691,7 +692,7 @@ system "Starlee le-ba Ces"
 			period 12.425
 
 system "Starlee le-sa ras"
-	pos -199.811 972.109
+	pos -200 972
 	government Starlus
 	habitable 486.68
 	link "carf deh le-sa"
@@ -741,7 +742,7 @@ system "Starlee le-sa ras"
 			period 16.585
 
 system "carf deh ba"
-	pos -494.918 817.538
+	pos -495 818
 	government Starlus
 	habitable 1050.92
 	link "Starlax ce-ba Po-ye"
@@ -797,7 +798,7 @@ system "carf deh ba"
 		period 1707.6
 
 system "carf deh ce-le"
-	pos -337.918 863.538
+	pos -338 864
 	government Starlus
 	habitable 553.28
 	link "Starlax ce mei"
@@ -861,7 +862,7 @@ system "carf deh ce-le"
 			period 20.418
 
 system "carf deh le"
-	pos -356.918 962.538
+	pos -357 963
 	government Starlus
 	habitable 625
 	link "Starlee le lar"
@@ -918,7 +919,7 @@ system "carf deh le"
 			period 14.733
 
 system "carf deh le-ba"
-	pos -435.918 894.538
+	pos -436 895
 	government Starlus
 	habitable 806.68
 	link "Starlee ba lon"
@@ -974,7 +975,7 @@ system "carf deh le-ba"
 			period 13.549
 
 system "carf deh le-sa"
-	pos -253.918 920.538
+	pos -254 921
 	government Starlus
 	habitable 9265
 	link "Starlee le-sa ras"
@@ -1031,7 +1032,7 @@ system "carf deh le-sa"
 			period 11.631
 
 system "carf deh na"
-	pos -429.608 601.265
+	pos -430 601
 	government Starlus
 	habitable 1080
 	link "Starlax na Reh"
@@ -1075,7 +1076,7 @@ system "carf deh na"
 			period 13.273
 
 system "carf deh na-sa"
-	pos -213.722 733.309
+	pos -214 733
 	government Starlus
 	habitable 486.68
 	link "Starlax ce-sa Bea"
@@ -1135,7 +1136,7 @@ system "carf deh na-sa"
 			period 46.062
 
 system "carf deh sa"
-	pos -203.918 862.538
+	pos -204 863
 	government Starlus
 	habitable 2035
 	link "Starlax ce-sa Poi"
@@ -1307,6 +1308,7 @@ planet "Rusde da Starlus"
 	security 0.9
 
 planet "Starlus Wormhole"
+	attributes "requires: Starlus_Wormhole"
 	landscape land/wormhole
 	description "This unusual wormhole is a rather baffling phenomenon that currently doesn't seem to be willing to take you anywhere."
 
