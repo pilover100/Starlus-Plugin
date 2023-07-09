@@ -20,7 +20,7 @@ mission "Starlus Boarder Patrol"
 		has "Starlus know about player"
 	npc save
 		government Starlus
-		personality heroic waiting disables mining harvests
+		personality heroic staying disables mining harvests
 		system "carf deh na"
 		fleet "Small Starlus Military" 2
 	on fail
@@ -31,7 +31,7 @@ mission "Starlus Boarder Protection"
 	invisible
 	repeat
 	to offer
-		has "Starlus know about player"  # This stops the starlus spamming warfleets if they don't deem the player a threat but rather an asset
+		has "Starlus know about player"  # This stops the starlus spamming warfleets if they don't deem the player a threat
 		"reputation: Starlus" < 10
 		"reputation: Starlus" > -100
 	on offer
@@ -43,9 +43,9 @@ mission "Starlus Boarder Protection"
 		personality heroic waiting disables
 		system "carf deh na"
 		fleet "Small Starlus Military" 2
-	npc save
+	npc save  # A second, larger force at the boarder to stave off raids before reaching their core worlds.
 		government Starlus
-		personality heroic waiting disables
+		personality heroic staying disables mining harvests
 		system "carf deh na"
 		fleet "Large Starlus Military"
 
@@ -73,7 +73,7 @@ mission "Starlus Fight Player"
 
 # First contact missions
 
-mission "Starlus All Groups [0]"
+mission "Starlus Contact [0]"
 	name "Unknown Species First Contact"
 	description "Find someone who can help you understand the new oceanic species you have met."
 	landing
@@ -141,6 +141,55 @@ mission "Starlus All Groups [0]"
 				accept
 	to complete
 		never
+
+mission "Starlus Contact [1]"
+	name "Investigation resources"
+	description "Gather <cargo> for Albert Foster so that you can start investigating the unknown species you have found whilst he assembles a team of researchers."
+	source "Zug"
+	destination "Deep"
+	to offer
+		has "Sheragi Archaeology: Epilogue: done"
+	on offer
+		conversation
+			`Albert Foster has helped you in the past to uncover the Sheragi ruins on Zug and to recover the Emerald Sword, the only known surviving warship of the Sheragi. Would you like to try and find him to see if he will help you learn more about the new species you have found south of human space?`
+			choice
+				`	(Yes)`
+				`	(Not now)`
+					defer
+			`	You suspect that Albert is somewhere to be found in the museum in the Sheragi ruins, and eventually manage to track him down outside a recently opened exhibition showing more artifacts that have been discovered throughout the Sheragi ruins.`
+			`	"<first>! It's been a while since we have both been able to have a chat, have you come to check up on what we have found here at the Sheragi ruins?" Foster asks.`
+			choice
+				`	"No, I came here on another matter instead"`
+					goto starlus_discovery
+				`	"Well, whilst I'm here I might as well catch up on what you've been doing"`
+			`	"As you can probably tell, we have still got plenty of work here to do on the artifacts the Sheragi have left behind for us here. Not to mention the entire military bunker we found." Foster briefly pauses, perhaps reminiscing your adventures in finding the Emerald Sword, "We've found a fair few items of note though and we're doing what we can now to what we are doing in preparing all the artifacts for display."`
+			choice
+				`	"Well I have something else of a similar sort for you to have a look at"`
+			`	Foster turns to you and asks: "Have you found some more samples of Sheragi technology or culture?"`
+			`	"No, but I'll let you know if I do" you respond, "I think I've found a species we haven't discovered yet."`
+			label starlus_discovery
+			`	You explain as best as you can about what you have found on the strange planet you have visited and with a few interruptions from Foster, manage to tell him all the details you have managed to get so far.`
+			`	"You do seem to keep in the thick of things don't you <first>? An entirely new species for us to converse with! I assume you have at least got some data from your initial visit?"`
+			`	You quickly retrieve your ship's sensor and navigation logs from the visit and send it to Foster's data pad along with a video from one of your ship's hull cameras. Foster quickly skims over the data before continuing`
+			`	"This ocean environment will be rather challenging to work within, especially when initially setting up though we may be able to leverage some of the solid ground your scanners found on your descent to make a temporary facility." Foster muses, "I hear that <planet> has some equipment they use for their frequent expeditions in the ocean, if you could get your hands on some of that for us we may be able to start working on initiating contact with this new species of yours"`
+			choice
+				`	"Looks like I'll be off to get the equipment from <planet> then"`
+				`	"No thanks, you're on your own on this one after the last few times"`
+					decline
+			`	You and Albert agree to retrieve the equipment from <planet> whilst he stays on <origin> and makes a few calls to various colleges to form a research team. Hopefully it won't be too hard to get your hands on what you need.`
+	on complete
+		dialog `You have arrived at <planet>, you should take a look in the spaceport and see if there's anyone who can help you get what you need.`
+
+mission "Starlus Contact [2]"
+	name "Head back to <planet>"
+	description "You have managed to acquire some off-shore operation facilities for Foster and his team to use whilst they investigate your new species."
+	source "Deep"
+	destination "Zug"
+	to offer
+		has "Starlus Contact [1]: done"
+	on offer
+		conversation
+			``
 
 # Remnant String - discontinued until I can write it in a way that works well with them
 
