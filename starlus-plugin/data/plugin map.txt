@@ -630,7 +630,7 @@ system "Starlee le lar"
 		offset 356.689
 
 system "Starlee le-ba Ces"
-	pos -483 963
+	pos -472 977
 	government Starlus
 	habitable 806.68
 	link "carf deh le-ba"
